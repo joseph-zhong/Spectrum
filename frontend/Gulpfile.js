@@ -10,7 +10,7 @@
 
         io = io.listen(WEB_SOCKET_PORT);
 
-        watch('**/*.*', function(file) {
+        watch('dist/*.*', function(file) {
             console.log('change detected', file.relative);
             io.emit('file.change', {});
         });

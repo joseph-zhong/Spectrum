@@ -4,7 +4,7 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "dev": "webpack --watch | gulp chrome-watch" 
+    "dev": "webpack --watch | gulp chrome-watch"
   },
   "author": "",
   "license": "ISC",
@@ -17,5 +17,8 @@
     "jquery": "^3.1.1",
     "socket.io": "^1.7.3",
     "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "tooltipster": "^4.1.8"
   }
 }

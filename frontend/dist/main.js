@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "";
 
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 2);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -74,13 +74,50 @@
 /* WEBPACK VAR INJECTION */(function($) {
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+	value: true
 });
 exports.findTags = findTags;
+exports.getValidLinks = getValidLinks;
+exports.getValidElements = getValidElements;
+
+var _sites = __webpack_require__(3);
+
+//Labels all valid links with news="true"
 function findTags(doc) {
-    console.log("Scraped");
-    console.log($('h2.esc-lead-article-title > a.article'));
-    console.log("Less Lels");
+	console.log("Scraped");
+	var article = $('body').find('a').map(function () {
+		var link = $(this).attr('href');
+		if (link) {
+			if (checkValid(link)) {
+				$(this).attr("news", true);
+			}
+		}
+		return $(this).attr('href');
+	});
+}
+//Gets all valid links
+function getValidLinks() {
+	var validLinks = $('body').find('a[news="true"]').map(function () {
+		return $(this).attr("href");
+	});
+	console.log(validLinks);
+	return validLinks;
+}
+
+function getValidElements() {
+	var validLinks = $('body').find('a[news="true"]').map(function () {
+		return $(this);
+	});
+	return validLinks;
+}
+
+var links = (0, _sites.sites)();
+
+function checkValid(url) {
+	for (var i = 0; i < links.length; i++) {
+		if (url.search(links[i]) != -1) return true;
+	}
+	return false;
 }
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
@@ -10316,11 +10353,57 @@ return jQuery;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+/* WEBPACK VAR INJECTION */(function($) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.createTips = createTips;
+
+var _scrape = __webpack_require__(0);
+
+function createTips() {
+  var tips = $("a[news='true']").map(function () {
+    console.log("HMMM");
+    var val = "bel";
+    var html = "\n            " + val + "\n        ";
+    Tipped.create($(this), $('<b/>').html("bk"), {
+      position: "bottomleft"
+    });
+  });
+}
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
+
+/***/ }),
+/* 3 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.sites = sites;
+var allowed = ["washingtonpost.com", "thehill.com", "boston.com", "cnn.com", "vox.com"];
+
+function sites() {
+    return allowed;
+}
+
+/***/ }),
+/* 4 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
 
 
 var _scrape = __webpack_require__(0);
 
-(0, _scrape.findTags)(document);
+var _tooltip = __webpack_require__(2);
+
+(0, _scrape.findTags)();
+(0, _tooltip.createTips)();
 
 /***/ })
 /******/ ]);

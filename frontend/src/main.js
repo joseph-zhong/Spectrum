@@ -1,3 +1,5 @@
 import {findTags} from "./scrape.js";
+import {createTips} from "./tooltip.js"
 
-findTags(document);
+findTags();
+createTips();
