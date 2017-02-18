@@ -3,7 +3,11 @@ var allowed = [
     "thehill.com",
     "boston.com",
     "cnn.com",
-    "vox.com"
+    "vox.com",
+    "wsj.com",
+    "breitbart.com",
+    "foxnews.com",
+    "nbcnews.com"
 ]
 
 export function sites(){

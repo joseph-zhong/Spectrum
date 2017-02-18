@@ -5,7 +5,7 @@ import {
 //Labels all valid links with news="true"
 export function findTags(doc) {
 	console.log("Scraped");
-	var article = $('body').find('a').map(function () {
+	var article = $('a').map(function () {
 		var link = $(this).attr('href');
 		if (link) {
 			if (checkValid(link)) {
@@ -35,6 +35,7 @@ export function getValidElements(){
 const links = sites();
 
 function checkValid(url) {
+    url = url.toLowerCase();
 	for (var i = 0; i < links.length; i++) {
 		if (url.search(links[i]) != -1)
 			return true;
@@ -42,3 +43,6 @@ function checkValid(url) {
 	return false;
 }
 
+// function checkValid(){
+//     return true;
+// }

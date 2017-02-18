@@ -41,16 +41,27 @@
 }
 
 .vertical{
-    -webkit-appearance: none;
-    appearance: none;
-    display: inline-block;
-    -webkit-transform: rotate(-90deg);
-    transform: rotate(-90deg);
+    position: relative;
     height: 100%;
-    width: 80%;
-    margin-top: 20%;
-    margin-bottom: 20%;
+    width: 100%;  
 }
-.bias > progress[value]::-webkit-progress-value {
-    border-radius: 2px; 
+#back {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: purple;
+}
+#rep{
+    position: absolute;
+    top: 50%;
+    height: 50%;
+    width: 100%;
+    background: red;
+}
+#dem{
+    position: absolute;
+    bottom: 50%;
+    height: 50%;
+    width: 100%;
+    background: blue;
 }
