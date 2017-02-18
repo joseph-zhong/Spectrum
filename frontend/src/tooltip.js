@@ -11,7 +11,7 @@ export function createTips() {
             <div class="data">
                 <div class="bias">
                     <h3> Liberal </h3>
-                    <h4> Progress </h4>
+                    <progress class="vertical" min="0" max="100 val="50"> </progress>
                     <h3> Conservaties </h3>
                 </dib>
             </div>

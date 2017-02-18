@@ -1,14 +1,22 @@
 .box {
-    display: flex;
+	display: flex;
 }
+
 .summaries {
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
+
 .data {
-    padding-left: 2em;
+	padding-left: 2em;
 }
-.bias{
-    display: flex;
-    flex-direction: column;
+
+.bias {
+	display: flex;
+	flex-direction: column;
+}
+
+.vertical{
+    display: inline-block;
+    transform: rotate(-90deg)
 }
