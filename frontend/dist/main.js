@@ -10365,9 +10365,10 @@ var _scrape = __webpack_require__(0);
 function createTips() {
   var tips = $("a[news='true']").map(function () {
     console.log("HMMM");
-    var val = "bel";
-    var html = "\n            " + val + "\n        ";
-    Tipped.create($(this), $('<b/>').html("bk"), {
+    var val = "This is link";
+    var html = "\n        <p>\n            " + val + "\n        </p>\n        ";
+    console.log(html);
+    Tipped.create($(this), html, {
       position: "bottomleft"
     });
   });
