@@ -10366,8 +10366,8 @@ function createTips() {
   var tips = $("a[news='true']").map(function () {
     console.log("HMMM");
     var val = "bel";
-    var html = "\n            " + val + "\n        ";
-    Tipped.create($(this), $('<b/>').html("bk"), {
+    var html = "\n\t\t\t\t<p>\n            " + val + "\n\t\t\t\t</p>\n        ";
+    Tipped.create($(this), html, {
       position: "bottomleft"
     });
   });

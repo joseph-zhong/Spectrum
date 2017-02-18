@@ -8,9 +8,11 @@ export function createTips() {
         console.log("HMMM")
         var val = "bel"
         var html = `
+				<p>
             ${val}
+				</p>
         `
-        Tipped.create($(this), $('<b/>').html("bk"),{
+        Tipped.create($(this), html, {
             position: "bottomleft"
         });
 	})
