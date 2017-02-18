@@ -1,13 +1,18 @@
 export function createTips() {
 	var tips = $("a[news='true']").map(function() {
         console.log("HMMM")
-        var val = "This is link"
+        var val = "This is a really really really really really really really really r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r long summary"
         var html = `
         <div class="box">
-            <div class="summaries">
-                <h2> Title </h2>
-                <h2> Subtext </h2>
-            </div>
+						<div class="text">
+	            <div class="summary">
+	                <h3> Summary </h3>
+	                <p> ${val} </p>
+	            </div>
+							<div class="related">
+									<h3> Related Articles </h3>
+							</div>
+						</div>
             <div class="data">
                 <div class="bias">
                     <h3> Liberal </h3>
@@ -19,7 +24,7 @@ export function createTips() {
         `
         console.log(html)
         Tipped.create($(this), html,{
-            position: "bottomleft"
+            position: "right"
         });
 	})
 }
