@@ -83,5 +83,5 @@ for source in NEWS_SOURCES:
         corpus_file.write(txt.encode('utf8'))
         count += 1
         print 'success: %d out of %d' % (count, num_articles)
-    except:
-      print 'ERROR'
+    except Exception as e:
+      print 'ERROR %s ' % e
