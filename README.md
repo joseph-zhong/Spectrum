@@ -9,7 +9,6 @@ about what they're reading and ultimately broaden their view
 
 ## Summary
 
-
 ## Components
 
 ### Front end
@@ -21,7 +20,19 @@ about what they're reading and ultimately broaden their view
 
 ### Backend
 - News Spectrum Indexing (Joseph)
-    - API -> Indexing (Joseph)
+    - IBM AlchemyLanguage API -> Indexing (Joseph)
     - Suggestions Generator (Joseph)
 - Summarization Generator (Ryan)
 
+## Workflow
+
+### Backend
+- News Spectrum Indexing
+    - Test `OccupyDemocrats`, `Breitbart`, `NPR`
+    - Generate corpus of each
+        -  Test whether there is significant correlation between sentiment
+
+
+## Resources
+
+![spectrum](spectrum.jpg)
