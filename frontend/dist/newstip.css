@@ -1,22 +1,44 @@
+/* Changing Tipped's default css */
+.tpd-skin-dark .tpd-content,
+.tpd-skin-dark .tpd-title,
+.tpd-skin-dark .tpd-close { color: #000; }
+.tpd-skin-dark .tpd-background-content,
+.tpd-skin-dark .tpd-background-title {
+  background-color: #FAFAFA;
+}
+.tpd-skin-dark .tpd-background {
+  border-width: 1px;
+  border-color: rgba(0,0,0,.1);
+}
+
+/* Custom CSS */
 .box {
-	display: flex;
+    display: flex;
+    padding: 10px;
+}
+.text {
+    display: flex;
+    flex-direction: column;
 }
 
-.summaries {
-	display: flex;
-	flex-direction: column;
+.summary {
+  width: 300px;
 }
 
-.data {
-	padding-left: 2em;
+.summary p {
+  width: 300px;
 }
 
 .bias {
 	display: flex;
 	flex-direction: column;
 }
+.data {
+    padding-left: 2em;
+}
 
 .vertical{
     display: inline-block;
     transform: rotate(-90deg)
 }
+
