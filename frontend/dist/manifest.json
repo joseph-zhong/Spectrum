@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "NewsRater",
+  "description": "This extension rates news on Google news for political alignment, and recommends opposing news",
+  "version": "0.1",
+
+  "content_scripts": [ {
+    "js": ["jquery.min.js","tipped.js","main.js" ],
+    "css": ["tipped.css"],
+    "matches": [ "http://*/*",
+                 "https://*/*" ]
+  }],
+
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
