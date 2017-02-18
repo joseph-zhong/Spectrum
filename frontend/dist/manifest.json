@@ -7,7 +7,7 @@
 
   "content_scripts": [ {
     "js": ["lib/jquery.min.js","lib/tipped.js","main.js" ],
-    "css": ["lib/tipped.css"],
+    "css": ["lib/tipped.css", "newstip.css"],
     "matches": [ "http://*/*",
                  "https://*/*" ]
   }],
