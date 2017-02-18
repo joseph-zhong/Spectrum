@@ -6,7 +6,8 @@
   "version": "0.1",
 
   "content_scripts": [ {
-    "js": [ "jquery.min.js", "main.js" ],
+    "js": [ "lib/jquery.min.js", "lib/tipped.js", "main.js" ],
+    "css": [ "lib/tipped.css" ],
     "matches": [ "http://*/*",
                  "https://*/*" ]
   }],
