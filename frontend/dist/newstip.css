@@ -1,0 +1,14 @@
+.box {
+    display: flex;
+}
+.summaries {
+    display: flex;
+    flex-direction: column;
+}
+.data {
+    padding-left: 2em;
+}
+.bias{
+    display: flex;
+    flex-direction: column;
+}
