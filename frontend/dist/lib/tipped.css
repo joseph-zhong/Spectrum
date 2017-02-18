@@ -546,14 +546,14 @@
 /* default (dark) */
 .tpd-skin-dark .tpd-content,
 .tpd-skin-dark .tpd-title,
-.tpd-skin-dark .tpd-close { color: #fff; }
+.tpd-skin-dark .tpd-close { color: #000; }
 .tpd-skin-dark .tpd-background-content,
 .tpd-skin-dark .tpd-background-title {
-  background-color: #282828;
+  background-color: #e9e9e9;
 }
 .tpd-skin-dark .tpd-background {
   border-width: 1px;
-  border-color: rgba(255,255,255,.1);
+  border-color: rgba(0,0,0,.1);
 }
 /* line below the title */
 .tpd-skin-dark .tpd-title-wrapper { border-bottom: 1px solid #404040; }
@@ -565,4 +565,3 @@
 /* links */
 .tpd-skin-dark a { color: #ccc; }
 .tpd-skin-dark a:hover { color: #c0c0c0; }
-

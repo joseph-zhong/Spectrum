@@ -1,0 +1,5 @@
+#leftTooltip, #rightTooltip {
+  width: 50%;
+  float: left;
+  border: 1px solid purple;
+}
