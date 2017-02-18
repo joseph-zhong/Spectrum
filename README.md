@@ -1,5 +1,7 @@
 # TreeHacks2017
 
+https://treehacks-2017.devpost.com/
+
 ## Goal
 
 Provide casual news readers additional insightful and contextual information 
