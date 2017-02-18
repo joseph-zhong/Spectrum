@@ -4,15 +4,16 @@ import {
 
 
 export function createTips() {
-	var tips = $("a[news='true']").map(function () {
+	var tips = $("a[news='true']").map(function() {
         console.log("HMMM")
-        var val = "bel"
+        var val = "This is link"
         var html = `
-				<p>
+        <p>
             ${val}
-				</p>
+        </p>
         `
-        Tipped.create($(this), html, {
+        console.log(html)
+        Tipped.create($(this), html,{
             position: "bottomleft"
         });
 	})
