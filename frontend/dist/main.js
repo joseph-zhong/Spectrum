@@ -80,7 +80,7 @@ exports.findTags = findTags;
 function findTags(doc) {
     console.log("Scraped");
     console.log($('h2.esc-lead-article-title > a.article'));
-    console.log("More Lels");
+    console.log("Less Lels");
 }
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
