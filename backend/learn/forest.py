@@ -204,25 +204,23 @@ TEST = {
   ]
 }
 
+def test_tree():
+  for test in TEST:
+    print test
+    for hyperlink in TEST[test]:
+      print 'hyperlink %s ' % hyperlink
+      run_inference(hyperlink)
 
-init_tree()
-
-
-# for test in TEST:
-#   print test
-#   for hyperlink in TEST[test]:
-#     print 'hyperlink %s ' % hyperlink
-#     run_inference(hyperlink)
-#
-# OCCUPY_ARTICLE = 'occupy_article'
-# print 'occupy test expected -2'
-# for fn in os.listdir(OCCUPY_ARTICLE):
-#   with open(os.path.join(OCCUPY_ARTICLE, fn), 'r') as article_file:
-#     lines = article_file.readlines()
-#     run_inference_on_text(''.join(lines))
-
+  OCCUPY_ARTICLE = 'occupy_article'
+  print 'occupy test expected -2'
+  for fn in os.listdir(OCCUPY_ARTICLE):
+    with open(os.path.join(OCCUPY_ARTICLE, fn), 'r') as article_file:
+      lines = article_file.readlines()
+      run_inference_on_text(''.join(lines))
 
 # initialize the Flask app
+init_tree()
+test_tree()
 app = Flask(__name__)
 
 
@@ -240,7 +238,7 @@ def spectrum():
   print url
 
   # extract summary, score, suggested sites
-  summary, original, title, brand = extractSentences(url.encode('utf-8'), 3)
+  summary, original, title, brand = extractSentences(url.encode('utf-8'))
   political_score, max_score = run_inference(url)
 
   # jsonify array
@@ -250,9 +248,11 @@ def spectrum():
   print 'summary: %s' % summary
 
   result = {}
+  result['title'] = title
   result['brand'] = brand
   result['political_score'] = political_score
   result['summary'] = summary
+
   # result['suggestions'] = suggestions
   # result['suggestions_spectrum_scores'] = suggestions_spectrum_scores
 
