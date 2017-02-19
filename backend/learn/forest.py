@@ -37,37 +37,12 @@ CLASSIFICATIONS = {
   2: ['Red State', 'The Blaze']
 }
 
-POLITICAL_SPECTRUM = {
-  'buzzfeed': -2,
-  'occupydemocrats': -2,
-  'usuncut': -2,
-  'huffingtonpost': -1,
-  'msnbc': -1,
-  'atlantic': -1,
-  'slate': -1,
-  'vox': -1,
-  'theguardian': -1,
-  'npr': 0,
-  'bbc': 0,
-  'nbcnews': 0,
-  'washingtonpost': 0,
-  'newyorktimes': 0,
-  'abcnews': 0,
-  'ap': 0,
-  'reuters': 0,
-  'usatoday': 0,
-  'cnn': 0,
-  'thewallstreetjournal': 0,
-  'theeconomist': 1,
-  'thefiscaltimes': 1,
-  'thehill': 1,
-  'foxnews': 1,
-  'redstate': 2,
-  'theblaze': 2
-}
-
-
-
+global POLITICAL_SPECTRUM
+SPECTRUM = 'spectrum'
+TRAINING = 'training'
+SPECTRUM_JSON = 'spectrum.json'
+with open(os.path.join(TRAINING, SPECTRUM, SPECTRUM_JSON)) as spectrum_json:
+  POLITICAL_SPECTRUM = json.load(spectrum_json)
 
 # schema
 DOCUMENT_TONE = 'document_tone'
@@ -108,7 +83,8 @@ def create_x_feature_vector(inference, source=None):
   if source is not None and source in POLITICAL_SPECTRUM:
     x_i.append(POLITICAL_SPECTRUM[source])
   else:
-    x_i.append(0)
+    print 'SOURCE NOT IN POLITICAL_SPECTRUM %s ' % source
+    x_i.append(np.random.random_sample() * 5 - 2)
 
   return x_i
 
@@ -263,7 +239,7 @@ def spectrum():
 
   # extract summary, score, suggested sites
   summary, original, title = extractSentences(url.encode('utf-8'), 3)
-  political_score, max_score = run_inference(original)[0]
+  political_score, max_score = run_inference(url.encode('utf-8'))[0]
 
   suggestions = []
   for i in range(3):
