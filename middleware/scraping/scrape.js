@@ -6,7 +6,7 @@ var cheerio = require('cheerio');
 function getLeaning(article, callback) {
   var SEARCH_QUERY = "http://www.allsides.com/gnp/tod/index32.php?q=";
 
-  var nightmare = Nightmare({ show: false, waitTimeout: 10000 });
+  var nightmare = Nightmare({ show: false });
 
   var articleURL = SEARCH_QUERY + encodeURIComponent(article);
 

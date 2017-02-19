@@ -6,7 +6,7 @@ const root1 = "https://specbot.info/treehacks"
 const root2 = "https://grandmaskittens.com"
 
 export function tag(e) {
-	var link = $(e).attr('href');
+	var link = $(e).attr("href");
 	if (link) {
 		var val = checkValid(link);
 		if (val != 0) {
@@ -19,11 +19,11 @@ export function tag(e) {
 }
 
 export function createTip(e) {
-	if ($(e).attr('news') == "true") {
+	if ($(e).attr("news") == "true") {
 		$(e).attr("hasTip", "true")
 		var text = Promise.resolve(
 			$.ajax({
-				url: root2 + "/spectrum?url=" + encodeURIComponent($(e).attr('href')),
+				url: root2 + "/spectrum?url=" + encodeURIComponent($(e).attr("href")),
 				method: "GET"
 			})
 		)
@@ -32,11 +32,12 @@ export function createTip(e) {
 				url: root1,
 				method: "POST",
 				data: { title: encodeURIComponent($(e).text()) },
-				contentType: "application/json; charset=utf-8"
+				dataType: "application/json; charset=utf-8"
 			})
 		)
 		var promises = Promise.all([text, related])
 			.then(function(info) {
+				console.log(related);
 				data = JSON.parse(info[0]);
 				let bias = Math.round(data.weighted_average * 1.1);
 				let political;
