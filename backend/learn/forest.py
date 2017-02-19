@@ -57,6 +57,7 @@ SOCIAL_CATEGORY = 2
 
 VERBOSE = False
 global _clf
+global _clf_backup
 
 
 def create_x_feature_vector(inference, source=None):
@@ -85,14 +86,13 @@ def create_x_feature_vector(inference, source=None):
     x_i.append(POLITICAL_SPECTRUM[source])
   else:
     print 'SOURCE NOT IN POLITICAL_SPECTRUM %s ' % source
-    x_i.append(np.random.random_sample() * 3 - 2)
+    # x_i.append(np.random.random_sample() * 3 - 2) # remove to train a backup tree
 
   return x_i
 
 def init_tree():
-  global _clf
-
   X = []
+  X_backup = []
   Y = []
 
   for fn in os.listdir(SENTIMENT):
@@ -109,6 +109,8 @@ def init_tree():
       src_tone_data = json.load(json_file)
       for inference in src_tone_data:
         X.append(create_x_feature_vector(inference, source=source))
+        X_backup.append(create_x_feature_vector(inference))
+
         Y.append(y_val)
 
   print X
@@ -124,14 +126,20 @@ def init_tree():
   print len(X)
   print len(Y)
 
-
-
+  print 'classifier'
   _clf = RandomForestClassifier(n_estimators=20)
   _clf = _clf.fit(X, Y)
   print _clf.classes_
 
+  print 'backup'
+  _clf = RandomForestClassifier(n_estimators=20)
+  _clf = _clf.fit(X_backup, Y)
+  print _clf.classes_
+
+
 def run_inference(hyperlink):
   global _clf
+  global _clf_backup
 
   X = []
   retval = []
@@ -146,10 +154,17 @@ def run_inference(hyperlink):
 
     domain = tldextract.extract(article.url)[EXTRACT_DOMAIN]
     print 'extracted domain %s' % domain
-    X.append(create_x_feature_vector(inference, source=domain))
+    use_backup_tree = domain in POLITICAL_SPECTRUM
+    if use_backup_tree:
+      X.append(create_x_feature_vector(inference))
+      # retval = _clf_backup.predict(X)
+      retval = _clf_backup.predict_proba(X)
+    else:
+      X.append(create_x_feature_vector(inference, source=domain))
+      # retval = _clf.predict(X)
+      retval = _clf.predict_proba(X)
     print X
-    # retval = _clf.predict(X)
-    retval = _clf.predict_proba(X)
+
     print 'spectrum score: %s' % retval
   except Exception as e:
     print '[run infr on link] ANALYSIS ERROR %s ' % e
@@ -220,7 +235,6 @@ def test_tree():
 
 # initialize the Flask app
 init_tree()
-test_tree()
 app = Flask(__name__)
 
 
@@ -239,22 +253,17 @@ def spectrum():
 
   # extract summary, score, suggested sites
   summary, original, title, brand = extractSentences(url.encode('utf-8'))
-  political_score, max_score = run_inference(url)
+  weighted_avg, max_score = run_inference(url)
 
-  # jsonify array
-  political_score = np.array(political_score).tolist()
   print 'brand: %s' % brand
-  print 'political_score: %s' % political_score
+  print 'weighted_avg: %s' % weighted_avg
   print 'summary: %s' % summary
 
   result = {}
   result['title'] = title
   result['brand'] = brand
-  result['political_score'] = political_score
+  result['weighted_average'] = weighted_avg
   result['summary'] = summary
-
-  # result['suggestions'] = suggestions
-  # result['suggestions_spectrum_scores'] = suggestions_spectrum_scores
 
   return json.dumps(result)
 
