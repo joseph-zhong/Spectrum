@@ -2,10 +2,9 @@ var root = "https://jsonplaceholder.typicode.com"
 
 export function createTips() {
 	var tips = $('a[news="true"]').map(function() {
-		var val = "This is a really really really really really really really really r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r long summary"
-    var bias = 3;
-		var political;
-		var politicHex;
+    let bias = 3;
+		let political;
+		let politicHex;
 
 		switch (bias) {
 			case 1:
@@ -14,7 +13,7 @@ export function createTips() {
 				break;
 			case 2:
 				political = "Moderate Liberal";
-				politicHex = "#6268ff";
+				politicHex = "#6fa0ff";
 				break;
 			case 3:
 				political = "Neutral";
@@ -30,15 +29,12 @@ export function createTips() {
 				break;
 		}
 
-		// Tipped.create($(this), "FUCK", {
-		// 	position: "right"
-		// });
 		var self = $(this)
 		$.ajax({
 			url: root + "/posts/1",
 			method: "GET"
 		}).then(function(data) {
-			val = data.body;
+			let val = data.body;
 			let html = `
 				<div class="box">
 					<div class="political title" style="background-color: ${politicHex};">
