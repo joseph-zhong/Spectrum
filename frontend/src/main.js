@@ -22,25 +22,17 @@ $(window).scroll(function () {
 
 function prepare() {
 	scrollTimer = null;
-	let i = 0;
 	$("a").each(function () {
-		i++
-		(function (i, self) {
-			setTimeout(function () {
-				if ($(self).is('[news]'))
-					return;
-				if (checkVisible(self)) {
-					console.log("fired")
-					tag(self);
-					if (!$(self).is("hasTip"))
-						createTip(self);
-					addMouseEnter(self);
-				}
-			}, 100 * i);
-
-		})(i, this)
+		if ($(this).is('[news]'))
+			return;
+		if (checkVisible(this)) {
+			console.log("fired")
+			tag(this);
+			if (!$(this).is("hasTip"))
+				createTip(this);
+			addMouseEnter(this);
+		}
 	})
-
 }
 
 function checkVisible(elm) {
@@ -51,7 +43,6 @@ function checkVisible(elm) {
 
 function addMouseEnter(elm) {
 	$(elm).mouseenter(function () {
-
 		var checkExist = setInterval(function () {
 			if ($('.tpd-tooltip').length) {
 				clearInterval(checkExist);
