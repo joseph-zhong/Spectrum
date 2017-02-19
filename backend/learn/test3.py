@@ -62,7 +62,6 @@ VERBOSE = False
 global _clf
 global _clf_backup
 
-
 def create_x_feature_vector(inference, source=None):
   tone_categories = inference[DOCUMENT_TONE][TONE_CATEGORIES]
 
@@ -94,6 +93,7 @@ def create_x_feature_vector(inference, source=None):
 
 def init_tree():
   global _clf
+  global _clf_backup
   X = []
   X_backup = []
   Y = []
@@ -112,7 +112,7 @@ def init_tree():
       src_tone_data = json.load(json_file)
       for inference in src_tone_data:
         X.append(create_x_feature_vector(inference, source=source))
-        # X_backup.append(create_x_feature_vector(inference))
+        X_backup.append(create_x_feature_vector(inference))
 
         Y.append(y_val)
 
@@ -133,15 +133,15 @@ def init_tree():
   _clf = _clf.fit(X, Y)
   print _clf.classes_
 
-  # print 'backup'
-  # _clf_backup = RandomForestClassifier(n_estimators=20)
-  # _clf_backup = _clf_backup.fit(X_backup, Y)
-  # print _clf_backup.classes_
+  print 'backup'
+  _clf_backup = RandomForestClassifier(n_estimators=40)
+  _clf_backup = _clf_backup.fit(X_backup, Y)
+  print _clf_backup.classes_
 
 
 def run_inference(hyperlink):
   global _clf
-  # global _clf_backup
+  global _clf_backup
 
   X = []
   retval = []
@@ -161,6 +161,7 @@ def run_inference(hyperlink):
       X.append(create_x_feature_vector(inference, source=domain))
       # retval = _clf_backup.predict(X)
       retval = _clf.predict_proba(X)
+      retval = _clf_backup.predict_proba(X)
     else:
       X.append(create_x_feature_vector(inference, source=domain))
       # retval = _clf.predict(X)
@@ -172,8 +173,8 @@ def run_inference(hyperlink):
     print '[run infr on link] ANALYSIS ERROR %s ' % e
 
   weighted_avg = 0
-  for i in xrange(len(retval)):
-    weight = retval[i]
+  for i in xrange(len(retval[0])):
+    weight = retval[0][i]
     weighted_avg += (i - 2) * weight
 
   return weighted_avg, argmax(retval)
@@ -182,6 +183,7 @@ def run_inference(hyperlink):
 def run_inference_on_text(text):
   # print text
   global _clf
+  global _clf_backup
 
   X = []
   try:

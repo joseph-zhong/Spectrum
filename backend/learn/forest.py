@@ -172,8 +172,8 @@ def run_inference(hyperlink):
     print '[run infr on link] ANALYSIS ERROR %s ' % e
 
   weighted_avg = 0
-  for i in xrange(len(retval)):
-    weight = retval[i]
+  for i in xrange(len(retval[0])):
+    weight = retval[0][i]
     weighted_avg += (i - 2) * weight
 
   return weighted_avg, argmax(retval)
