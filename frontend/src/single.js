@@ -2,7 +2,7 @@ import {
 	sites
 } from "./sites.js"
 
-const root = "https://45.79.82.175:80/"
+const root = "https://grandmaskittens.com"
 
 
 export function tag(e) {
@@ -22,14 +22,12 @@ export function createTip(e) {
 	if ($(e).attr('news') == "true") {
 		$(e).attr("hasTip", "true")
 		$.ajax({
-			url: root + "/spectrum",
-			method: "POST",
-			data: {url: $(e).attr('href')},
-			contentType:"application/json; charset=utf-8"
+			url: root + "/spectrum?url="+ encodeURIComponent($(e).attr('href')),
+			method: "GET"
 		}).then(function (data) {
 			console.log("SUCCESSS")
-			console.log(data);
-			let bias = 0 ;
+			data = JSON.parse(data);
+			let bias = Math.round(data.weighted_average*1.1) ;
 			let political;
 			let politicHex;
 			switch (bias) {
@@ -54,22 +52,21 @@ export function createTip(e) {
 					politicHex = "#fe4d4d";
 					break;
 			}
-			let val = data.body;
-			let source = "New York Times";
-
+			let val = data.summary;
+			let source = data.brand;
+			let title = data.title;
 			let html = `
 				<div class="box">
 					<div class="political" style="background-color: ${politicHex};">
 						<div class="title bigFont">
-							${political}
+							${title}
 						</div>
 						<div class="source">
-							${source}
+							${source} - ${political}
 						</div>
 					</div>
 		      		<div class="summary">
-		        		<div class="title"> Summary </div>
-		       		 		<p class="ourText"> ${val} </p>
+		       		 	<p class="ourText"> ${val} </p>
 		    	  	</div>
 					<div class="related">
 						<div class="title"> Related Articles </div>
