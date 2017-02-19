@@ -1,3 +1,4 @@
+import atexit
 import json
 import os
 import urllib
@@ -62,6 +63,13 @@ VERBOSE = False
 global _clf
 global _clf_backup
 
+HISTORY = 'history'
+HISTORY_JSON = os.path.join(HISTORY, 'history.json')
+
+if os.path.exists(HISTORY_JSON):
+  previous_results = json.load(HISTORY_JSON)
+else:
+  previous_results = {}
 
 def create_x_feature_vector(inference, source=None):
   tone_categories = inference[DOCUMENT_TONE][TONE_CATEGORIES]
@@ -220,9 +228,16 @@ TEST = {
   ]
 }
 
+def save_history():
+  print 'SAVING HISTORY'
+  with open(HISTORY_JSON, 'w+') as outfile:
+    json.dump(previous_results, outfile)
+
 # initialize the Flask app
 init_tree()
 app = Flask(__name__)
+atexit.register(save_history)
+
 
 
 @app.route('/', methods=['GET'])
@@ -230,14 +245,12 @@ def hello():
   return 'hello'
 
 
-previous_result = {}
-
 @app.route('/spectrum', methods=['GET'])
 def spectrum():
   url = request.args.get('url')
   print url
-  if url in previous_result:
-    return previous_result[url]
+  if url in previous_results:
+    return previous_results[url]
 
   # extract summary, score, suggested sites
   summary, original, title, brand = extractSentences(url.encode('utf-8'))
@@ -254,7 +267,7 @@ def spectrum():
   result['summary'] = summary
 
   json_result = json.dumps(result)
-  previous_result[url] = json_result
+  previous_results[url] = json_result
 
   return json_result
 
