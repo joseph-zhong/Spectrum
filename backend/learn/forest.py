@@ -272,7 +272,8 @@ def spectrum():
   for i in xrange(int(len)):
     suggestion = {}
     # suggestion['title'] = data['webPages']['value'][i]['name']
-    suggestion['title'] = data['webPages']['value'][i]['snippet']
+    # suggestion['title'] = data['webPages']['value'][i]['snippet']
+    suggestion['title'] = data['webPages']['value'][i]['displayUrl'].split('.')[1]
     suggestion['url'] = data['webPages']['value'][i]['url']
     print suggestion
     suggestions.append(suggestion)
