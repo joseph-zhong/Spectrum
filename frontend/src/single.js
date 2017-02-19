@@ -10,11 +10,9 @@ export function tag(e) {
 		if (val != 0) {
 			$(e).attr("news", true);
 			$(e).attr("site", val)
-            $(e).css("background-color", "blue")
 		}
         else {
             $(e).attr("news", false)
-            $(e).css("background-color", "green")
         }
 	}
 }

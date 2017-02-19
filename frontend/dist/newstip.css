@@ -8,7 +8,7 @@
 }
 .tpd-skin-dark .tpd-background {
   border-width: 1px;
-  border-color: rgba(0,0,0,.1);
+  border-color: rgb(255,112,112);
 }
 
 /* Custom CSS */
@@ -20,22 +20,23 @@
 
 .political {
   text-align: center;
+  color: #FFF;
   margin-top: -10px;
   margin-left: -10px;
   margin-right: -10px;
   padding-top: 5px;
   padding-bottom: 5px;
-  font-size: 16px;
-  background-color: rgb(255, 112, 112);
+  /*background-color: rgb(255, 112, 112);*/
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
 }
 
-.bias {
-	display: flex;
-	flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
+.title {
+  font-size: 16px;
+}
+
+.summary {
+  margin-top: 10px;
 }
 .data {
     padding-left: 2em;
@@ -44,7 +45,7 @@
 .vertical{
     position: relative;
     height: 100%;
-    width: 100%;  
+    width: 100%;
 }
 #back {
     position: absolute;
@@ -66,4 +67,3 @@
     width: 100%;
     background: blue;
 }
-
