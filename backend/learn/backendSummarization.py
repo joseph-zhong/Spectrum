@@ -59,14 +59,24 @@ def addScores(sentences, scores):
 
 def extractSentences(url, length=3):
   global article
+  print 'extracting %s' % url
   article = Article(url)
   article.download()
   article.parse()
 
   origText = article.text.encode('utf-8')
+  print origText
+
+  #### todo: something is wrong here
+  ## fixme fixme fixme
+  ####
+
   sentence = clean_text_by_sentences(origText, language="english")
+  print sentence
   senToken = [sen.token for sen in sentence]
+  print senToken
   senGraph = buildGraph(senToken)
+  print senGraph
   setGraphEdgeWeights(senGraph)
   senGraph.remove_nodes_from(networkx.isolates(senGraph))
   # nx.draw(senGraph)
