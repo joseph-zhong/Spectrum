@@ -44,29 +44,24 @@ $("a[news='true']").mouseenter(function() {
         $('.tpd-shift-stem-side-after').css("background-color", bgColor);
         $('.tpd-stem-border-corner').css("background-color", bgColor);
 
+        console.log($('.tpd-stem-border-center').eq(0).is(":visible"));
+        console.log($('.tpd-stem-border-center').eq(1).is(":visible"));
+        console.log($('.tpd-stem-border-center').eq(2).is(":visible"));
+        console.log($('.tpd-stem-border-center').eq(3).is(":visible"));
 
-        // if (matchRGB($('.tpd-stem-border-center').css("border-right-color"))) {
-        //   console.log("RIGHT");
-        //   $('.tpd-stem-border-center').css("border-right-color", bgColor);
-        // }
-        // else if (matchRGB($('.tpd-stem-border-center').css("border-left-color"))) {
-        //   console.log("LEFt");
-        //   $('.tpd-stem-border-center').css("border-left-color", bgColor);
-        // }
-        // else if (matchRGB($('.tpd-stem-border-center').css("border-top-color"))) {
-        //   console.log("TOP");
-        //   $('.tpd-stem-border-center').css("border-top-color", bgColor);
-        // }
-        // else if (matchRGB($('.tpd-stem-border-center').css("border-bottom-color"))) {
-        //   $('.tpd-stem-border-center').css("border-bottom-color", bgColor);
-        //   console.log("BOTTOM");
-        // }
+        if ($('.tpd-stem-border-center').eq(3).is(":visible")) {
+          $('.tpd-stem-border-center').css("border-right-color", bgColor);
+        }
+        else if ($('.tpd-stem-border-center').eq(0).is(":visible")) {
+          $('.tpd-stem-border-center').css("border-bottom-color", bgColor);
+        }
+        else if ($('.tpd-stem-border-center').eq(1).is(":visible")) {
+          $('.tpd-stem-border-center').css("border-left-color", bgColor);
+        }
+        else if ($('.tpd-stem-border-center').eq(2).is(":visible")) {
+          $('.tpd-stem-border-center').css("border-top-color", bgColor);
+        }
 
      }
   }, 100); // check every 100ms
 })
-
-function matchRGB(check) {
-  var arr = check.match(/^rgba?[\s+]?\([\s+]?(\d+)[\s+]?,[\s+]?(\d+)[\s+]?,[\s+]?(\d+)[\s+]?/i);
-  return (arr[1] == "255" && arr[2] == "255" && arr[3] == "255");
-}
