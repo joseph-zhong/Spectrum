@@ -43,8 +43,30 @@ $("a[news='true']").mouseenter(function() {
         $('.tpd-shift-stem-side-before').css("background-color", bgColor);
         $('.tpd-shift-stem-side-after').css("background-color", bgColor);
         $('.tpd-stem-border-corner').css("background-color", bgColor);
-        $('.tpd-stem-border-center').css("border-right-color", bgColor);
+
+
+        // if (matchRGB($('.tpd-stem-border-center').css("border-right-color"))) {
+        //   console.log("RIGHT");
+        //   $('.tpd-stem-border-center').css("border-right-color", bgColor);
+        // }
+        // else if (matchRGB($('.tpd-stem-border-center').css("border-left-color"))) {
+        //   console.log("LEFt");
+        //   $('.tpd-stem-border-center').css("border-left-color", bgColor);
+        // }
+        // else if (matchRGB($('.tpd-stem-border-center').css("border-top-color"))) {
+        //   console.log("TOP");
+        //   $('.tpd-stem-border-center').css("border-top-color", bgColor);
+        // }
+        // else if (matchRGB($('.tpd-stem-border-center').css("border-bottom-color"))) {
+        //   $('.tpd-stem-border-center').css("border-bottom-color", bgColor);
+        //   console.log("BOTTOM");
+        // }
 
      }
   }, 100); // check every 100ms
 })
+
+function matchRGB(check) {
+  var arr = check.match(/^rgba?[\s+]?\([\s+]?(\d+)[\s+]?,[\s+]?(\d+)[\s+]?,[\s+]?(\d+)[\s+]?/i);
+  return (arr[1] == "255" && arr[2] == "255" && arr[3] == "255");
+}
