@@ -84,7 +84,7 @@ def create_x_feature_vector(inference, source=None):
     x_i.append(POLITICAL_SPECTRUM[source])
   else:
     print 'SOURCE NOT IN POLITICAL_SPECTRUM %s ' % source
-    x_i.append(np.random.random_sample() * 5 - 2)
+    x_i.append(np.random.random_sample() * 3 - 2)
 
   return x_i
 
@@ -101,7 +101,8 @@ def init_tree():
     if source in POLITICAL_SPECTRUM:
       y_val = POLITICAL_SPECTRUM[source]
     else:
-      y_val = 0
+      print 'SOURCE NOT IN POLITICAL_SPECTRUM %s ' % source
+      y_val = (np.random.random_sample() * 3 - 2)
 
     with open(os.path.join(SENTIMENT, fn), 'r') as json_file:
       src_tone_data = json.load(json_file)
