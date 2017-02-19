@@ -269,7 +269,7 @@ def spectrum():
   # produce summaries
   data, len = bingArticle(title, brand)
   suggestions = []
-  for i in xrange(len):
+  for i in xrange(int(len)):
     suggestion = {}
     suggestion['title'] = data['webPages']['value'][i]['name']
     suggestion['url'] = data['webPages']['value'][i]['url']

@@ -106,13 +106,13 @@ def extractSentences(url, length=3):
 
 
 
-def bingArticle(headline, source, count=3):
+def bingArticle(headline, source, count='3'):
   print '[bing article]'
   headers = {'Ocp-Apim-Subscription-Key': '935c7077f70447cdb248c3f84e9695b8', }
 
   params = urllib.urlencode({
     'q': headline + "-site:%s" % source,
-    'count': '%d' % count,
+    'count': count,
     'offset': '0',
     'mkt': 'en-us',
   })
