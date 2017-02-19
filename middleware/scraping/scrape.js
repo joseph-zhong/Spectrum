@@ -1,5 +1,3 @@
-using strict;
-
 var Xvfb = require('xvfb');
 var xvfb = new Xvfb();
 var Nightmare = require('nightmare');
