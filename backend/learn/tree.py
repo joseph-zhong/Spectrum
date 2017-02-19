@@ -183,4 +183,6 @@ TEST = {
 init_tree()
 for test in TEST:
   print test
-  run_inference(test)
+  for hyperlink in TEST[test]:
+    print hyperlink
+    run_inference(hyperlink)
