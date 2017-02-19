@@ -267,7 +267,7 @@ def spectrum():
   result['weighted_average'] = weighted_avg
   result['summary'] = summary
   # produce summaries
-  data, len = bingArticle(' '.join(keywords), brand)
+  data, len = bingArticle(title[:15] + ' '.join(keywords), brand)
   suggestions = []
   for i in xrange(int(len)):
     suggestion = {}
