@@ -46,7 +46,7 @@ SPECTRUM_JSON = 'spectrum.json'
 with open(os.path.join(TRAINING, SPECTRUM, SPECTRUM_JSON)) as spectrum_json:
   print 'loading POLITICAL_SPECTRUM'
   POLITICAL_SPECTRUM = json.load(spectrum_json)
-  print POLITICAL_SPECTRUM
+  # print POLITICAL_SPECTRUM
 
 # schema
 DOCUMENT_TONE = 'document_tone'
@@ -152,7 +152,7 @@ def run_inference(hyperlink):
 
     inference = tone_analyzer.tone(text=article.text.encode('utf-8'))
 
-    print inference
+    # print inference
 
     domain = tldextract.extract(article.url)[EXTRACT_DOMAIN]
     print 'extracted domain %s' % domain
