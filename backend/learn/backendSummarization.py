@@ -59,7 +59,7 @@ def addScores(sentences, scores):
 
 
 def extractSentences(url, length=3):
-  global article
+  # global article
   print 'extracting %s' % url
   paper = newspaper.build(url)
   article = Article(url)
@@ -104,12 +104,6 @@ def extractSentences(url, length=3):
   return "\n".join([sen.text for sen in pulledSentence]), origText, article.title, paper.brand
 
 
-def getArticleText(url):
-  return article.text
-
-
-def getArticleTitle(url):
-  return article.title
 
 #
 # def bingArticle(headline, altSite):
