@@ -2,9 +2,34 @@ var root = "https://jsonplaceholder.typicode.com"
 
 export function createTips() {
 	var tips = $('a[news="true"]').map(function() {
-		console.log("HMMM")
 		var val = "This is a really really really really really really really really r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r long summary"
-		var bias = 1;
+    var bias = 3;
+		var political;
+		var politicHex;
+
+		switch (bias) {
+			case 1:
+				political = "Liberal";
+				politicHex = "#3751ff";
+				break;
+			case 2:
+				political = "Moderate Liberal";
+				politicHex = "#6268ff";
+				break;
+			case 3:
+				political = "Neutral";
+				politicHex = "#b265ff";
+				break;
+			case 4:
+				political = "Moderate Conservative";
+				politicHex = "#ff7070";
+				break;
+			case 5:
+				political = "Conservative";
+				politicHex = "#fe4d4d";
+				break;
+		}
+
 		// Tipped.create($(this), "FUCK", {
 		// 	position: "right"
 		// });
@@ -15,19 +40,20 @@ export function createTips() {
 		}).then(function(data) {
 			val = data.body;
 			let html = `
-		<div class="box">
-			<div class="political">
-				Liberal
-			</div>
-      <div class="summary">
-          <h3> Summary </h3>
-          <p> ${val} </p>
-      </div>
-			<div class="related">
-				<h3> Related Articles </h3>
-			</div>
-		</div>
-    `
+				<div class="box">
+					<div class="political title" style="background-color: ${politicHex};">
+						${political}
+					</div>
+		      <div class="summary">
+		        <div class="title"> Summary </div>
+		        <p> ${val} </p>
+		      </div>
+					<div class="related">
+						<div class="title"> Related Articles </div>
+						<p> Test </p>
+					</div>
+				</div>
+		    `
 			Tipped.create($(self), html, {
 				position: "right"
 			});
