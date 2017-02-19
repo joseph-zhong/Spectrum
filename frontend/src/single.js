@@ -31,12 +31,12 @@ export function createTip(e) {
 			$.ajax({
 				url: root1,
 				method: "POST",
-				data: {title: $(e).text()},
+				data: { title: encodeURIComponent($(e).text()) },
 				contentType: "application/json; charset=utf-8"
 			})
 		)
 		var promises = Promise.all([text, related])
-			.done(function(info) {
+			.then(function(info) {
 				data = JSON.parse(info[0]);
 				let bias = Math.round(data.weighted_average * 1.1);
 				let political;
