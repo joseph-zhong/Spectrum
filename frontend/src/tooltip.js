@@ -2,12 +2,12 @@ var root = "https://jsonplaceholder.typicode.com"
 
 export function createTips() {
 	var tips = $('a[news="true"]').map(function() {
+		if($(this).attr("hasTip") == "true")
+			return;
 		console.log("HMMM")
 		var val = "This is a really really really really really really really really r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r long summary"
 		var bias = 1;
-		// Tipped.create($(this), "FUCK", {
-		// 	position: "right"
-		// });
+		$(this).attr("hasTip","true")
 		var self = $(this)
 		$.ajax({
 			url: root + "/posts/1",
