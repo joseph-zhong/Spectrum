@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node middleware/scraping/index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jackson Chen",
@@ -12,6 +12,7 @@
   "dependencies": {
     "cheerio": "^0.22.0",
     "express": "^4.14.1",
-    "nightmare": "^2.9.1"
+    "nightmare": "^2.9.1",
+    "xvfb": "^0.2.3"
   }
 }

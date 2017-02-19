@@ -1,10 +1,12 @@
+var Xvfb = require('xvfb');
+var xvfb = new Xvfb();
 var Nightmare = require('nightmare');
 var cheerio = require('cheerio');
 
 function getLeaning(article, callback) {
   var SEARCH_QUERY = "http://www.allsides.com/gnp/tod/index32.php?q=";
 
-  var nightmare = Nightmare({ show: false });
+  var nightmare = Nightmare({ show: false, waitTimeout: 10000 });
 
   var articleURL = SEARCH_QUERY + encodeURIComponent(article);
 
@@ -126,7 +128,9 @@ function chooseArticle(num, similarArticles) {
 
 scrape = function(callback) {
   console.log("Starting scraper");
+  xvfb.startSync();
   getLeaning('Friends No More? Jorge Pérez and Donald Trump', function(num, similarArticles) {
+    xvfb.stopSync();
     callback(chooseArticle(num, similarArticles));
   })
 }
