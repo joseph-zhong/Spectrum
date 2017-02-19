@@ -2,6 +2,8 @@ import json
 import os
 
 import numpy as np
+import time
+import tldextract
 from numpy import argmax
 from sklearn.ensemble import RandomForestClassifier
 import newspaper
@@ -47,6 +49,7 @@ POLITICAL_SPECTRUM = {
   'theguardian': -1,
   'npr': 0,
   'bbc': 0,
+  'nbcnews': 0,
   'washingtonpost': 0,
   'newyorktimes': 0,
   'abcnews': 0,
@@ -71,6 +74,7 @@ DOCUMENT_TONE = 'document_tone'
 TONE_CATEGORIES = 'tone_categories'
 TONES = 'tones'
 SCORE = 'score'
+EXTRACT_DOMAIN = 1
 EMOTION_CATEGORY = 0
 STYLE_CATEGORY = 1
 SOCIAL_CATEGORY = 2
@@ -78,6 +82,35 @@ SOCIAL_CATEGORY = 2
 VERBOSE = False
 global _clf
 
+
+def create_x_feature_vector(inference, source=None):
+  print '[create x ft vector]'
+  tone_categories = inference[DOCUMENT_TONE][TONE_CATEGORIES]
+
+  emotion_category = tone_categories[EMOTION_CATEGORY]
+  style_category = tone_categories[STYLE_CATEGORY]
+  social_category = tone_categories[SOCIAL_CATEGORY]
+
+  x_i = []
+  # print 'adding emotion category'
+  for obj in [tone[SCORE] for tone in emotion_category[TONES][:]]:
+    x_i.append(obj)
+
+  # print 'adding style category'
+  for obj in [tone[SCORE] for tone in style_category[TONES][:]]:
+    x_i.append(obj)
+
+  # print 'adding social category'
+  for obj in [tone[SCORE] for tone in social_category[TONES][:]]:
+    x_i.append(obj)
+
+  print 'adding source category'
+  if source is not None and source in POLITICAL_SPECTRUM:
+    x_i.append(POLITICAL_SPECTRUM[source])
+  else:
+    x_i.append(0)
+
+  return x_i
 
 def init_tree():
   global _clf
@@ -97,39 +130,26 @@ def init_tree():
     with open(os.path.join(SENTIMENT, fn), 'r') as json_file:
       src_tone_data = json.load(json_file)
       for inference in src_tone_data:
-        tone_categories = inference[DOCUMENT_TONE][TONE_CATEGORIES]
-        emotion_category = tone_categories[EMOTION_CATEGORY]
-        style_category = tone_categories[EMOTION_CATEGORY]
-        social_category = tone_categories[EMOTION_CATEGORY]
-
-        x_i = []
-        for obj in [tone[SCORE] for tone in emotion_category[TONES][:]]:
-          x_i.append(obj)
-
-        for obj in [tone[SCORE] for tone in style_category[TONES][:]]:
-          x_i.append(obj)
-
-        for obj in [tone[SCORE] for tone in social_category[TONES][:]]:
-          x_i.append(obj)
-
-        X.append(x_i)
+        X.append(create_x_feature_vector(inference, source=source))
         Y.append(y_val)
 
   if VERBOSE:
     print X
     print Y
+  import pickle
+
+  curr_time = time.time()
+  with open('training/x/x_features_%s' % curr_time, 'wb') as fp:
+    pickle.dump(X, fp)
+  with open('training/y/y_features_%s' % curr_time, 'wb') as fp:
+    pickle.dump(Y, fp)
+
   print len(X)
   print len(Y)
 
   _clf = RandomForestClassifier(n_estimators=20)
   _clf = _clf.fit(X, Y)
   print _clf.classes_
-
-  # dot_data = tree.export_graphviz(_clf, out_file=None,
-  #                                 filled=True, rounded=True,
-  #                                 special_characters=True)
-  # graph = pydotplus.graph_from_dot_data(dot_data)
-  # Image(graph.create_png())
 
 def run_inference(hyperlink):
   global _clf
@@ -143,34 +163,26 @@ def run_inference(hyperlink):
 
     inference = tone_analyzer.tone(text=article.text.encode('utf-8'))
 
-    tone_categories = inference[DOCUMENT_TONE][TONE_CATEGORIES]
-    emotion_category = tone_categories[EMOTION_CATEGORY]
-    style_category = tone_categories[EMOTION_CATEGORY]
-    social_category = tone_categories[EMOTION_CATEGORY]
+    print inference
 
-    x_i = []
-    for obj in [tone[SCORE] for tone in emotion_category[TONES][:]]:
-      x_i.append(obj)
-
-    for obj in [tone[SCORE] for tone in style_category[TONES][:]]:
-      x_i.append(obj)
-
-    for obj in [tone[SCORE] for tone in social_category[TONES][:]]:
-      x_i.append(obj)
-
-    X.append(x_i)
-
+    domain = tldextract.extract(article.url)[EXTRACT_DOMAIN]
+    print 'extracted domain %s' % domain
+    X.append(create_x_feature_vector(inference, source=domain))
+    print X
     # retval = _clf.predict(X)
     retval = _clf.predict_proba(X)
     print 'spectrum score: %s' % retval
   except Exception as e:
-    print 'ANALYSIS ERROR %s ' % e
+    print '[run infr on link] ANALYSIS ERROR %s ' % e
 
   weighted_avg = 0
   for i in xrange(len(retval)):
     weight = retval[i]
     weighted_avg += (i - 2) * weight
+
+
   return weighted_avg, argmax(retval)
+
 
 def run_inference_on_text(text):
   # print text
@@ -179,29 +191,13 @@ def run_inference_on_text(text):
   X = []
   try:
     inference = tone_analyzer.tone(text=text)
+    X.append(create_x_feature_vector(inference))
 
-    tone_categories = inference[DOCUMENT_TONE][TONE_CATEGORIES]
-    emotion_category = tone_categories[EMOTION_CATEGORY]
-    style_category = tone_categories[EMOTION_CATEGORY]
-    social_category = tone_categories[EMOTION_CATEGORY]
-
-    x_i = []
-    for obj in [tone[SCORE] for tone in emotion_category[TONES][:]]:
-      x_i.append(obj)
-
-    for obj in [tone[SCORE] for tone in style_category[TONES][:]]:
-      x_i.append(obj)
-
-    for obj in [tone[SCORE] for tone in social_category[TONES][:]]:
-      x_i.append(obj)
-
-    X.append(x_i)
-
-    retval = _clf.predict(X)
-    # retval = _clf.predict_proba(X)
+    # retval = _clf.predict(X)
+    retval = _clf.predict_proba(X)
     print 'spectrum score: %s' % retval
   except Exception as e:
-    print 'ANALYSIS ERROR %s ' % e
+    print '[run infr on txt] ANALYSIS ERROR %s ' % e
 
 
 
@@ -232,18 +228,18 @@ TEST = {
 
 
 init_tree()
-# for test in TEST:
-#   print test
-#   for hyperlink in TEST[test]:
-#     # print hyperlink
-#     run_inference(hyperlink)
-#
-# OCCUPY_ARTICLE = 'occupy_article'
-# print 'occupy test expected -2'
-# for fn in os.listdir(OCCUPY_ARTICLE):
-#   with open(os.path.join(OCCUPY_ARTICLE, fn), 'r') as article_file:
-#     lines = article_file.readlines()
-#     run_inference_on_text(''.join(lines))
+for test in TEST:
+  print test
+  for hyperlink in TEST[test]:
+    print 'hyperlink %s ' % hyperlink
+    run_inference(hyperlink)
+
+OCCUPY_ARTICLE = 'occupy_article'
+print 'occupy test expected -2'
+for fn in os.listdir(OCCUPY_ARTICLE):
+  with open(os.path.join(OCCUPY_ARTICLE, fn), 'r') as article_file:
+    lines = article_file.readlines()
+    run_inference_on_text(''.join(lines))
 
 
 # initialize the Flask app
