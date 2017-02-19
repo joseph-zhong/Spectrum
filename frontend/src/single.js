@@ -69,8 +69,6 @@ export function createTip(e) {
 			Tipped.create($(e), html, {
 				position: "right"
 			});
-			$(e).css("background-color", "red");
-			console.log("Phat tips");
 		})
 	}
 }

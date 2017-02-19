@@ -8,8 +8,7 @@ export function createTips() {
 		$.ajax({
 			url: root + "/posts/1",
 			method: "GET"
-		}).then(function(data) {
-			
+		}).then(function(data) {			
 			Tipped.create($(self), html, {
 				position: "right"
 			});
