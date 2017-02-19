@@ -230,12 +230,14 @@ def hello():
   return 'hello'
 
 
-
+previous_result = {}
 
 @app.route('/spectrum', methods=['GET'])
 def spectrum():
   url = request.args.get('url')
   print url
+  if url in previous_result:
+    return previous_result[url]
 
   # extract summary, score, suggested sites
   summary, original, title, brand = extractSentences(url.encode('utf-8'))
@@ -251,7 +253,10 @@ def spectrum():
   result['weighted_average'] = weighted_avg
   result['summary'] = summary
 
-  return json.dumps(result)
+  json_result = json.dumps(result)
+  previous_result[url] = json_result
+
+  return json_result
 
 if __name__ == '__main__':
   app.run(host='127.0.0.1', port=5000, threaded=True)
