@@ -244,8 +244,10 @@ def spectrum():
   political_score, max_score = run_inference(url.encode('utf-8'))[0]
 
   suggestions = []
+  suggestions_spectrum_score = []
   for i in range(3):
     suggestions.append(bingArticle(title, np.random.choice(CLASSIFICATIONS[-(max_score) - 1])))
+    suggestions_spectrum_score.append(suggestions[i])
 
   result = {}
   result['summary'] = summary
