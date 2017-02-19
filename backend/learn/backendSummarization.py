@@ -108,7 +108,7 @@ def extractSentences(url, length=3):
 
 
 
-def bingArticle(headline, source, count='3'):
+def bingArticle(headline, source, count='2'):
   print '[bing article]'
   headers = {'Ocp-Apim-Subscription-Key': '935c7077f70447cdb248c3f84e9695b8', }
 
