@@ -103,7 +103,7 @@ def init_tree():
       y_val = POLITICAL_SPECTRUM[source]
     else:
       print 'SOURCE NOT IN POLITICAL_SPECTRUM %s ' % source
-      y_val = (np.random.random_sample() * 3 - 2)
+      y_val = np.random.randint(-2, 3)
 
     with open(os.path.join(SENTIMENT, fn), 'r') as json_file:
       src_tone_data = json.load(json_file)
@@ -238,19 +238,10 @@ def hello():
 def spectrum():
   url = request.args.get('url')
   print url
-  url = urllib.unquote(url).decode('utf8')
-  print url
 
   # extract summary, score, suggested sites
   summary, original, title, brand = extractSentences(url.encode('utf-8'), 3)
   political_score, max_score = run_inference(url)
-
-  # suggestions = []
-  # suggestions_spectrum_scores = []
-  # for i in range(3):
-  #   score = max(min(-1, -(max_score)), 1)
-  #   choice = CLASSIFICATIONS[score]
-
 
   # jsonify array
   political_score = np.array(political_score).tolist()
