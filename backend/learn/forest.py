@@ -165,7 +165,6 @@ def run_inference(hyperlink):
       X.append(create_x_feature_vector(inference, source=domain))
       # retval = _clf.predict(X)
       retval = _clf.predict_proba(X)
-    print X
 
     print 'spectrum score: %s' % retval
   except Exception as e:
@@ -231,9 +230,8 @@ def hello():
   return 'hello'
 
 
-"""
 
-"""
+
 @app.route('/spectrum', methods=['GET'])
 def spectrum():
   url = request.args.get('url')
