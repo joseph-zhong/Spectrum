@@ -38,13 +38,13 @@ const links = sites();
 
 function checkValid(url) {
 	url = url.toLowerCase();
-	if (url[0] == "/") {
-		var path = window.location.hostname
-		for (var i = 0; i < links.length; i++) {
-			if (path.search(links[i]) != -1)
-				return links[i];
-		}
-	}
+	// if (url[0] == "/") {
+	// 	var path = window.location.hostname
+	// 	for (var i = 0; i < links.length; i++) {
+	// 		if (path.search(links[i]) != -1)
+	// 			return links[i];
+	// 	}
+	// }
 	for (var i = 0; i < links.length; i++) {
 		if (url.search(links[i]) != -1)
 			return links[i];

@@ -21,6 +21,12 @@ export function createTip(e) {
 	if ($(e).attr('news') == "true") {
 		$(e).attr("hasTip", "true")
 		var text = Promise.resolve(
+			// JSON.stringify({
+			// 	weighted_average: 1.1,
+			// 	summary: 'THIS IS A SUMmary',
+			// 	brand: "Viterbi",
+			// 	title: "M'Title"
+			// })
 			$.ajax({
 				url: root + "/spectrum?url=" + encodeURIComponent($(e).attr('href')),
 				method: "GET"
@@ -36,8 +42,8 @@ export function createTip(e) {
 			// })
 		)
 		var promises = Promise.all([text, related])
-			.done(function(info) {
-				data = JSON.parse(info[0]);
+			.then(function(info) {
+				let data = JSON.parse(info[0]);
 				let bias = Math.round(data.weighted_average * 1.1);
 				let political;
 				let politicHex;

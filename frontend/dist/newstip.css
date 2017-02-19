@@ -16,13 +16,20 @@
   padding: 0;
   font-family: sans-serif;
 }
+.row {
+  display: flex;
+  align-content: space-between;
+}
 
 .title {
   font-family: sans-serif;
   font-size: 16px;
   padding-top: 5px;
   padding-bottom: 5px;
+  line-height: 120%;
   font-weight: 700;
+  padding-left: 0%;
+  padding-right: 3%;
 }
 
 .bigFont {
