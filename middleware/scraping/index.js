@@ -22,7 +22,8 @@ app.post('/', function(req, res) {
     toRet.data = data[2];
     toRet.politicalScore = data[0];
     toRet.politicalScoreRelevant = data[1];
-    res.json(toRet);
+    res.type('json');
+    res.json($.toRet);
   });
 })
 
