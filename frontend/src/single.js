@@ -2,7 +2,7 @@ import {
 	sites
 } from "./sites.js"
 
-const root = "https://jsonplaceholder.typicode.com"
+const root = "https://45.79.82.175:80/"
 
 
 export function tag(e) {
@@ -22,9 +22,13 @@ export function createTip(e) {
 	if ($(e).attr('news') == "true") {
 		$(e).attr("hasTip", "true")
 		$.ajax({
-			url: root + "/posts/1",
-			method: "GET"
+			url: root + "/spectrum",
+			method: "POST",
+			data: {url: $(e).attr('href')},
+			contentType:"application/json; charset=utf-8"
 		}).then(function (data) {
+			console.log("SUCCESSS")
+			console.log(data);
 			let bias = 0 ;
 			let political;
 			let politicHex;
@@ -69,6 +73,9 @@ export function createTip(e) {
 			Tipped.create($(e), html, {
 				position: "right"
 			});
+		}).catch(function(err){
+			console.log("FAILED")
+			console.log(err);
 		})
 	}
 }
