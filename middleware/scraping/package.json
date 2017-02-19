@@ -10,8 +10,10 @@
   "author": "Jackson Chen",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.16.1",
     "cheerio": "^0.22.0",
     "express": "^4.14.1",
+    "middleware": "^1.0.0",
     "nightmare": "^2.9.1",
     "xvfb": "^0.2.3"
   }

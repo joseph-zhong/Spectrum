@@ -126,10 +126,10 @@ function chooseArticle(num, similarArticles) {
   }
 }
 
-scrape = function(callback) {
+scrape = function(title, callback) {
   console.log("Starting scraper");
   xvfb.startSync();
-  getLeaning('Friends No More? Jorge Pérez and Donald Trump', function(num, similarArticles) {
+  getLeaning(title, function(num, similarArticles) {
     xvfb.stopSync();
     callback(chooseArticle(num, similarArticles));
   })
