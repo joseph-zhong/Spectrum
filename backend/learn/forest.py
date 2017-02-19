@@ -1,12 +1,15 @@
 import json
 import os
 
+import numpy as np
+from numpy import argmax
 from sklearn.ensemble import RandomForestClassifier
 import newspaper
 from newspaper import Article
 from watson_developer_cloud import ToneAnalyzerV3
 
 from constants import private
+from backendSummarization import extractSentences, bingArticle
 
 from flask import Flask, request, session, g, redirect, url_for, abort, render_template, flash, jsonify
 
@@ -23,7 +26,14 @@ FEATURES = {
   'analytical', 'confident', 'tentative',
   'openness', 'conscientiousness', 'extraversion', 'agreeableness', 'emotional range'
 }
-CLASSIFICATIONS = {-2, -1, 0, 1, 2}
+CLASSIFICATIONS = {
+  -2: ['BuzzFeed', 'OccupyDemocrats', 'US Uncut'],
+  -1: ['HuffingtonPost', 'MSNBC', 'Atlantic', 'Slate', 'Vox', 'The Guardian'],
+  0: ['NPR', 'BBC', 'WashingtonPost', 'New York Times', 'ABC News','AP','Reuters',
+      'USA Today', 'CNN', 'The Wall Street Journal'],
+  1: ['The Economist', 'The Fiscal Times', 'The Hill', 'Fox News'],
+  2: ['Red State', 'The Blaze']
+}
 
 POLITICAL_SPECTRUM = {
   'buzzfeed': -2,
@@ -52,6 +62,8 @@ POLITICAL_SPECTRUM = {
   'redstate': 2,
   'theblaze': 2
 }
+
+
 
 
 # schema
@@ -123,6 +135,7 @@ def run_inference(hyperlink):
   global _clf
 
   X = []
+  retval = []
   try:
     article = newspaper.Article(hyperlink)
     article.download()
@@ -147,11 +160,17 @@ def run_inference(hyperlink):
 
     X.append(x_i)
 
-    retval = _clf.predict(X)
-    # retval = _clf.predict_proba(X)
+    # retval = _clf.predict(X)
+    retval = _clf.predict_proba(X)
     print 'spectrum score: %s' % retval
   except Exception as e:
     print 'ANALYSIS ERROR %s ' % e
+
+  weighted_avg = 0
+  for i in xrange(len(retval)):
+    weight = retval[i]
+    weighted_avg += (i - 2) * weight
+  return weighted_avg, argmax(retval)
 
 def run_inference_on_text(text):
   # print text
@@ -213,35 +232,54 @@ TEST = {
 
 
 init_tree()
-for test in TEST:
-  print test
-  for hyperlink in TEST[test]:
-    # print hyperlink
-    run_inference(hyperlink)
-
-OCCUPY_ARTICLE = 'occupy_article'
-print 'occupy test expected -2'
-for fn in os.listdir(OCCUPY_ARTICLE):
-  with open(os.path.join(OCCUPY_ARTICLE, fn), 'r') as article_file:
-    lines = article_file.readlines()
-    run_inference_on_text(''.join(lines))
+# for test in TEST:
+#   print test
+#   for hyperlink in TEST[test]:
+#     # print hyperlink
+#     run_inference(hyperlink)
+#
+# OCCUPY_ARTICLE = 'occupy_article'
+# print 'occupy test expected -2'
+# for fn in os.listdir(OCCUPY_ARTICLE):
+#   with open(os.path.join(OCCUPY_ARTICLE, fn), 'r') as article_file:
+#     lines = article_file.readlines()
+#     run_inference_on_text(''.join(lines))
 
 
 # initialize the Flask app
 app = Flask(__name__)
+
 
 @app.route('/', methods=['GET'])
 def hello():
   return 'hello'
 
 
+"""
+
+"""
 @app.route('/spectrum', methods=['POST'])
 def spectrum():
-  in_meta = json.loads(request.data.decode())
-  print in_meta
-  # get summary +
+  data = json.loads(request.data.decode())
+  print data
 
-  return run_inference(in_meta)
+  url = data['url']
+
+  # extract summary, score, suggested sites
+  summary, original, title = extractSentences(url.encode('utf-8'), 3)
+  political_score, max_score = run_inference(original)[0]
+
+  suggestions = []
+  for i in range(3):
+    suggestions.append(bingArticle(title, np.random.choice(CLASSIFICATIONS[-(max_score) - 1])))
+
+  result = {}
+  result['summary'] = summary
+  result['sentences'] = summary
+  result['political_score'] = political_score
+  result['suggestions'] = suggestions
+
+  return json.dumps(result)
 
 if __name__ == '__main__':
   app.run(host='0.0.0.0', port=80)
