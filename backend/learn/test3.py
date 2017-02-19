@@ -1,4 +1,3 @@
-import atexit
 import json
 import os
 import urllib
@@ -47,7 +46,7 @@ SPECTRUM_JSON = 'spectrum.json'
 with open(os.path.join(TRAINING, SPECTRUM, SPECTRUM_JSON)) as spectrum_json:
   print 'loading POLITICAL_SPECTRUM'
   POLITICAL_SPECTRUM = json.load(spectrum_json)
-  # print POLITICAL_SPECTRUM
+  print POLITICAL_SPECTRUM
 
 # schema
 DOCUMENT_TONE = 'document_tone'
@@ -62,15 +61,6 @@ SOCIAL_CATEGORY = 2
 VERBOSE = False
 global _clf
 global _clf_backup
-
-HISTORY = 'history'
-HISTORY_JSON = os.path.join(HISTORY, 'history.json')
-
-if os.path.exists(HISTORY_JSON):
-  with open(HISTORY_JSON, 'r') as json_file:
-    previous_results = json.load(json_file)
-else:
-  previous_results = {}
 
 def create_x_feature_vector(inference, source=None):
   tone_categories = inference[DOCUMENT_TONE][TONE_CATEGORIES]
@@ -103,6 +93,7 @@ def create_x_feature_vector(inference, source=None):
 
 def init_tree():
   global _clf
+  global _clf_backup
   X = []
   X_backup = []
   Y = []
@@ -121,7 +112,7 @@ def init_tree():
       src_tone_data = json.load(json_file)
       for inference in src_tone_data:
         X.append(create_x_feature_vector(inference, source=source))
-        # X_backup.append(create_x_feature_vector(inference))
+        X_backup.append(create_x_feature_vector(inference))
 
         Y.append(y_val)
 
@@ -142,15 +133,15 @@ def init_tree():
   _clf = _clf.fit(X, Y)
   print _clf.classes_
 
-  # print 'backup'
-  # _clf_backup = RandomForestClassifier(n_estimators=20)
-  # _clf_backup = _clf_backup.fit(X_backup, Y)
-  # print _clf_backup.classes_
+  print 'backup'
+  _clf_backup = RandomForestClassifier(n_estimators=40)
+  _clf_backup = _clf_backup.fit(X_backup, Y)
+  print _clf_backup.classes_
 
 
 def run_inference(hyperlink):
   global _clf
-  # global _clf_backup
+  global _clf_backup
 
   X = []
   retval = []
@@ -161,7 +152,7 @@ def run_inference(hyperlink):
 
     inference = tone_analyzer.tone(text=article.text.encode('utf-8'))
 
-    # print inference
+    print inference
 
     domain = tldextract.extract(article.url)[EXTRACT_DOMAIN]
     print 'extracted domain %s' % domain
@@ -170,10 +161,12 @@ def run_inference(hyperlink):
       X.append(create_x_feature_vector(inference, source=domain))
       # retval = _clf_backup.predict(X)
       retval = _clf.predict_proba(X)
+      retval = _clf_backup.predict_proba(X)
     else:
       X.append(create_x_feature_vector(inference, source=domain))
       # retval = _clf.predict(X)
       retval = _clf.predict_proba(X)
+    print X
 
     print 'spectrum score: %s' % retval
   except Exception as e:
@@ -190,6 +183,7 @@ def run_inference(hyperlink):
 def run_inference_on_text(text):
   # print text
   global _clf
+  global _clf_backup
 
   X = []
   try:
@@ -229,16 +223,24 @@ TEST = {
   ]
 }
 
-def save_history():
-  print 'SAVING HISTORY'
-  with open(HISTORY_JSON, 'w+') as outfile:
-    json.dump(previous_results, outfile)
+def test_tree():
+  for test in TEST:
+    print test
+    for hyperlink in TEST[test]:
+      print 'hyperlink %s ' % hyperlink
+      run_inference(hyperlink)
+
+  OCCUPY_ARTICLE = 'occupy_article'
+  print 'occupy test expected -2'
+  for fn in os.listdir(OCCUPY_ARTICLE):
+    with open(os.path.join(OCCUPY_ARTICLE, fn), 'r') as article_file:
+      lines = article_file.readlines()
+      run_inference_on_text(''.join(lines))
 
 # initialize the Flask app
 init_tree()
+test_tree()
 app = Flask(__name__)
-atexit.register(save_history)
-
 
 
 @app.route('/', methods=['GET'])
@@ -246,12 +248,13 @@ def hello():
   return 'hello'
 
 
+"""
+
+"""
 @app.route('/spectrum', methods=['GET'])
 def spectrum():
   url = request.args.get('url')
   print url
-  if url in previous_results:
-    return previous_results[url]
 
   # extract summary, score, suggested sites
   summary, original, title, brand = extractSentences(url.encode('utf-8'))
@@ -267,10 +270,7 @@ def spectrum():
   result['weighted_average'] = weighted_avg
   result['summary'] = summary
 
-  json_result = json.dumps(result)
-  previous_results[url] = json_result
-
-  return json_result
+  return json.dumps(result)
 
 if __name__ == '__main__':
-  app.run(host='127.0.0.1', port=5000, threaded=True)
+  app.run(host='127.0.0.1', port=5000)

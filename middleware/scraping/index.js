@@ -18,10 +18,15 @@ app.post('/', function(req, res) {
   console.log("POST / Entered");
   scraper.scrape(req.body.title, function(data) {
     console.log("Returned the following data:\n" + data);
-    res.json(data);
+    var toRet = {};
+    toRet.data = data[2];
+    toRet.politicalScore = data[0];
+    toRet.politicalScoreRelevant = data[1];
+    res.setHeader('Content-Type', 'application/json');
+    res.json(toRet);
   });
 })
 
-app.listen(process.env.PORT || 3000, function() {
+app.listen(process.env.PORT || 8080, function() {
   console.log("App listening on port 3000!!");
 })

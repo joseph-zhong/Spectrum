@@ -6,7 +6,7 @@ var cheerio = require('cheerio');
 function getLeaning(article, callback) {
   var SEARCH_QUERY = "http://www.allsides.com/gnp/tod/index32.php?q=";
 
-  var nightmare = Nightmare({ show: false, waitTimeout: 10000 });
+  var nightmare = Nightmare({ show: false, waitTimeout: 100000 });
 
   var articleURL = SEARCH_QUERY + encodeURIComponent(article);
 
@@ -22,7 +22,7 @@ function getLeaning(article, callback) {
     .then(function (result) {
       console.log("Received a result for the scraping!");
       var $ = cheerio.load(result);
-      var returnObj = {"-2": [], "-1": [], "0": [], "1": [], "2": [], "3": []};
+      var returnObj = {"-2": [], "-1": [], "0": [], "1": [], "2": []};
       $('div.isotope-item').each(function(i, elem) {
         var tmpArr = [];
         var re = /(.+)(?:\s-\s)(.+)$/g;
@@ -63,7 +63,7 @@ function getLeanNumber(biasURL) {
       return("2");
 
     default:
-      return("3");
+      return("0");
   }
 }
 
@@ -72,57 +72,54 @@ function chooseArticle(num, similarArticles) {
   switch (num) {
     case "-2":
       if (similarArticles["0"].length != 0) {
-        return [num, 0, similarArticles["0"].slice(0, 3)];
+        return [num, "0", similarArticles["0"].slice(0, 3)];
       }
       else if (similarArticles["1"].length != 0) {
-        return [num, 1, similarArticles["1"].slice(0, 3)];
+        return [num, "1", similarArticles["1"].slice(0, 3)];
       }
       else if (similarArticles["-1"].length != 0) {
-        return [num, -1, similarArticles["-1"].slice(0, 3)];
+        return [num, "-1", similarArticles["-1"].slice(0, 3)];
       }
-      return [num, 2, similarArticles["2"].slice(0, 3)];
+      return [num, "2", similarArticles["2"].slice(0, 3)];
     case "-1":
       if (similarArticles["1"].length != 0) {
-        return [num, 1, similarArticles["1"].slice(0, 3)];
+        return [num, "1", similarArticles["1"].slice(0, 3)];
       }
       else if (similarArticles["0"].length != 0) {
-          return [num, 0, similarArticles["0"].slice(0, 3)];
+          return [num, "0", similarArticles["0"].slice(0, 3)];
       }
-      return [num, 2, similarArticles["2"].slice(0, 3)];
+      return [num, "2", similarArticles["2"].slice(0, 3)];
     case "0":
       var rand = Math.random();
       if (rand > 0.5 && similarArticles["1"].length != 0) {
-        return [num, 1, similarArticles["1"].slice(0, 3)];
+        return [num, "1", similarArticles["1"].slice(0, 3)];
       }
       else if (similarArticles["-1"].length != 0) {
-        return [num, -1, similarArticles["-1"].slice(0, 3)];
+        return [num, "-1", similarArticles["-1"].slice(0, 3)];
       }
       else if (rand > 0.5 && similarArticles["2"].length != 0) {
-        return [num, 2, similarArticles["2"].slice(0, 3)];
+        return [num, "2", similarArticles["2"].slice(0, 3)];
       }
-      return [num, -2, similarArticles["-2"].slice(0, 3)];
+      return [num, "-2", similarArticles["-2"].slice(0, 3)];
     case "1":
       if (similarArticles["-1"].length != 0) {
-        return [num, -1, similarArticles["-1"].slice(0, 3)];
+        return [num, "-1", similarArticles["-1"].slice(0, 3)];
       }
       else if (similarArticles["0"].length != 0) {
-        return [num, 0, similarArticles["0"].slice(0, 3)];
+        return [num, "0", similarArticles["0"].slice(0, 3)];
       }
-      return [num, -2, similarArticles["-2"].slice(0, 3)];
+      return [num, "-2", similarArticles["-2"].slice(0, 3)];
     case "2":
       if (similarArticles["0"].length != 0) {
-        return [num, 0, similarArticles["0"].slice(0, 3)];
+        return [num, "0", similarArticles["0"].slice(0, 3)];
       }
       else if (similarArticles["-1"].length != 0) {
-        return [num, -1, similarArticles["-1"].slice(0, 3)];
+        return [num, "-1", similarArticles["-1"].slice(0, 3)];
       }
       else if (similarArticles["1"].length != 0) {
-        return [num, 1, similarArticles["1"].slice(0, 3)];
+        return [num, "1", similarArticles["1"].slice(0, 3)];
       }
-      return [num, -2, similarArticles["-2"].slice(0, 3)];
-    case "3":
-      // Run Joseph's ML code
-      return null;
+      return [num, "-2", similarArticles["-2"].slice(0, 3)];
   }
 }
 
