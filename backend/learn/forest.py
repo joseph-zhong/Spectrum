@@ -111,9 +111,8 @@ def init_tree():
         X.append(create_x_feature_vector(inference, source=source))
         Y.append(y_val)
 
-  if VERBOSE:
-    print X
-    print Y
+  print X
+  print Y
   import pickle
 
   curr_time = time.time()
@@ -124,6 +123,8 @@ def init_tree():
 
   print len(X)
   print len(Y)
+
+
 
   _clf = RandomForestClassifier(n_estimators=20)
   _clf = _clf.fit(X, Y)
