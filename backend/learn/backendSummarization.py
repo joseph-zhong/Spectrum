@@ -103,7 +103,7 @@ def extractSentences(url, length=3):
   pulledSentence = sentence[:int(length)]
   # most important sentences in ascending order of importance
   pulledSentence.sort(key=lambda s: s.index)
-  return '\n'.join([sen.text for sen in pulledSentence]), origText, article.title, paper.brand
+  return '\n'.join([sen.text for sen in pulledSentence]), origText, article.title, paper.brand, article.keywords
 
 
 

@@ -254,7 +254,7 @@ def spectrum():
     return previous_results[url]
 
   # extract summary, score, suggested sites
-  summary, original, title, brand = extractSentences(url.encode('utf-8'))
+  summary, original, title, brand, keywords = extractSentences(url.encode('utf-8'))
   weighted_avg, max_score = run_inference(url)
 
   print 'brand: %s' % brand
@@ -267,7 +267,7 @@ def spectrum():
   result['weighted_average'] = weighted_avg
   result['summary'] = summary
   # produce summaries
-  data, len = bingArticle(title, brand)
+  data, len = bingArticle(' '.join(keywords), brand)
   suggestions = []
   for i in xrange(int(len)):
     suggestion = {}
