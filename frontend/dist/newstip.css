@@ -8,14 +8,13 @@
 }
 .tpd-skin-dark .tpd-background {
   border-width: 1px;
-  border-color: rgb(255,112,112);
 }
 
 /* Custom CSS */
 .box {
-  width: 300px;
+  width: 1000px;
   padding: 0;
-  /*overflow-x: hidden;*/
+  font-family: 'Arial';
 }
 
 .political {
@@ -24,8 +23,8 @@
   margin-top: -10px;
   margin-left: -10px;
   margin-right: -10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  /*padding-top: 5px;
+  padding-bottom: 5px;*/
   /*background-color: rgb(255, 112, 112);*/
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
@@ -33,11 +32,14 @@
 
 .title {
   font-size: 16px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .summary {
   margin-top: 10px;
 }
+
 .data {
     padding-left: 2em;
 }

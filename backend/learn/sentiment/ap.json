@@ -1,0 +1,371 @@
+[{
+"document_tone": {
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.172118, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.40585, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.154203, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.051294, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.294497, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.825057, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.852741, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.600538, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.252273, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.695411, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.598737, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.823221, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+]
+}, 
+"sentences_tone": [
+{
+"input_to": 19, 
+"text": "Distinctive options", 
+"sentence_id": 0, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.195415, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.04997, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.137178, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.305248, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.373743, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.311125, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.275016, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.558779, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.586149, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.259219, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 0
+}, 
+{
+"input_to": 20, 
+"text": "", 
+"sentence_id": 1, 
+"tone_categories": [], 
+"input_from": 20
+}, 
+{
+"input_to": 147, 
+"text": "Choose the videos that mean the most to your audience, from ready-to-use clips for any platform to raw footage from the field.", 
+"sentence_id": 2, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.209807, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.550062, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.100352, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.084544, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.137343, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.718038, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.659112, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.557283, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.606947, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.499401, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.258777, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.948036, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 21
+}, 
+{
+"input_to": 240, 
+"text": "We offer exclusive coverage and unique stories you won't find through other video providers.", 
+"sentence_id": 3, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.094489, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.093219, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.192452, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.14499, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.561654, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.560098, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.669198, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.32892, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.813062, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.873391, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.454248, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 148
+}
+]
+}]

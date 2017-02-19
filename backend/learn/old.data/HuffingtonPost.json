@@ -1,0 +1,7442 @@
+{
+  "document_tone": {
+    "tone_categories": [
+      {
+        "tones": [
+          {
+            "score": 0.452312,
+            "tone_id": "anger",
+            "tone_name": "Anger"
+          },
+          {
+            "score": 0.526841,
+            "tone_id": "disgust",
+            "tone_name": "Disgust"
+          },
+          {
+            "score": 0.166705,
+            "tone_id": "fear",
+            "tone_name": "Fear"
+          },
+          {
+            "score": 0.123971,
+            "tone_id": "joy",
+            "tone_name": "Joy"
+          },
+          {
+            "score": 0.277532,
+            "tone_id": "sadness",
+            "tone_name": "Sadness"
+          }
+        ],
+        "category_id": "emotion_tone",
+        "category_name": "Emotion Tone"
+      },
+      {
+        "tones": [
+          {
+            "score": 0.111587,
+            "tone_id": "analytical",
+            "tone_name": "Analytical"
+          },
+          {
+            "score": 0,
+            "tone_id": "confident",
+            "tone_name": "Confident"
+          },
+          {
+            "score": 0.227033,
+            "tone_id": "tentative",
+            "tone_name": "Tentative"
+          }
+        ],
+        "category_id": "language_tone",
+        "category_name": "Language Tone"
+      },
+      {
+        "tones": [
+          {
+            "score": 0.199276,
+            "tone_id": "openness_big5",
+            "tone_name": "Openness"
+          },
+          {
+            "score": 0.489149,
+            "tone_id": "conscientiousness_big5",
+            "tone_name": "Conscientiousness"
+          },
+          {
+            "score": 0.821118,
+            "tone_id": "extraversion_big5",
+            "tone_name": "Extraversion"
+          },
+          {
+            "score": 0.647739,
+            "tone_id": "agreeableness_big5",
+            "tone_name": "Agreeableness"
+          },
+          {
+            "score": 0.137706,
+            "tone_id": "emotional_range_big5",
+            "tone_name": "Emotional Range"
+          }
+        ],
+        "category_id": "social_tone",
+        "category_name": "Social Tone"
+      }
+    ]
+  }
+}{
+"document_tone": {
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.058292, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.112951, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.112129, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.510174, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.575838, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.351197, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.125248, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.136162, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.454818, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.609092, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.14735, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+]
+}, 
+"sentences_tone": [
+{
+"input_to": 39, 
+"text": "Congresso in autunno per salvare il Pd.", 
+"sentence_id": 0, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.082536, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.20192, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.165907, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.303134, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.292992, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.175957, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.276427, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.547676, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.600875, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.284776, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 0
+}, 
+{
+"input_to": 173, 
+"text": "\u00c8 l'estremo appello di Dario Franceschini, l'ultima supplica con Matteo Renzi per fermare la macchina che sta stritolando il partito.", 
+"sentence_id": 1, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.025019, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.181244, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.06984, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.240938, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.51992, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.198539, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.279973, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.546622, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.599923, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.223731, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 40
+}, 
+{
+"input_to": 360, 
+"text": "Mentre al Testaccio a Roma Emiliano, Rossi e Speranza intonano bandiera rossa, di fatto un de profundis al Pd, si consuma anche l'ultimo braccio di ferro tra il segretario e il ministro.", 
+"sentence_id": 2, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.079776, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.140991, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.107704, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.554566, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.176405, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.16927, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.286426, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.556604, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.603429, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.216857, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 174
+}, 
+{
+"input_to": 474, 
+"text": "Il primo duro, inflessibile, rigido, convinto che parte della minoranza \"va via comunque, qualunque cosa faccia\".", 
+"sentence_id": 3, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.088156, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.039258, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.044018, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.199022, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.668659, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.222273, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.278511, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.544245, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.601528, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.246863, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 361
+}, 
+{
+"input_to": 611, 
+"text": "Il secondo mediatore, da giorni, spasmodicamente intento a tessere la tela che - confida ancora Franceschini - pu\u00f2 tenere insieme tutto.", 
+"sentence_id": 4, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.027622, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.060486, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.029714, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.316008, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.611969, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.257249, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.282164, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.554321, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.605054, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.252668, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 475
+}, 
+{
+"input_to": 682, 
+"text": "La minoranza vuole pi\u00f9 tempo, chiede il congresso a scadenza naturale.", 
+"sentence_id": 5, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.054977, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.107213, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.098911, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.658685, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.142003, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.152264, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.285562, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.560034, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.60254, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.271143, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 612
+}, 
+{
+"input_to": 804, 
+"text": "Fa niente se qualche settimana fa l'ha chiesto immediato: se celebrare l'assise a ottobre serve a salvare il Pd, che sia.", 
+"sentence_id": 6, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.169902, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.054233, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.138821, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.309624, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.3683, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.210838, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.279145, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.536978, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.603537, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.234556, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 683
+}, 
+{
+"input_to": 834, 
+"text": "Ma Renzi non ne vuole sapere.", 
+"sentence_id": 7, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.03518, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.099106, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.244853, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.257128, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.416601, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.286248, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.274434, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.543325, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.599483, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.289693, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 805
+}, 
+{
+"input_to": 934, 
+"text": "A sera dice al ministro che potrebbe valutare una mossa spiazzante, il congresso a ottobre appunto.", 
+"sentence_id": 8, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.042944, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.072961, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.049265, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.192975, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.674441, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.25112, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.280549, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.558927, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.602177, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.277962, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 835
+}, 
+{
+"input_to": 996, 
+"text": "Ma poi per\u00f2 lascia trapelare messaggi diametralmente opposti.", 
+"sentence_id": 9, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.068386, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.16883, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.382315, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.224684, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.208291, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.762356, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.196635, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.27525, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.542361, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.600844, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.234348, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 935
+}, 
+{
+"input_to": 1071, 
+"text": "E cio\u00e8 che la linea decisa luned\u00ec scorso e votata in direzione non cambia.", 
+"sentence_id": 10, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.012813, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.142099, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.031771, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.153995, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.726152, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.560098, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.150853, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.290053, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.548513, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.603489, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.163838, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 997
+}, 
+{
+"input_to": 1142, 
+"text": "Domani in assemblea verr\u00e0 riconfermata: congresso subito, chi c'\u00e8 c'\u00e8.", 
+"sentence_id": 11, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.051175, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.054842, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.12039, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.078166, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.758392, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.417844, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.131576, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.284575, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.541307, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.607951, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.282393, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1072
+}, 
+{
+"input_to": 1324, 
+"text": "Renzi infatti resta convinto che - a differenza dei bersaniani e di D'Alema - alla fine i due governatori, Emiliano e Rossi, non diranno addio al Pd ma si misureranno nel congresso.", 
+"sentence_id": 12, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.053498, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.038297, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.054453, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.100878, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.797848, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.180022, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.285285, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.560189, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.604971, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.235954, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1143
+}, 
+{
+"input_to": 1531, 
+"text": "Anche se oggi il governatore pugliese, dopo la bandiera rossa romana, \u00e8 pure andato a Rimini per farsi fotografare con la sinistra di Vendola e con gli scissionisti di Sinistra Italiana: anche l\u00ec, che caos.", 
+"sentence_id": 13, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.030428, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.114949, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.043895, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.663627, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.206951, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.159875, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.306108, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.276799, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.548261, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.600667, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.266694, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1325
+}, 
+{
+"input_to": 1582, 
+"text": "Molto scenografico per Renzi: o solo scenografico.", 
+"sentence_id": 14, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.079304, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.189092, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.171123, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.288773, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.321665, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.188165, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.27784, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.538579, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.600428, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.2952, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1532
+}, 
+{
+"input_to": 1652, 
+"text": "Proprio per questo Renzi vorrebbe rimanere fermo sulla sua posizione.", 
+"sentence_id": 15, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.075126, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.275392, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.214283, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.247028, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.257629, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.247527, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.274619, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.543616, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.599711, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.289023, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1583
+}, 
+{
+"input_to": 1815, 
+"text": "Mentre Franceschini non si rassegna: lui resta tra quelli che, pur sostenendo Renzi, vedono nubi all'orizzonte della scissione, nubi comunque anche per chi resta.", 
+"sentence_id": 16, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.021967, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.099994, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.0516, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.046358, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.849397, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.543112, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.246143, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.275561, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.545304, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.600557, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.251081, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1653
+}, 
+{
+"input_to": 1871, 
+"text": "La notte porter\u00e0 consiglio alla vigilia dell'assemblea.", 
+"sentence_id": 17, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.051871, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.091856, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.086115, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.681613, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.14707, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.323833, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.275457, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.549342, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.600317, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.325652, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1816
+}, 
+{
+"input_to": 2086, 
+"text": "Ma \u00e8 certo che, se scissione sar\u00e0, potrebbe ripercuotersi anche nei rapporti tra Renzi e Franceschini, l'asse finora pi\u00f9 solido del renzismo, la garanzia pi\u00f9 forte per il segretario: ora sottoposta a grande stress.", 
+"sentence_id": 18, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.073028, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.065577, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.06094, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.26856, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.564384, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.158782, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.303959, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.565771, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.616361, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.162927, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1872
+}
+]
+}{
+"document_tone": {
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.035967, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.02636, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.026033, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.629415, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.339709, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.023253, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.048915, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.191618, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.442786, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.591443, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.070943, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+]
+}, 
+"sentences_tone": [
+{
+"input_to": 132, 
+"text": "La sentencia del 'caso N\u00f3os' copa este s\u00e1bado todas las portadas de los principales peri\u00f3dicos de tirada nacional, local y regional.", 
+"sentence_id": 0, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.033165, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.060728, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.057202, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.638778, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.256269, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.010774, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.171976, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.299761, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.5373, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.590498, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.272588, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 0
+}, 
+{
+"input_to": 446, 
+"text": "Uno de esos peri\u00f3dicos, el Diario de Noticias de Navarra, ha protagonizado la atenci\u00f3n de muchos usuarios de Twitter por su peculiar forma de titular la sentencia de la Audiencia Provincial de Palma, que conden\u00f3 a seis a\u00f1os de prisi\u00f3n a I\u00f1aki Urdangarin, y mult\u00f3 con 256.000 euros a su mujer, la infanta Cristina.", 
+"sentence_id": 1, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.011334, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.038337, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.128149, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.623947, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.261567, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.178115, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.297593, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.549551, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.595569, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.208256, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 133
+}, 
+{
+"input_to": 487, 
+"text": "Y as\u00ed ha titulado este rotativo navarro:", 
+"sentence_id": 2, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.113043, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.081804, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.13042, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.471071, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.262349, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.238033, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.311495, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.525151, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.594795, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.177941, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 447
+}, 
+{
+"input_to": 488, 
+"text": "", 
+"sentence_id": 3, 
+"tone_categories": [], 
+"input_from": 488
+}, 
+{
+"input_to": 502, 
+"text": "\u00a1Buenos d\u00edas!", 
+"sentence_id": 4, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.120561, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.092573, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.097047, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.53178, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.229106, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.245111, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.276216, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.540079, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.597945, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.302238, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 489
+}, 
+{
+"input_to": 511, 
+"text": "Egun on!", 
+"sentence_id": 5, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.102044, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.213511, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.126171, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.290452, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.354424, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.098816, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.200395, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.403519, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.466726, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.077637, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 503
+}, 
+{
+"input_to": 598, 
+"text": "Consulta la portada de hoy 18 de febrero de DIARIO DE NOTICIAS https://t.co/W15jCvEyM7", 
+"sentence_id": 6, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.020058, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.017904, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.102902, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.804378, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.097781, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.26316, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.274485, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.543353, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.599515, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.281785, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 512
+}, 
+{
+"input_to": 625, 
+"text": "pic.twitter.com/sHuC6bPeUw", 
+"sentence_id": 7, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.035322, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.045142, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.17152, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.586181, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.222778, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.120723, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.262594, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.559404, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.66117, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.17742, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 599
+}, 
+{
+"input_to": 683, 
+"text": "\u2014 Diario de Noticias (@NoticiasNavarra) February 18, 2017", 
+"sentence_id": 8, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.018555, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.042444, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.140362, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.339732, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.516918, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.193581, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.278822, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.533345, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.602165, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.235767, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 626
+}, 
+{
+"input_to": 684, 
+"text": "", 
+"sentence_id": 9, 
+"tone_categories": [], 
+"input_from": 684
+}, 
+{
+"input_to": 749, 
+"text": "Estas son las reacciones que ha generado este llamativo titular:", 
+"sentence_id": 10, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.048897, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.075246, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.111585, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.65098, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.175342, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.166969, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.285632, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.550297, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.59587, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.237028, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 685
+}, 
+{
+"input_to": 750, 
+"text": "", 
+"sentence_id": 11, 
+"tone_categories": [], 
+"input_from": 750
+}, 
+{
+"input_to": 919, 
+"text": "\ud83d\uddde\"(...) Y ABSUELTA POR IGNORANTE CRISTINA DE BORB\u00d3N\" - por si alguien dudaba de que los navarros somos bien brutos \ud83e\udd17\ud83d\ude02 #NafarroaisDifferent pic.twitter.com/57uX7Hnk9v", 
+"sentence_id": 12, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.04471, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.044993, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.059596, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.820509, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.090152, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.010774, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.105062, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.320895, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.553973, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.599601, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.151652, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 751
+}, 
+{
+"input_to": 963, 
+"text": "\u2014 Jon Arregi (@JonArregi) February 18, 2017", 
+"sentence_id": 13, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.033581, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.051958, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.161349, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.273633, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.540225, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.057206, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.304197, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.380065, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.649485, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.071978, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 920
+}, 
+{
+"input_to": 964, 
+"text": "", 
+"sentence_id": 14, 
+"tone_categories": [], 
+"input_from": 964
+}, 
+{
+"input_to": 985, 
+"text": "Inigualable titular!", 
+"sentence_id": 15, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.138404, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.071141, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.089295, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.596971, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.194326, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.288349, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.274435, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.543361, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.599483, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.292923, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 965
+}, 
+{
+"input_to": 1029, 
+"text": "@NoticiasNavarra pic.twitter.com/afROuVhpWO", 
+"sentence_id": 16, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.030582, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.126206, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.193274, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.41485, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.393984, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.120723, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.262594, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.559404, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.66117, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.17742, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 986
+}, 
+{
+"input_to": 1077, 
+"text": "\u2014 Koldo Casta\u00f1eda (@koldocas) February 18, 2017", 
+"sentence_id": 17, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.030177, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.049513, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.17584, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.253101, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.547628, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.174464, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.273183, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.453945, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.576385, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.017791, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1030
+}, 
+{
+"input_to": 1078, 
+"text": "", 
+"sentence_id": 18, 
+"tone_categories": [], 
+"input_from": 1078
+}, 
+{
+"input_to": 1116, 
+"text": "#CasoNoos la mejor portada vista hoy.", 
+"sentence_id": 19, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.101664, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.093979, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.087149, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.615416, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.164543, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.237852, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.274869, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.544759, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.599622, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.281056, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1079
+}, 
+{
+"input_to": 1160, 
+"text": "@NoticiasNavarra pic.twitter.com/xYqkIXXCSJ", 
+"sentence_id": 20, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.030661, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.126144, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.19388, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.415156, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.393054, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.120723, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.262594, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.559404, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.66117, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.17742, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1117
+}, 
+{
+"input_to": 1209, 
+"text": "\u2014 JUAN MARI ONDIKOL (@ondikol) February 18, 2017", 
+"sentence_id": 21, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.03548, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.053299, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.177032, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.268432, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.525324, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.083704, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.295904, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.427438, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.583377, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.080499, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1161
+}, 
+{
+"input_to": 1210, 
+"text": "", 
+"sentence_id": 22, 
+"tone_categories": [], 
+"input_from": 1210
+}, 
+{
+"input_to": 1390, 
+"text": "@JonArregi @NoticiasNavarra \ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83d\ude02 Y encima no dicen m\u00e1s que lo que es.....\ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83d\ude02 trontxante!!!!!! \u2014 About Basque Country (@Basque_Country) February 18, 2017", 
+"sentence_id": 23, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.038411, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.101649, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.030907, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.294924, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.587058, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.174613, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.076206, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.298268, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.582798, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.442381, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.114032, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1211
+}, 
+{
+"input_to": 1391, 
+"text": "", 
+"sentence_id": 24, 
+"tone_categories": [], 
+"input_from": 1391
+}, 
+{
+"input_to": 1478, 
+"text": "Hoy el titular de @NoticiasNavarra no deja lugar a dudas!\ud83d\ude02 pic.twitter.com/5QtA2cv8gN", 
+"sentence_id": 25, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.049003, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.052724, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.111733, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.485609, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.366007, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.148995, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.303694, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.617899, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.595773, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.257647, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1392
+}, 
+{
+"input_to": 1529, 
+"text": "\u2014 Navarino Rd (@NavarinoHackney) February 18, 2017", 
+"sentence_id": 26, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.071456, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.049664, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.118097, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.228467, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.587097, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.036393, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.289236, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.396992, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.571454, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.075003, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1479
+}
+]
+}{
+"document_tone": {
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.064298, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.098005, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.106485, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.52293, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.548078, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.427076, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.121373, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.138057, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.45121, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.610034, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.119379, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+]
+}, 
+"sentences_tone": [
+{
+"input_to": 190, 
+"text": "Se i tre moschettieri della minoranza (Rossi-Emiliano-Speranza) invocano \"O svolta o addio\" la riposta dei renziani alla minoranza Pd riunita questa mattina non si \u00e8 fatta attendere a lungo.", 
+"sentence_id": 0, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.054662, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.070626, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.076116, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.682541, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.175629, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.155756, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.294349, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.546666, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.599116, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.177331, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 0
+}, 
+{
+"input_to": 258, 
+"text": "Liquidati alla svelta, come potrebbe accadere domani nel congresso.", 
+"sentence_id": 1, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.054312, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.030322, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.242059, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.706911, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.059349, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.189892, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.277871, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.553541, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.601134, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.258824, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 191
+}, 
+{
+"input_to": 461, 
+"text": "\"Mai visto tanto odio per il segretario Renzi, neanche a Pontida o in un meetup cinque stelle, dai 101 del Capranica ai 121 del Vittoria\" scrive su Twitter il deputato del Pd e renziano Ernesto Carbone.", 
+"sentence_id": 2, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.049552, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.134895, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.115706, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.173006, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.576613, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.198028, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.291754, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.551329, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.605226, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.219603, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 259
+}, 
+{
+"input_to": 563, 
+"text": "\"Questa mattina toni e parole che nulla hanno anche fare con una comunit\u00e0 che si confronta e discute.", 
+"sentence_id": 3, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.041868, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.08324, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.036398, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.200481, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.694567, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.274929, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.274537, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.543448, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.599588, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.284271, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 462
+}, 
+{
+"input_to": 735, 
+"text": "Gli ultimatum non sono ricevibili\" conferma il vicesegretario del Pd Lorenzo Guerini che sempre attraverso un tweet commenta le parole degli esponenti della minoranza dem.", 
+"sentence_id": 4, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.05122, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.10146, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.039308, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.051724, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.788308, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.264798, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.284229, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.547964, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.604819, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.193234, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 564
+}, 
+{
+"input_to": 768, 
+"text": "\"Amarezza per toni minoranza Pd.", 
+"sentence_id": 5, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.092572, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.198168, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.180897, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.319184, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.257148, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.109185, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.286481, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.54362, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.613512, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.191047, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 736
+}, 
+{
+"input_to": 824, 
+"text": "A mano tesa del segretario solo insulti e intolleranza.", 
+"sentence_id": 6, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.073318, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.067849, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.069503, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.391679, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.442918, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.086871, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.333147, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.428686, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.52633, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.119505, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 769
+}, 
+{
+"input_to": 1029, 
+"text": "La scissione \u00e8 il loro progetto....dietro a D'Alema\" \u00e8 invece il pensiero di David Ermini, sempre affidato ai social, in cui punta il dito contro l'ex segretario Pd (D'Alema oggi ha affermato: \"Scissione?", 
+"sentence_id": 7, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.180056, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.158481, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.104695, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.382436, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.23949, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.181955, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.285442, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.555936, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.608279, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.229305, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 825
+}, 
+{
+"input_to": 1053, 
+"text": "Non \u00e8 colpa mia\", ndr).", 
+"sentence_id": 8, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.017449, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.070947, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.110253, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.089896, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.772717, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.268595, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.274446, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.543403, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.599492, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.277702, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1030
+}, 
+{
+"input_to": 1126, 
+"text": "Contro l'ex leader del centrosinistra anche il senatore Andrea Marcucci.", 
+"sentence_id": 9, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.099935, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.161671, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.047734, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.232734, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.485869, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.687768, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.285753, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.281878, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.565251, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.602062, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.257361, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1054
+}, 
+{
+"input_to": 1180, 
+"text": "\"D'Alema ha gi\u00e0 scelto la scissione radunando i suoi.", 
+"sentence_id": 10, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.060784, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.084759, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.110952, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.61811, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.170865, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.097779, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.250057, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.360966, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.560442, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.040084, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1127
+}, 
+{
+"input_to": 1202, 
+"text": "Gli altri seguiranno?", 
+"sentence_id": 11, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.162325, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.126678, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.150164, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.433309, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.288316, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.287579, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.274435, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.543306, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.599483, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.289584, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1181
+}, 
+{
+"input_to": 1249, 
+"text": "Sta a voi Emiliano, Rossi, Speranza, decidere\"", 
+"sentence_id": 12, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.104731, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.144883, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.126586, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.493851, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.241537, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.93884, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.92125, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.248606, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.274398, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.550473, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.59815, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.23512, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1203
+}, 
+{
+"input_to": 1250, 
+"text": "", 
+"sentence_id": 13, 
+"tone_categories": [], 
+"input_from": 1250
+}, 
+{
+"input_to": 1280, 
+"text": "\"Dolore, rabbia, incredulit\u00e0.", 
+"sentence_id": 14, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.094817, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.071539, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.117472, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.513306, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.248561, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.199145, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.270564, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.532695, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.598998, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.096441, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1251
+}, 
+{
+"input_to": 1350, 
+"text": "Questo suscitano gli interventi a Roma di Emiliano, Speranza e Rossi.", 
+"sentence_id": 15, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.117235, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.085306, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.09782, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.553195, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.219187, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.179609, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.276473, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.543184, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.599807, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.271511, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1281
+}, 
+{
+"input_to": 1506, 
+"text": "Continuano con la logica dell'ultimatum e del diktat\" scrive in un post su facebook il segretario Pd della Toscana Dario Parrini, che \u00e8 anche deputato Dem.", 
+"sentence_id": 16, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.038754, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.25614, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.068874, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.199297, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.487026, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.332951, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.250925, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.294893, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.55772, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.615262, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.231226, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1351
+}, 
+{
+"input_to": 1543, 
+"text": "\"Sembra averli abbandonati il cuore.", 
+"sentence_id": 17, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.09845, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.071975, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.120045, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.510163, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.226986, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.299241, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.274485, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.54342, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.599535, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.261387, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1507
+}, 
+{
+"input_to": 1581, 
+"text": "Sembra averli abbandonati la ragione.", 
+"sentence_id": 18, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.028711, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.113575, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.080451, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.755482, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.088105, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.330752, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.275308, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.543028, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.60013, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.20511, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1544
+}, 
+{
+"input_to": 1635, 
+"text": "Sembra averli abbandonati il senso di responsabilit\u00e0.", 
+"sentence_id": 19, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.110596, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.068609, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.102802, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.526164, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.232156, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.250136, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.275241, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.542908, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.599748, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.214817, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1582
+}, 
+{
+"input_to": 1742, 
+"text": "Noi, fino all'ultimo, cercheremo di avere cuore, testa e responsabilit\u00e0 anche per loro\", aggiunge Parrini.", 
+"sentence_id": 20, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.091722, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.184272, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.144939, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.38765, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.253303, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.727798, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.252766, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.275116, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.542238, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.599767, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.269221, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1636
+}, 
+{
+"input_to": 1784, 
+"text": "\"Non ho mai risparmiato critiche a Renzi.", 
+"sentence_id": 21, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.049311, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.177563, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.223676, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.180223, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.458484, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.236991, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.276212, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.544119, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.600894, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.26294, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1743
+}, 
+{
+"input_to": 1884, 
+"text": "Ma quello sentito oggi da palco rivoluzione socialista \u00e8 inaccettabile e ingiusto perch\u00e9 non vero\".", 
+"sentence_id": 22, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.030438, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.052863, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.080938, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.385627, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.514501, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.230137, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.276644, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.549054, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.601436, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.217211, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1785
+}, 
+{
+"input_to": 1936, 
+"text": "Cos\u00ec Matteo Richettisi aggiunge al coro su twitter.", 
+"sentence_id": 23, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.035624, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.015344, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.07687, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.477372, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.43135, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.047658, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.258262, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.514994, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.595615, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.037333, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1885
+}, 
+{
+"input_to": 1953, 
+"text": "\"Fermi dal 4/12.", 
+"sentence_id": 24, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.085938, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.030708, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.140713, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.625139, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.175742, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.335125, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.274777, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.545777, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.601183, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.267729, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1937
+}, 
+{
+"input_to": 2034, 
+"text": "Nel nostro immobilismo tattico siamo incomprensibili per chi ci guarda da fuori.", 
+"sentence_id": 25, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.055598, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.096722, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.08235, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.168633, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.671001, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.271054, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.274791, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.544317, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.600057, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.300317, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1954
+}, 
+{
+"input_to": 2131, 
+"text": "Sicuri che la parola giusta sia fermiamoci?\" \u00e8 infine il commento della deputata Pd Anna Ascani.", 
+"sentence_id": 26, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.041604, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.054775, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.098163, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.14986, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.68284, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.192897, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.278257, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.546279, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.602143, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.165928, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 2035
+}, 
+{
+"input_to": 2154, 
+"text": "La battuta di Emiliano", 
+"sentence_id": 27, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.055625, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.094224, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.076913, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.711782, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.122784, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.240599, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.275151, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.54598, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.600004, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.251422, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 2132
+}, 
+{
+"input_to": 2155, 
+"text": "", 
+"sentence_id": 28, 
+"tone_categories": [], 
+"input_from": 2155
+}, 
+{
+"input_to": 2184, 
+"text": "Rossi: no a partito di Renzi", 
+"sentence_id": 29, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.094718, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.109537, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.109533, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.402407, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.349471, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.197214, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.274822, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.545096, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.598978, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.311482, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 2156
+}
+]
+}{
+"document_tone": {
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.08057, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.119881, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.112585, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.562511, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.229689, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.005374, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.13708, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.149347, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.497633, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.602276, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.071911, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+]
+}, 
+"sentences_tone": [
+{
+"input_to": 13, 
+"text": "ADVERTISEMENT", 
+"sentence_id": 0, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.0, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.0, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.0, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.0, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.0, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.288856, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.274434, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.543329, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.599483, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.291456, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 0
+}, 
+{
+"input_to": 14, 
+"text": "", 
+"sentence_id": 1, 
+"tone_categories": [], 
+"input_from": 14
+}, 
+{
+"input_to": 211, 
+"text": "Un avion du transporteur a\u00e9rien Turquish Airline qui devait se rendre \u00e0 Toronto a \u00e9t\u00e9 \u00e9vacu\u00e9 \u00e0 Istanbul apr\u00e8s la d\u00e9couverte d'une note suspicieuse dans l'un des cabinets de toilette de l'appareil.", 
+"sentence_id": 2, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.05131, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.140513, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.090491, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.709712, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.089352, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.004416, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.219234, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.314165, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.586901, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.579378, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.121849, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 15
+}, 
+{
+"input_to": 526, 
+"text": "L'\u00e9quipage a d\u00e9couvert l'inscription \"BOMB TO TORONTO\" (\"Bombe \u00e0 Toronto\") sur le mur d'un cabinet de toilette du vol TK-17 alors que l'avion s'\u00e9loignait graduellement des portes d'embarquements de l'a\u00e9roport international Atat\u00fcrk, \u00e0 Istanbul, a indiqu\u00e9 un responsable de la Turquish Airlines \u00e0 l'Associated Press.", 
+"sentence_id": 3, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.066541, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.190515, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.134334, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.393405, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.289371, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.291488, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.396757, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.638589, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.617378, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.1309, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 212
+}, 
+{
+"input_to": 598, 
+"text": "L'avion devait se rendre \u00e0 l'a\u00e9roport international Pearson, \u00e0 Toronto.", 
+"sentence_id": 4, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.07163, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.040206, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.064641, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.733128, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.138237, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.221431, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.285912, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.605115, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.608249, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.120941, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 527
+}, 
+{
+"input_to": 685, 
+"text": "Il a toutefois \u00e9t\u00e9 redirig\u00e9 vers son espace de stationnement pour ensuite \u00eatre \u00e9vacu\u00e9.", 
+"sentence_id": 5, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.047311, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.077652, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.090495, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.57994, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.261696, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.178845, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.292629, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.586244, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.578967, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.184242, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 599
+}, 
+{
+"input_to": 815, 
+"text": "La compagnie a\u00e9rienne a fait savoir que l'engin et les passagers qui se trouvaient \u00e0 bord font l'objet de pr0c\u00e9dures de s\u00e9curit\u00e9.", 
+"sentence_id": 6, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.026798, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.052117, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.195748, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.464273, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.328915, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.209755, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.282143, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.558541, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.595605, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.136578, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 686
+}, 
+{
+"input_to": 1024, 
+"text": "La personne responsable des communications avec la presse, qui n'a pas voulu s'identifier, a envoy\u00e9 un message texte \u00e0 l'Associated Press apr\u00e8s que l'agence de presse eut fait parvenir une demande d'entrevue.", 
+"sentence_id": 7, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.238246, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.302518, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.129211, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.265786, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.156563, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.294783, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.227733, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.277975, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.555458, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.59975, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.19992, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 816
+}, 
+{
+"input_to": 1063, 
+"text": "Abonnez-vous \u00e0 notre page sur Facebook", 
+"sentence_id": 8, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.09881, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.092571, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.127293, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.563539, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.208877, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.275669, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.274446, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.543634, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.599534, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.290509, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1025
+}, 
+{
+"input_to": 1064, 
+"text": "", 
+"sentence_id": 9, 
+"tone_categories": [], 
+"input_from": 1064
+}, 
+{
+"input_to": 1088, 
+"text": "Suivez-nous sur Twitter", 
+"sentence_id": 10, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.037653, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.018248, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.049026, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.493955, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.467071, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.285969, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.274434, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.543326, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.599483, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.289888, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1065
+}
+]
+}
