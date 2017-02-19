@@ -21,56 +21,25 @@ export function tag(e) {
 export function createTip(e) {
 	if ($(e).attr("news") == "true") {
 		$(e).attr("hasTip", "true")
-<<<<<<< HEAD
 		var text = Promise.resolve(
-			// JSON.stringify({
-			// 	weighted_average: 1.1,
-			// 	summary: 'THIS IS A SUMmary',
-			// 	brand: "Viterbi",
-			// 	title: "M'Title"
-			// })
-=======
-		// var text = Promise.resolve(
-		// 	$.ajax({
-				// url: root2 + "/spectrum?url=" + encodeURIComponent($(e).attr("href")),
-				// url: root2 + "/spectrum?url=" + encodeURIComponent($(e).attr("href")),
-				// method: "GET"
-			// })
-		// )
+			$.ajax({
+				url: root2 + "/spectrum?url=" + encodeURIComponent($(e).attr("href")),
+				method: "GET"
+			})
+		)
 		var related = Promise.resolve(
->>>>>>> fee9066b7ce2ce97bc2d6a8de515239114efb83c
 			$.ajax({
 				url: root1,
 				method: "POST",
-				data: { title: encodeURIComponent($(e).text()) },
+				data: {
+					title: encodeURIComponent($(e).text())
+				},
 				dataType: "application/json; charset=utf-8"
 			})
 		)
-<<<<<<< HEAD
-		var related = Promise.resolve(
-			{
-				realated: "SOME ARTICLE"
-			}
-			// $.ajax({
-			// 	url: "be;h",
-			// 	method: "GET"
-			// })
-		)
 		var promises = Promise.all([text, related])
-			.then(function(info) {
+			.then(function (info) {
 				let data = JSON.parse(info[0]);
-=======
-		// var promises = Promise.all([text, related])
-		var promises = Promise.all([related])
-			.then(function(info) {
-				var data = {
-					"weighted_average" : 0,
-					"summary" : "this is a great summary",
-					"brand" : "New York Times",
-					"title" : "McCain fights Trump"
-				}
-				// data = JSON.parse(info[0]);
->>>>>>> fee9066b7ce2ce97bc2d6a8de515239114efb83c
 				let bias = Math.round(data.weighted_average * 1.1);
 				let political;
 				let politicHex;
@@ -124,19 +93,18 @@ export function createTip(e) {
 				});
 			})
 			.catch(function (err) {
-	      if (err.status != 200) {
-	        console.log("FAILED")
-	        console.log($(elm).text());
-	        console.log(err);
-	      }
-	      else {
-	        var response = JSON.parse(err.responseText);
-	        console.log(response);
+				if (err.status != 200) {
+					console.log("FAILED")
+					console.log($(elm).text());
+					console.log(err);
+				} else {
+					var response = JSON.parse(err.responseText);
+					console.log(response);
 					var data = {
-						"weighted_average" : 0,
-						"summary" : "this is a great summary",
-						"brand" : "New York Times",
-						"title" : "McCain fights Trump"
+						"weighted_average": 0,
+						"summary": "this is a great summary",
+						"brand": "New York Times",
+						"title": "McCain fights Trump"
 					}
 					// data = JSON.parse(info[0]);
 					let bias = Math.round(data.weighted_average * 1.1);
@@ -182,13 +150,13 @@ export function createTip(e) {
 			    	  	</div>
 						<div class="related">
 							<div class="title"> Related Articles </div>`
-					response.data.forEach(function(article) {
+					response.data.forEach(function (article) {
 						html += `<p class="ourText">`
-						html += `<a href="` +  article[2] +  `">` + article[0] + `</a>`
+						html += `<a href="` + article[2] + `">` + article[0] + `</a>`
 						html += `</p>`
 					});
 
-					html +=	`</div>
+					html += `</div>
 					</div>
 					`
 
