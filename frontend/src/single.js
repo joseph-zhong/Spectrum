@@ -4,7 +4,6 @@ import {
 
 const root = "https://grandmaskittens.com"
 
-
 export function tag(e) {
 	var link = $(e).attr('href');
 	if (link) {

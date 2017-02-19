@@ -1,5 +1,6 @@
 import json
 import os
+import urllib
 
 import numpy as np
 import time
@@ -102,7 +103,7 @@ def init_tree():
       y_val = POLITICAL_SPECTRUM[source]
     else:
       print 'SOURCE NOT IN POLITICAL_SPECTRUM %s ' % source
-      y_val = (np.random.random_sample() * 3 - 2)
+      y_val = np.random.randint(-2, 3)
 
     with open(os.path.join(SENTIMENT, fn), 'r') as json_file:
       src_tone_data = json.load(json_file)
@@ -110,9 +111,8 @@ def init_tree():
         X.append(create_x_feature_vector(inference, source=source))
         Y.append(y_val)
 
-  if VERBOSE:
-    print X
-    print Y
+  print X
+  print Y
   import pickle
 
   curr_time = time.time()
@@ -123,6 +123,8 @@ def init_tree():
 
   print len(X)
   print len(Y)
+
+
 
   _clf = RandomForestClassifier(n_estimators=20)
   _clf = _clf.fit(X, Y)
@@ -202,25 +204,23 @@ TEST = {
   ]
 }
 
+def test_tree():
+  for test in TEST:
+    print test
+    for hyperlink in TEST[test]:
+      print 'hyperlink %s ' % hyperlink
+      run_inference(hyperlink)
 
-init_tree()
-
-
-# for test in TEST:
-#   print test
-#   for hyperlink in TEST[test]:
-#     print 'hyperlink %s ' % hyperlink
-#     run_inference(hyperlink)
-#
-# OCCUPY_ARTICLE = 'occupy_article'
-# print 'occupy test expected -2'
-# for fn in os.listdir(OCCUPY_ARTICLE):
-#   with open(os.path.join(OCCUPY_ARTICLE, fn), 'r') as article_file:
-#     lines = article_file.readlines()
-#     run_inference_on_text(''.join(lines))
-
+  OCCUPY_ARTICLE = 'occupy_article'
+  print 'occupy test expected -2'
+  for fn in os.listdir(OCCUPY_ARTICLE):
+    with open(os.path.join(OCCUPY_ARTICLE, fn), 'r') as article_file:
+      lines = article_file.readlines()
+      run_inference_on_text(''.join(lines))
 
 # initialize the Flask app
+init_tree()
+test_tree()
 app = Flask(__name__)
 
 
@@ -232,23 +232,14 @@ def hello():
 """
 
 """
-@app.route('/spectrum', methods=['POST'])
+@app.route('/spectrum', methods=['GET'])
 def spectrum():
-  data = json.loads(request.data.decode())
-  print data
-
-  url = data['url']
+  url = request.args.get('url')
+  print url
 
   # extract summary, score, suggested sites
-  summary, original, title, brand = extractSentences(url.encode('utf-8'), 3)
+  summary, original, title, brand = extractSentences(url.encode('utf-8'))
   political_score, max_score = run_inference(url)
-
-  # suggestions = []
-  # suggestions_spectrum_scores = []
-  # for i in range(3):
-  #   score = max(min(-1, -(max_score)), 1)
-  #   choice = CLASSIFICATIONS[score]
-
 
   # jsonify array
   political_score = np.array(political_score).tolist()
@@ -257,9 +248,11 @@ def spectrum():
   print 'summary: %s' % summary
 
   result = {}
+  result['title'] = title
   result['brand'] = brand
   result['political_score'] = political_score
   result['summary'] = summary
+
   # result['suggestions'] = suggestions
   # result['suggestions_spectrum_scores'] = suggestions_spectrum_scores
 
