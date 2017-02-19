@@ -69,6 +69,9 @@ export function createTip(e) {
 						break;
 				}
 				let val = data.summary;
+				console.log(data);
+				data.suggestions = JSON.parse(data.suggestions);
+				console.log(data);
 				let source = data.brand;
 				let title = data.title;
 				let html = `
@@ -84,12 +87,23 @@ export function createTip(e) {
 		      		<div class="summary">
 		       		 	<p class="ourText"> ${val} </p>
 		    	  	</div>
-				</div>
-				`
+					  <hr>
+						<div class="related">
+			 				<div class="title"> Related Articles </div>`
+			 		data.suggestions.forEach(function (item) {
+						html += `<p class="ourText article">`
+						html += `<a href="` + item.url + `">` + item.title + `</a>`
+						html += `</p>`
+					});
+
+					html += `</div>
+					</div>`
 				Tipped.create($(e), html, {
 					position: "right"
 					// hideOn: false
 				});
+			}).catch(function(err){
+				console.log(err);
 			})
 			// .catch(function (err) {
 			// 	if (err.status != 200) {

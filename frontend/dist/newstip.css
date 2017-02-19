@@ -57,6 +57,23 @@
 p.ourText {
   font-family: sans-serif;
   font-size: 12px;
+  
+}
+
+p.related {
+  padding-bottom: 5px;
+}
+
+/*hr {
+  margin-top: 15px;
+}*/
+
+p.article > a {
+ color: #000;
+}
+
+p.article {
+  margin: 0;
 }
 
 .summary {
