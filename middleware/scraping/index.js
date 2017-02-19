@@ -11,16 +11,19 @@ app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
 
 app.get('/', function(req, res) {
   console.log("GET / Entered");
-  res.send('Welcome to Spectrum.');
-})
-
-app.post('/', function(req, res) {
-  console.log("POST / Entered");
-  scraper.scrape(req.body.title, function(data) {
+  scraper.scrape(req.query.title, function(data) {
     console.log("Returned the following data:\n" + data);
     res.json(data);
   });
 })
+
+// app.post('/', function(req, res) {
+//   console.log("POST / Entered");
+//   scraper.scrape(req.body.title, function(data) {
+//     console.log("Returned the following data:\n" + data);
+//     res.json(data);
+//   });
+// })
 
 app.listen(process.env.PORT || 3000, function() {
   console.log("App listening on port 3000!!");

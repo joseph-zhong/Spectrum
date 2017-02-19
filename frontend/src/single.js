@@ -20,47 +20,54 @@ export function tag(e) {
 
 export function createTip(e) {
 	if ($(e).attr('news') == "true") {
-		$(e).attr("hasTip", "true");
-		console.log($(e).text());
-		$.ajax({
-			// url: root,
-			// method: "POST",
-			// data: {title: $(e).text()},
-			// contentType: "application/json; charset=utf-8"
-			url: root + "/spectrum?url="+ encodeURIComponent($(e).attr('href')),
-			method: "GET"
-		}).then(function (data) {
-			console.log("SUCCESSS")
-			data = JSON.parse(data);
-			let bias = Math.round(data.weighted_average*1.1) ;
-			let political;
-			let politicHex;
-			switch (bias) {
-				case -2:
-					political = "Liberal";
-					politicHex = "#3751ff";
-					break;
-				case -1:
-					political = "Moderate Liberal";
-					politicHex = "#6fa0ff";
-					break;
-				case 0:
-					political = "Neutral";
-					politicHex = "#b265ff";
-					break;
-				case 1:
-					political = "Moderate Conservative";
-					politicHex = "#ff7070";
-					break;
-				case 2:
-					political = "Conservative";
-					politicHex = "#fe4d4d";
-					break;
-			}
-			let val = data.summary;
-			let source = data.brand;
-			let title = data.title;
-			let html = `
+		$(e).attr("hasTip", "true")
+		var text = Promise.resolve(
+			$.ajax({
+				url: root2 + "/spectrum?url=" + encodeURIComponent($(e).attr('href')),
+				method: "GET"
+			})
+		)
+		var related = Promise.resolve(
+			$.ajax({
+				url: root1,
+				method: "POST",
+				data: {title: $(e).text()},
+				contentType: "application/json; charset=utf-8"
+			})
+		)
+		var promises = Promise.all([text, related])
+			.done(function (info) {
+
+				data = JSON.parse(info[0]);
+				let bias = Math.round(data.weighted_average * 1.1);
+				let political;
+				let politicHex;
+				switch (bias) {
+					case -2:
+						political = "Liberal";
+						politicHex = "#3751ff";
+						break;
+					case -1:
+						political = "Moderate Liberal";
+						politicHex = "#6fa0ff";
+						break;
+					case 0:
+						political = "Neutral";
+						politicHex = "#b265ff";
+						break;
+					case 1:
+						political = "Moderate Conservative";
+						politicHex = "#ff7070";
+						break;
+					case 2:
+						political = "Conservative";
+						politicHex = "#fe4d4d";
+						break;
+				}
+				let val = data.summary;
+				let source = data.brand;
+				let title = data.title;
+				let html = `
 				<div class="box">
 					<div class="political" style="background-color: ${politicHex};">
 						<div class="title bigFont">
@@ -79,14 +86,14 @@ export function createTip(e) {
 					</div>
 				</div>
 				`
-			Tipped.create($(e), html, {
-				position: "right"
-				// hideOn: false
-			});
-		}).catch(function(err){
-			console.log("FAILED")
-			console.log(err);
-		})
+				Tipped.create($(e), html, {
+					position: "right"
+					// hideOn: false
+				});
+			}).catch(function (err) {
+				console.log("FAILED")
+				console.log(err);
+			})
 	}
 }
 
