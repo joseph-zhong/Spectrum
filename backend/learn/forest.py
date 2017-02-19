@@ -45,9 +45,9 @@ SPECTRUM = 'spectrum'
 TRAINING = 'training'
 SPECTRUM_JSON = 'spectrum.json'
 with open(os.path.join(TRAINING, SPECTRUM, SPECTRUM_JSON)) as spectrum_json:
-  print 'loading POLITICAL_SPECTRUM'
+  # print'loading POLITICAL_SPECTRUM'
   POLITICAL_SPECTRUM = json.load(spectrum_json)
-  # print POLITICAL_SPECTRUM
+  # # printPOLITICAL_SPECTRUM
 
 # schema
 DOCUMENT_TONE = 'document_tone'
@@ -80,23 +80,23 @@ def create_x_feature_vector(inference, source=None):
   social_category = tone_categories[SOCIAL_CATEGORY]
 
   x_i = []
-  # print 'adding emotion category'
+  # # print'adding emotion category'
   for obj in [tone[SCORE] for tone in emotion_category[TONES][:]]:
     x_i.append(obj)
 
-  # print 'adding style category'
+  # # print'adding style category'
   for obj in [tone[SCORE] for tone in style_category[TONES][:]]:
     x_i.append(obj)
 
-  # print 'adding social category'
+  # # print'adding social category'
   for obj in [tone[SCORE] for tone in social_category[TONES][:]]:
     x_i.append(obj)
 
-  # print 'adding source category'
+  # # print'adding source category'
   if source is not None and source in POLITICAL_SPECTRUM:
     x_i.append(POLITICAL_SPECTRUM[source])
   else:
-    print '[create x ftr vector] SOURCE NOT IN POLITICAL_SPECTRUM %s ' % source
+    # print'[create x ftr vector] SOURCE NOT IN POLITICAL_SPECTRUM %s ' % source
     x_i.append(np.random.randint(-2, 3)) # remove to train a backup tree
 
   return x_i
@@ -108,13 +108,13 @@ def init_tree():
   Y = []
 
   for fn in os.listdir(SENTIMENT):
-    print 'file: %s' % fn
+    # print'file: %s' % fn
     source = fn.split('.')[0]
 
     if source in POLITICAL_SPECTRUM:
       y_val = POLITICAL_SPECTRUM[source]
     else:
-      print '[init tree] SOURCE NOT IN POLITICAL_SPECTRUM %s ' % source
+      # print'[init tree] SOURCE NOT IN POLITICAL_SPECTRUM %s ' % source
       y_val = np.random.randint(-2, 3)
 
     with open(os.path.join(SENTIMENT, fn), 'r') as json_file:
@@ -125,8 +125,8 @@ def init_tree():
 
         Y.append(y_val)
 
-  # print X
-  # print Y
+  # # printX
+  # # printY
 
   curr_time = time.time()
   with open('training/x/x_features_%s' % curr_time, 'wb') as fp:
@@ -134,18 +134,18 @@ def init_tree():
   with open('training/y/y_features_%s' % curr_time, 'wb') as fp:
     pickle.dump(Y, fp)
 
-  print len(X)
-  print len(Y)
+  # printlen(X)
+  # printlen(Y)
 
-  print 'classifier'
+  # print'classifier'
   _clf = RandomForestClassifier(n_estimators=20)
   _clf = _clf.fit(X, Y)
-  print _clf.classes_
+  # print_clf.classes_
 
-  # print 'backup'
+  # # print'backup'
   # _clf_backup = RandomForestClassifier(n_estimators=20)
   # _clf_backup = _clf_backup.fit(X_backup, Y)
-  # print _clf_backup.classes_
+  # # print_clf_backup.classes_
 
 
 def run_inference(hyperlink):
@@ -161,10 +161,10 @@ def run_inference(hyperlink):
 
     inference = tone_analyzer.tone(text=article.text.encode('utf-8'))
 
-    # print inference
+    # # printinference
 
     domain = tldextract.extract(article.url)[EXTRACT_DOMAIN]
-    print 'extracted domain %s' % domain
+    # print'extracted domain %s' % domain
     use_backup_tree = domain in POLITICAL_SPECTRUM
     if use_backup_tree:
       X.append(create_x_feature_vector(inference, source=domain))
@@ -175,9 +175,9 @@ def run_inference(hyperlink):
       # retval = _clf.predict(X)
       retval = _clf.predict_proba(X)
 
-    print 'spectrum score: %s' % retval
+    # print'spectrum score: %s' % retval
   except Exception as e:
-    print '[run infr on link] ANALYSIS ERROR %s ' % e
+    print'[run infr on link] ANALYSIS ERROR %s ' % e
 
   weighted_avg = 0
   for i in xrange(len(retval[0])):
@@ -188,7 +188,7 @@ def run_inference(hyperlink):
 
 
 def run_inference_on_text(text):
-  # print text
+  # # printtext
   global _clf
 
   X = []
@@ -198,9 +198,9 @@ def run_inference_on_text(text):
 
     # retval = _clf.predict(X)
     retval = _clf.predict_proba(X)
-    print 'spectrum score: %s' % retval
+    # print'spectrum score: %s' % retval
   except Exception as e:
-    print '[run infr on txt] ANALYSIS ERROR %s ' % e
+    print'[run infr on txt] ANALYSIS ERROR %s ' % e
 
 
 
@@ -230,7 +230,7 @@ TEST = {
 }
 
 def save_history():
-  print 'SAVING HISTORY'
+  # print'SAVING HISTORY'
   with open(HISTORY_JSON, 'w+') as outfile:
     json.dump(previous_results, outfile)
 
@@ -249,17 +249,17 @@ def hello():
 @app.route('/spectrum', methods=['GET'])
 def spectrum():
   url = request.args.get('url')
-  print url
+  # printurl
   if url in previous_results:
     return previous_results[url]
 
   # extract summary, score, suggested sites
-  summary, original, title, brand = extractSentences(url.encode('utf-8'))
+  summary, original, title, brand, keywords = extractSentences(url.encode('utf-8'))
   weighted_avg, max_score = run_inference(url)
 
-  print 'brand: %s' % brand
-  print 'weighted_avg: %s' % weighted_avg
-  print 'summary: %s' % summary
+  # print'brand: %s' % brand
+  # print'weighted_avg: %s' % weighted_avg
+  # print'summary: %s' % summary
 
   result = {}
   result['title'] = title
@@ -267,16 +267,18 @@ def spectrum():
   result['weighted_average'] = weighted_avg
   result['summary'] = summary
   # produce summaries
-  data, len = bingArticle(title, brand)
+  data, count = bingArticle(title[len(title)*2/4:len(title)* 3/4] + ' '.join(keywords), brand)
   suggestions = []
-  for i in xrange(len):
+  for i in xrange(int(count)):
     suggestion = {}
-    suggestion['title'] = data['webPages']['value'][i]['name']
+    # suggestion['title'] = data['webPages']['value'][i]['name']
+    # suggestion['title'] = data['webPages']['value'][i]['snippet']
+    suggestion['title'] = data['webPages']['value'][i]['displayUrl'].split('.')[1]
     suggestion['url'] = data['webPages']['value'][i]['url']
-    print suggestion
+    # # printsuggestion
     suggestions.append(suggestion)
 
-  print json.dumps(suggestions)
+  # # printjson.dumps(suggestions)
   result['suggestions'] = json.dumps(suggestions)
 
   """
