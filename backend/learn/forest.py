@@ -1,14 +1,14 @@
 import json
 import os
-from Tkinter import Image
 
-from sklearn import tree
-import pydotplus
+from sklearn.ensemble import RandomForestClassifier
 import newspaper
 from newspaper import Article
 from watson_developer_cloud import ToneAnalyzerV3
 
 from constants import private
+
+from flask import Flask, request, session, g, redirect, url_for, abort, render_template, flash, jsonify
 
 tone_analyzer = ToneAnalyzerV3(
    username=private.username,
@@ -109,7 +109,7 @@ def init_tree():
   print len(X)
   print len(Y)
 
-  _clf = tree.DecisionTreeClassifier()
+  _clf = RandomForestClassifier(n_estimators=20)
   _clf = _clf.fit(X, Y)
   print _clf.classes_
 
@@ -225,3 +225,23 @@ for fn in os.listdir(OCCUPY_ARTICLE):
   with open(os.path.join(OCCUPY_ARTICLE, fn), 'r') as article_file:
     lines = article_file.readlines()
     run_inference_on_text(''.join(lines))
+
+
+# initialize the Flask app
+app = Flask(__name__)
+
+@app.route('/', methods=['GET'])
+def hello():
+  return 'hello'
+
+
+@app.route('/spectrum', methods=['POST'])
+def spectrum():
+  in_meta = json.loads(request.data.decode())
+  print in_meta
+  # get summary +
+
+  return run_inference(in_meta)
+
+if __name__ == '__main__':
+  app.run(host='0.0.0.0', port=80)
