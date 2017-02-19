@@ -2,7 +2,7 @@ import {
 	sites
 } from "./sites.js"
 
-const root = "http://138.68.27.6:3000/"
+const root = "https://specbot.info/treehacks"
 
 
 export function tag(e) {
@@ -20,12 +20,13 @@ export function tag(e) {
 
 export function createTip(e) {
 	if ($(e).attr('news') == "true") {
-		$(e).attr("hasTip", "true")
+		$(e).attr("hasTip", "true");
+		console.log($(e).text());
 		$.ajax({
-			url: "/",
+			url: root,
 			method: "POST",
 			data: {title: $(e).text()},
-			contentType:"application/json; charset=utf-8"
+			contentType: "application/json; charset=utf-8"
 		}).then(function (data) {
 			console.log("SUCCESSS")
 			console.log(data);
