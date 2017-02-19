@@ -12,7 +12,7 @@
 
 /* Custom CSS */
 .box {
-  width: 1000px;
+  width: 300px;
   padding: 0;
   font-family: 'Arial';
 }
@@ -23,9 +23,6 @@
   margin-top: -10px;
   margin-left: -10px;
   margin-right: -10px;
-  /*padding-top: 5px;
-  padding-bottom: 5px;*/
-  /*background-color: rgb(255, 112, 112);*/
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
 }
