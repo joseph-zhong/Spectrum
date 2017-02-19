@@ -19,8 +19,9 @@ app.post('/', function(req, res) {
   scraper.scrape(req.body.title, function(data) {
     console.log("Returned the following data:\n" + data);
     var toRet = {};
-    toRet.body = data;
-    console.log(toRet);
+    toRet.data = data[2];
+    toRet.politicalScore = data[0];
+    toRet.politicalScoreRelevant = data[1];
     res.json(toRet);
   });
 })
