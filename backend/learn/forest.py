@@ -1,5 +1,6 @@
 import json
 import os
+import urllib
 
 import numpy as np
 import time
@@ -232,12 +233,12 @@ def hello():
 """
 
 """
-@app.route('/spectrum', methods=['POST'])
+@app.route('/spectrum', methods=['GET'])
 def spectrum():
-  data = json.loads(request.data.decode())
-  print data
-
-  url = data['url']
+  url = request.args.get('url')
+  print url
+  url = urllib.unquote(url).decode('utf8')
+  print url
 
   # extract summary, score, suggested sites
   summary, original, title, brand = extractSentences(url.encode('utf-8'), 3)
