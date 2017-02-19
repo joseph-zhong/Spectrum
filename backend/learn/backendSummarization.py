@@ -1,3 +1,5 @@
+import urllib
+
 import numpy
 import nltk
 import string
@@ -76,7 +78,7 @@ def extractSentences(url, length=3):
 
   print 'before clean_text'
 
-  sentence = clean_text_by_sentences(origText, language="english")
+  sentence = clean_text_by_sentences(origText, language='english')
   # print sentence
 
   print 'before senToken'
@@ -101,7 +103,7 @@ def extractSentences(url, length=3):
   pulledSentence = sentence[:int(length)]
   # most important sentences in ascending order of importance
   pulledSentence.sort(key=lambda s: s.index)
-  return "\n".join([sen.text for sen in pulledSentence]), origText, article.title, paper.brand
+  return '\n'.join([sen.text for sen in pulledSentence]), origText, article.title, paper.brand
 
 
 
@@ -111,14 +113,14 @@ def bingArticle(headline, source, count='3'):
   headers = {'Ocp-Apim-Subscription-Key': '935c7077f70447cdb248c3f84e9695b8', }
 
   params = urllib.urlencode({
-    'q': headline + "-site:%s" % source,
+    'q': '%s -site:%s' % (headline, source),
     'count': count,
     'offset': '0',
     'mkt': 'en-us',
   })
 
   conn = httplib.HTTPSConnection('api.cognitive.microsoft.com')
-  conn.request("GET", "/bing/v5.0/search?%s" % params, "{body}", headers)
+  conn.request('GET', '/bing/v5.0/search?%s' % params, '{body}', headers)
   response = conn.getresponse()
   data = json.loads(response.read())
   # url = data['webPages']['value'][0]['url']
