@@ -36,3 +36,45 @@ about what they're reading and ultimately broaden their view
 ## Resources
 
 ![spectrum](spectrum.jpg)
+
+### News Sources
+
+- OccupyDemocrats
+- Us.Uncut
+- HuffingtonPost
+- MSNBC
+- Atlantic
+- Slate
+- Vox
+- The Guardian
+- NPR
+- BBC
+- WashingtonPost
+- New York Times
+- ABC News
+- AP
+- Reuters
+- USA Today
+- CNN
+- The Wall Street Journal
+- The Economist
+- The Fiscal Times
+- The Hill
+- Fox News
+- Red State
+- The Blaze
+
+#### To use as baselines
+
+- Huffington Post
+- The Washington Post
+- Fox News
+
+#### To produce corpus:
+- BBC
+- The Economist
+- The Fiscal Times
+- WallStreetJournal
+- MSNBC
+- Occupy Democrats
+

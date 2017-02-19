@@ -1,0 +1,1274 @@
+[{
+"document_tone": {
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.155646, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.539429, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.136945, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.189643, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.304322, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.488306, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.260137, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.606421, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.941715, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.984843, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.835087, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.947099, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+]
+}, 
+"sentences_tone": [
+{
+"input_to": 202, 
+"text": "The White House fired a senior National Security Council aide yesterday after reports that he had harshly criticized President Trump and his team at a private event in front of about two dozen scholars.", 
+"sentence_id": 0, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.052221, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.652329, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.173942, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.040767, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.193828, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.049673, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.666646, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.954916, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.98374, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.890115, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.945633, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 0
+}, 
+{
+"input_to": 281, 
+"text": "Craig Deare had been serving as the NSC\u2019s senior director for Western Affairs.", 
+"sentence_id": 1, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.128174, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.325962, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.091577, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.191675, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.367672, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.634304, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.804403, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.92551, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.738411, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.709574, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 203
+}, 
+{
+"input_to": 470, 
+"text": "At an off-the-record roundtable hosted by the Woodrow Wilson Center, Deare criticized Trump and chief strategist Steve Bannon, venting about the chaotic nature of the Trump administration.", 
+"sentence_id": 2, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.408447, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.416821, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.146207, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.016832, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.138375, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.3562, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.090327, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.793031, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.439843, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.941333, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.579743, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.735134, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 282
+}, 
+{
+"input_to": 593, 
+"text": "Deare particularly lamented the fact that senior national security aides like himself do not have access to the president.", 
+"sentence_id": 3, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.050343, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.291447, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.204397, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.017517, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.554257, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.778006, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.352522, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.136515, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.732629, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.479892, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.168313, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.926952, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 471
+}, 
+{
+"input_to": 709, 
+"text": "He also performed an embarrassing reenactment Trump\u2019s hostile phone call with Mexican President Enrique Pena Nieto.", 
+"sentence_id": 4, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.077972, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.417114, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.038543, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.418278, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.108556, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.201326, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.295267, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.889543, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.684155, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.714394, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 594
+}, 
+{
+"input_to": 737, 
+"text": "\u201cI don\u2019t need the Mexicans.", 
+"sentence_id": 5, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.157198, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.098836, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.135693, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.278884, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.420823, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.06713, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.258419, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.252685, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.334683, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.475261, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 710
+}, 
+{
+"input_to": 821, 
+"text": "I don\u2019t need Mexico,\u201d Trump told the Mexican president, according to Mexican press.", 
+"sentence_id": 6, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.212433, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.257463, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.125602, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.176291, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.325555, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.920855, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.323177, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.526623, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.757884, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.702027, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.887785, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 738
+}, 
+{
+"input_to": 907, 
+"text": "\u201cWe are going to build the wall and you all are going to pay for it, like it or not.\u201d", 
+"sentence_id": 7, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.238012, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.098436, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.13075, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.343508, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.250542, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.017218, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.174613, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.417031, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.9795, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.587649, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.19943, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.918469, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 822
+}, 
+{
+"input_to": 979, 
+"text": "Deare\u2019s firing is the latest of many to leave the Trump administration.", 
+"sentence_id": 8, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.074731, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.125817, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.16018, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.159078, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.554354, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.618267, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.696992, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.623533, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.359843, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.859061, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 908
+}, 
+{
+"input_to": 1201, 
+"text": "Trump\u2019s national security adviser Michael Flynn was fired last week for lying to the vice president about his conversations with Russian ambassador Sergey Kislyak, and Trump\u2019s choice to replace him has declined the offer.", 
+"sentence_id": 9, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.087593, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.398837, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.276775, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.029014, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.325664, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.229362, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.049673, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.358353, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.986368, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.989909, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.953662, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.969562, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 980
+}, 
+{
+"input_to": 1412, 
+"text": "Trump also fired acting Attorney General Sally Yates for writing to lawyers not to defend his Muslim Immigration Ban, and several top officials within the State Dept resigned shortly after Trump\u2019s inauguration.", 
+"sentence_id": 10, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.405474, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.417841, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.106126, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.034797, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.163831, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.405423, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.025429, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.767338, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.954036, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.970402, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.92936, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.948126, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1202
+}, 
+{
+"input_to": 1486, 
+"text": "Nathan Wellman is a Los Angeles-based journalist, author, and playwright.", 
+"sentence_id": 11, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.036885, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.26642, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.192092, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.44274, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.129714, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.078097, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.95613, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.3602, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.739943, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.758504, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.292263, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1413
+}, 
+{
+"input_to": 1523, 
+"text": "Follow him on Twitter: @LightningWOW", 
+"sentence_id": 12, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.044874, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.037114, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.0213, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.473559, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.461207, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.333197, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.295239, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.572039, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.596953, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.202939, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1487
+}
+]
+}]

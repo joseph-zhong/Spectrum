@@ -1,0 +1,10393 @@
+[{
+"document_tone": {
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.164245, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.119775, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.160561, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.313856, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.508627, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.414167, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.403762, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.316587, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.623898, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.615038, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.100742, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.836537, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+]
+}, 
+"sentences_tone": [
+{
+"input_to": 154, 
+"text": "CLOSE Skip in Skip x Embed x Share Cell carriers are fighting hard to win customers, and these are just some of the perks customers get to decide between.", 
+"sentence_id": 0, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.384911, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.165824, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.063534, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.23452, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.212786, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.601203, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.306912, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.095052, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.706194, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.481445, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.388237, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.400542, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 0
+}, 
+{
+"input_to": 163, 
+"text": "Newslook", 
+"sentence_id": 1, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.0, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.0, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.0, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.0, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.0, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.068939, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.145665, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.270129, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.461938, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.000114, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 155
+}, 
+{
+"input_to": 164, 
+"text": "", 
+"sentence_id": 2, 
+"tone_categories": [], 
+"input_from": 164
+}, 
+{
+"input_to": 290, 
+"text": "LOS ANGELES - The big tech headlines this week concerned our pocketbooks, and how much we\u2019re paying for those wireless plans.", 
+"sentence_id": 3, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.218423, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.104842, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.033581, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.290385, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.454826, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.174336, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.68235, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.888427, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.807736, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.756506, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 165
+}, 
+{
+"input_to": 415, 
+"text": "Verizon kicked off a new rate war Sunday, by announcing a return to unlimited wireless plans, for the first time since 2011.", 
+"sentence_id": 4, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.058284, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.049466, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.199916, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.402553, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.330006, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.013526, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.074841, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.95861, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.126318, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.090335, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.956598, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 291
+}, 
+{
+"input_to": 475, 
+"text": "Verizon Wireless's new unlimited data plan (Photo: Verizon)", 
+"sentence_id": 5, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.101002, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.033551, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.034876, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.68006, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.205346, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.146613, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.296924, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.543757, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.599995, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.489586, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 416
+}, 
+{
+"input_to": 476, 
+"text": "", 
+"sentence_id": 6, 
+"tone_categories": [], 
+"input_from": 476
+}, 
+{
+"input_to": 629, 
+"text": "This is great news for consumers who just don\u2019t understand how much data it costs to surf Facebook, YouTube and Snapchat, answer e-mails and send texts.", 
+"sentence_id": 7, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.259271, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.26877, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.018665, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.230732, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.310937, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.73677, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.360131, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.030249, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.594519, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.941166, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.749283, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.779296, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 477
+}, 
+{
+"input_to": 663, 
+"text": "Is that 2 GB a month? 4 GB? 8 GB?", 
+"sentence_id": 8, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.12674, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.080906, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.108276, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.357353, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.383629, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.179611, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.281749, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.561831, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.593438, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.491981, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 630
+}, 
+{
+"input_to": 664, 
+"text": "", 
+"sentence_id": 9, 
+"tone_categories": [], 
+"input_from": 664
+}, 
+{
+"input_to": 746, 
+"text": "Now Verizon starts with a basic rate of $80 for unlimited data, but with a catch.", 
+"sentence_id": 10, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.086442, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.073477, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.130623, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.321463, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.448228, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.029341, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.603672, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.67166, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.770342, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.235838, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.885522, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 665
+}, 
+{
+"input_to": 811, 
+"text": "If you go over 22 GB monthly of data, Verizon may slow you down.", 
+"sentence_id": 11, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.250792, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.085058, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.41023, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.213652, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.14904, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.874319, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.716301, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.081402, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.759567, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.771818, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.566326, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.960885, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 747
+}, 
+{
+"input_to": 995, 
+"text": "In response, AT&T, T-Mobile and Sprint all offered deals to either match Verizon, undercut the company, in the case of T-Mobile, which starts at $70 monthly, or provide more services.", 
+"sentence_id": 12, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.243774, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.47217, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.13816, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.159624, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.081254, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.607667, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.008999, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.344074, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.769597, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.686165, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.537291, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.898418, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 812
+}, 
+{
+"input_to": 1063, 
+"text": "The good news is--unlimited data is back again, where it should be.", 
+"sentence_id": 13, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.070831, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.105209, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.023503, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.69872, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.163867, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.566287, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.968385, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.523178, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.389838, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.942687, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 996
+}, 
+{
+"input_to": 1216, 
+"text": "And the winner is the consumer--although we\u2019re clearly paying more for wireless plans than we were ten years ago when the smartphone revolution started.", 
+"sentence_id": 14, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.142897, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.035828, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.079474, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.425644, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.341341, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.543112, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.242812, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.676521, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.526395, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.106275, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.878302, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1064
+}, 
+{
+"input_to": 1253, 
+"text": "Back then--it was under $50 a month.", 
+"sentence_id": 15, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.056922, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.077775, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.141502, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.216878, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.593605, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.381988, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.488625, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.14, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.453259, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.852224, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1217
+}, 
+{
+"input_to": 1318, 
+"text": "We currently pay over $200 for a plan that includes three lines.", 
+"sentence_id": 16, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.096979, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.122237, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.122524, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.085608, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.680508, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.759123, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.839443, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.654819, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.614143, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.964412, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1254
+}, 
+{
+"input_to": 1375, 
+"text": "How much are you forking over to the wireless companies?", 
+"sentence_id": 17, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.230909, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.327217, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.059254, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.254865, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.236111, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.098402, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.493227, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.982997, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.481429, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.687442, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1319
+}, 
+{
+"input_to": 1439, 
+"text": "Facebook autoplay videos will soon have sound (Photo: Facebook)", 
+"sentence_id": 18, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.068438, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.116764, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.228675, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.357615, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.310368, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.07512, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.286072, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.480738, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.688359, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.148634, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1376
+}, 
+{
+"input_to": 1440, 
+"text": "", 
+"sentence_id": 19, 
+"tone_categories": [], 
+"input_from": 1440
+}, 
+{
+"input_to": 1586, 
+"text": "In other tech news this week, a seemingly minor Facebook announcement looks to bring in a huge and loud change for how we use the social network.", 
+"sentence_id": 20, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.145341, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.333323, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.096768, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.166528, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.372556, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.305319, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.090327, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.243009, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.107673, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.846407, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.474951, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.488245, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1441
+}, 
+{
+"input_to": 1716, 
+"text": "Those videos that pop up in the News Feed have been silent--but now Facebook is turning them into soundies--by upping the volume.", 
+"sentence_id": 21, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.137739, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.112094, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.210561, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.022423, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.657081, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.826629, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.077829, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.343743, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.019316, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.253974, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1587
+}, 
+{
+"input_to": 1821, 
+"text": "Facebook said it was making the change because more people are used to having videos in their News Feed.", 
+"sentence_id": 22, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.147358, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.34195, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.17137, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.05702, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.418301, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.705784, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.319397, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.014133, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.51329, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.181367, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.17086, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1717
+}, 
+{
+"input_to": 1908, 
+"text": "But once this rolls out, don't be surprised if people start complaining really loudly.", 
+"sentence_id": 23, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.218822, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.334866, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.16081, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.046809, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.359396, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.801827, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.133624, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.04859, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.034743, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.489046, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.000369, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1822
+}, 
+{
+"input_to": 2108, 
+"text": "Many of us look at Facebook from coffee shops, while standing online at the bank, or fast walking on the treadmill at the gym--and sudden sound from a video could prove to be very annoying to people.", 
+"sentence_id": 24, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.230576, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.462821, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.127519, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.198999, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.110335, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.744226, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.042289, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.097713, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.020407, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.401173, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.033358, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.311816, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1909
+}, 
+{
+"input_to": 2210, 
+"text": "Folks will either need to read Facebook with their headphones on, or go in and adjust their settings.", 
+"sentence_id": 25, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.115062, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.382517, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.20697, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.037022, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.367893, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.459587, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.5538, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.240028, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.249936, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.561488, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.140197, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.354586, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 2109
+}, 
+{
+"input_to": 2301, 
+"text": "YouTube's no. 1 performer, PewDiePie--born as Felix Arvid Ulf Kjellberg (Photo: PewDiePie)", 
+"sentence_id": 26, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.069535, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.039071, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.023162, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.374348, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.553039, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.16646, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.1057, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.556358, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.234886, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.059927, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 2211
+}, 
+{
+"input_to": 2302, 
+"text": "", 
+"sentence_id": 27, 
+"tone_categories": [], 
+"input_from": 2302
+}, 
+{
+"input_to": 2449, 
+"text": "Over at Facebook\u2019s no. 1 video rival YouTube, the network's biggest star, PewDiePie (real name: Felix Kjellberg) created a huge scandal this week.", 
+"sentence_id": 28, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.098464, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.277885, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.096777, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.16397, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.463412, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.148037, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.28065, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.252465, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.400355, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.635006, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.112362, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.813273, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 2303
+}, 
+{
+"input_to": 2602, 
+"text": "The Wall Street Journal took the time to watch some of the videos made by the Swedish star, and discovered several had anti-semitic phrases and symbols.", 
+"sentence_id": 29, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.180379, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.334332, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.113319, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.136317, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.309174, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.67368, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.360131, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.907028, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.622178, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.58511, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.232125, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.797903, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 2450
+}, 
+{
+"input_to": 2792, 
+"text": "Disney, which owns Maker Studios, the distributor of PewDiePie\u2019s work, cut ties with the performer, and YouTube canceled the second season of PewDiePie\u2019s Scare PewDiePie YouTube Red series.", 
+"sentence_id": 30, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.306671, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.155949, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.026909, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.36422, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.187059, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.292626, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.51649, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.726266, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.074559, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.018314, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.78019, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 2603
+}, 
+{
+"input_to": 2958, 
+"text": "But the fact remains that PewDiePie has over 50 million subscribers on YouTube, and the \u201cinfluencers\u201d who amass huge audiences on YouTube do it by being provocative.", 
+"sentence_id": 31, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.142696, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.092385, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.107813, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.050429, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.725633, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.73677, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.509368, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.384986, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.178338, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.610317, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.04219, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.546621, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 2793
+}, 
+{
+"input_to": 3156, 
+"text": "Unlike network TV, which buys shows directly from creators and screens them before airing, on YouTube and other online networks, the creator just uploads it and awaits their cut of the ad revenues.", 
+"sentence_id": 32, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.275034, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.521025, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.042448, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.036972, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.245253, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.004416, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.05392, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.655577, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.489654, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.363399, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.097704, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.81783, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 2959
+}, 
+{
+"input_to": 3258, 
+"text": "With PewDiePie and his ilk scaring away advertisers, clearly there will some changes made at YouTube.", 
+"sentence_id": 33, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.019468, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.081396, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.509785, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.014028, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.452974, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.248254, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.589823, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.395389, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.414683, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.605936, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.274892, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 3157
+}, 
+{
+"input_to": 3394, 
+"text": "Yahoo said it would reduce the size of its board of directors after the acquisition of Yahoo's core business by Verizon Communications.", 
+"sentence_id": 34, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.12643, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.215081, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.394157, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.190522, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.182144, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.804453, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.913124, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.774576, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.384929, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.935326, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 3259
+}, 
+{
+"input_to": 3427, 
+"text": "(Photo: Marcio Jose Sanchez, AP)", 
+"sentence_id": 35, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.043227, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.026553, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.062164, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.679442, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.252196, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.219521, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.276809, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.54763, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.60233, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.355762, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 3395
+}, 
+{
+"input_to": 3428, 
+"text": "", 
+"sentence_id": 36, 
+"tone_categories": [], 
+"input_from": 3428
+}, 
+{
+"input_to": 3537, 
+"text": "Meanwhile, more terrible password breach news from Yahoo, which has been reeling in it for the last 2 years.", 
+"sentence_id": 37, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.42708, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.273877, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.067454, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.041562, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.308401, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.328125, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.219395, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.551989, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.454814, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.398571, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.833011, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 3429
+}, 
+{
+"input_to": 3664, 
+"text": "This week some Yahoo account holders were told that a hacker could have accessed their account without the need of a password.", 
+"sentence_id": 38, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.74282, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.076342, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.104279, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.011623, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.189846, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.786991, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.434849, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.581733, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.606411, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.271749, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.803276, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 3538
+}, 
+{
+"input_to": 3771, 
+"text": "This is more drip drip from the September announcement of 500 million Yahoo accounts that had been stolen.", 
+"sentence_id": 39, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.135418, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.14003, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.136853, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.113153, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.568769, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.740523, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.4369, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.433548, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.317373, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.573497, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 3665
+}, 
+{
+"input_to": 3817, 
+"text": "Yahoo attributed the hack to a forged cookie.", 
+"sentence_id": 40, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.460364, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.131999, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.111019, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.163112, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.191721, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.762356, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.062191, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.380869, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.269945, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.192383, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.917486, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 3772
+}, 
+{
+"input_to": 3942, 
+"text": "Cookies are long string of letters and numbers that your computer stores to make it easy to log into a site when you return.", 
+"sentence_id": 41, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.356559, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.042003, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.189366, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.046433, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.44527, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.544075, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.971779, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.722484, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.176087, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.986732, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 3818
+}, 
+{
+"input_to": 4078, 
+"text": "Yahoo is in the process of being acquired by Verizon, and lowered it\u2019s $4.8 billion price by $250 million due to the security breaches.", 
+"sentence_id": 42, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.074033, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.136571, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.406538, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.058981, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.424904, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.5449, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.58276, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.810548, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.543875, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.582407, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.964682, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 3943
+}, 
+{
+"input_to": 4144, 
+"text": "Snap CEO Evan Spiegel talks on the Snap IPO Roadshow promo video.", 
+"sentence_id": 43, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.101321, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.18439, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.122407, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.29283, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.382613, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.189933, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.293406, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.536536, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.57742, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.486337, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 4079
+}, 
+{
+"input_to": 4158, 
+"text": "(Photo: Snap)", 
+"sentence_id": 44, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.066181, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.008075, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.00458, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.525714, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.472076, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.289379, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.274436, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.543408, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.599501, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.297896, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 4145
+}, 
+{
+"input_to": 4159, 
+"text": "", 
+"sentence_id": 45, 
+"tone_categories": [], 
+"input_from": 4159
+}, 
+{
+"input_to": 4319, 
+"text": "Finally, Snap, Inc. the parent company of the red-hot communications app Snapchat, released three video presentations Friday to investors for its upcoming IPO.", 
+"sentence_id": 46, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.100581, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.064525, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.015474, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.706461, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.177665, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.148037, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.3479, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.864423, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.395359, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.299796, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.765196, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 4160
+}, 
+{
+"input_to": 4517, 
+"text": "Seeking to raise $3 billion, CEO Evan Spiegel, co-founder Bobby Murphy and other Snap execs laid out their vision for the company and why they believe profits will be generated in the coming years.", 
+"sentence_id": 47, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.043483, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.068769, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.150371, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.290454, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.539695, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.511454, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.236367, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.571574, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.388514, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.972181, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.805778, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.716982, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 4320
+}, 
+{
+"input_to": 4693, 
+"text": "\"Snap tapped into that human desire to communicate in a way that feels like you\u2019re face to face, even if you\u2019re far away,\" says Spiegel says in the main, 35 minute plus video.", 
+"sentence_id": 48, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.061091, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.138286, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.341592, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.185358, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.394055, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.26216, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.16172, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.018956, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.378486, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.193254, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.233617, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 4518
+}, 
+{
+"input_to": 4777, 
+"text": "\"The first time you use it, and can see what they\u2019re seeing, makes you feel close.\"", 
+"sentence_id": 49, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.039589, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.117568, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.370169, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.438506, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.139042, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.26216, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.165289, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.935505, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.518403, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.984547, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.703722, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 4694
+}, 
+{
+"input_to": 4826, 
+"text": "Read or Share this story: http://usat.ly/2lut2u7", 
+"sentence_id": 50, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.049931, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.070501, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.228153, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.39516, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.304306, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.968123, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.918751, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.343962, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.503302, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.714234, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.341805, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 4778
+}
+]
+},{
+"document_tone": {
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.587669, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.165794, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.518307, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.188161, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.506053, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.622796, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.06936, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.639576, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.844082, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.893808, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.663161, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.907146, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+]
+}, 
+"sentences_tone": [
+{
+"input_to": 54, 
+"text": "State Sen. Mike Regan (Photo: File, York Daily Record)", 
+"sentence_id": 0, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.170639, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.09294, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.069306, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.523811, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.227462, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.459587, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.319415, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.365814, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.699101, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.735252, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.755121, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 0
+}, 
+{
+"input_to": 55, 
+"text": "", 
+"sentence_id": 1, 
+"tone_categories": [], 
+"input_from": 55
+}, 
+{
+"input_to": 215, 
+"text": "During his recent 2017-18 state budget address, Gov. Tom Wolf proudly trumpeted the creation of 82,000 new jobs since he took the oath of office two years ago.", 
+"sentence_id": 2, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.11463, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.140516, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.379382, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.019522, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.432158, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.100632, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.501291, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.885082, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.557436, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.800045, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.890065, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 56
+}, 
+{
+"input_to": 338, 
+"text": "Despite the rosy picture he paints, Pennsylvania\u2019s unemployment rate has actually increased under the Wolf administration.", 
+"sentence_id": 3, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.093991, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.236107, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.06565, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.372208, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.332233, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.698634, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.704642, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.746672, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.429513, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.663673, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.547215, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.750977, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 216
+}, 
+{
+"input_to": 580, 
+"text": "According to the U.S. Department of Labor, Pennsylvania unemployment ballooned to 5.6 percent in December last year, nearly a full point higher than the national average and higher than all of our neighboring states aside from West Virginia.", 
+"sentence_id": 4, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.063643, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.132071, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.067195, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.229162, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.583803, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.353688, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.000816, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.295141, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.791481, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.55017, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.622471, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.932392, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 339
+}, 
+{
+"input_to": 660, 
+"text": "The day Wolf took office, Pennsylvania\u2019s jobless rate ranked 20th among states.", 
+"sentence_id": 5, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.123425, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.050939, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.348376, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.1135, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.445039, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.054654, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.147226, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.552109, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.50766, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.572015, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.787962, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 581
+}, 
+{
+"input_to": 733, 
+"text": "Today, the commonwealth finds itself tied with Mississippi, ranked 43rd.", 
+"sentence_id": 6, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.151211, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.057391, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.036173, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.385527, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.441573, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.687768, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.745413, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.542208, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.656283, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.670059, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.880685, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 661
+}, 
+{
+"input_to": 820, 
+"text": "It\u2019s no secret that Pennsylvania\u2019s recovery from the Great Recession has been glacial.", 
+"sentence_id": 7, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.284012, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.078208, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.27942, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.086825, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.311714, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.521942, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.905222, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.56565, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.299761, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.962329, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 734
+}, 
+{
+"input_to": 973, 
+"text": "Despite a surging housing market and a bullish Wall Street, the current administration\u2019s platform has prolonged economic recovery and frustrated growth.", 
+"sentence_id": 8, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.780865, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.08139, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.103218, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.038013, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.065087, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.398794, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.375863, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.263574, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.797295, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.453297, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.580135, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 821
+}, 
+{
+"input_to": 1029, 
+"text": "Mounting unemployment is an illustrative case-in-point.", 
+"sentence_id": 9, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.127444, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.101769, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.080784, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.149785, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.613714, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.842108, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.881184, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.341248, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.732331, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.536219, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.547712, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 974
+}, 
+{
+"input_to": 1181, 
+"text": "With a mix of small businesses, major corporations and emerging industries, Pennsylvania is already home to one of the region\u2019s most dynamic economies.", 
+"sentence_id": 10, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.089142, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.097638, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.222265, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.445564, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.244946, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.040769, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.130589, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.79931, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.679897, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.770632, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.100726, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.569423, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1030
+}, 
+{
+"input_to": 1425, 
+"text": "Combined with our established manufacturing base, abundant natural resources, world-class institutions of higher education, and our proximity to nearly one-half of the nation\u2019s population, the possibilities for Pennsylvania could be limitless.", 
+"sentence_id": 11, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.038828, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.026741, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.28122, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.208971, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.525869, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.629992, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.810545, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.620292, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.898732, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.764154, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.308018, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.887022, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1182
+}, 
+{
+"input_to": 1568, 
+"text": "Before its potential can be fully realized, Pennsylvania must take meaningful steps to retain current businesses and attract new job creators.", 
+"sentence_id": 12, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.052259, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.015913, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.221762, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.510334, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.283085, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.670204, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.314, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.513413, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.543612, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.579451, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.566494, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.508949, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1426
+}, 
+{
+"input_to": 1717, 
+"text": "It starts with the premise that government itself does not create jobs, but rather cultivates an environment in which jobs can be fostered and grow.", 
+"sentence_id": 13, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.214326, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.332947, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.230084, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.067044, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.219941, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.819598, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.174223, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.200677, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.219332, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.354962, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1569
+}, 
+{
+"input_to": 1807, 
+"text": "Small businesses are an integral part of our state\u2019s economy and critical to its success.", 
+"sentence_id": 14, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.066187, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.079663, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.242538, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.619615, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.068791, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.49039, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.563154, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.73107, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.527713, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.474119, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.731278, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1718
+}, 
+{
+"input_to": 1957, 
+"text": "Small business owners embrace the American entrepreneurial spirit, creating employment opportunities and strengthening the fabric of our communities.", 
+"sentence_id": 15, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.020863, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.032058, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.10197, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.800064, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.085601, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.067409, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.752227, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.390083, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.766734, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.484212, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.712132, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1808
+}, 
+{
+"input_to": 2083, 
+"text": "Consider that 99 percent of Pennsylvania employers are small firms, employing roughly half of the private sector labor force.", 
+"sentence_id": 16, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.077929, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.331096, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.096036, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.279511, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.283572, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.705784, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.352522, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.658887, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.581433, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.874712, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.612426, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.848103, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1958
+}, 
+{
+"input_to": 2208, 
+"text": "For small corporations, partnerships and limited liability corporations, the personal income tax is a de facto business tax.", 
+"sentence_id": 17, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.06053, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.275435, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.05119, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.345707, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.340908, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.842108, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.660207, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.434555, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.381095, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.727932, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.536522, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.863166, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 2084
+}, 
+{
+"input_to": 2276, 
+"text": "Two years ago, Gov. Wolf proposed a staggering 20 percent increase.", 
+"sentence_id": 18, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.057442, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.04935, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.142268, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.237568, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.570764, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.862286, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.174804, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.459263, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.594342, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.688026, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.723474, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 2209
+}, 
+{
+"input_to": 2353, 
+"text": "Last year, he sought to bolster government spending with an 11 percent hike.", 
+"sentence_id": 19, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.144541, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.223177, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.09307, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.157522, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.440227, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.046305, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.185245, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.665594, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.724559, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.774549, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.866194, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 2277
+}, 
+{
+"input_to": 2464, 
+"text": "Thanks to Republican majorities in the state House and Senate, both efforts to increase the PIT were defeated.", 
+"sentence_id": 20, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.136524, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.285569, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.297257, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.197656, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.18144, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.296457, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.35296, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.919013, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.879269, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.854828, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.953686, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 2354
+}, 
+{
+"input_to": 2552, 
+"text": "Thankfully, the governor seems to have abandoned his pursuit of increased income taxes.", 
+"sentence_id": 21, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.04452, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.330726, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.040804, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.241656, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.429878, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.716301, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.448765, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.411513, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.333651, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.571527, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.845248, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 2465
+}, 
+{
+"input_to": 2761, 
+"text": "Nevertheless, prolonged unpredictability in our tax climate has created a chilling effect on small business growth and has only served to dissuade young, working-class families from calling Pennsylvania home.", 
+"sentence_id": 22, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.174886, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.27139, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.179692, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.202662, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.243567, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.699729, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.587065, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.949674, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.885555, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.73935, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.711046, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 2553
+}, 
+{
+"input_to": 2949, 
+"text": "Instead, businesses and young working families are flocking en masse to states where constructive government attitudes toward job creation have translated to tangible economic prosperity.", 
+"sentence_id": 23, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.192052, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.076962, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.05985, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.550511, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.166573, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.687768, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.616144, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.588709, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.775998, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.722056, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.342363, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 2762
+}, 
+{
+"input_to": 3107, 
+"text": "The governor has consistently voiced his disapproval of \u201cRight-to-Work\u201d laws, which affirm the right of American workers to be free from compulsory unionism.", 
+"sentence_id": 24, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.408927, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.22626, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.144179, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.033971, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.309395, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.363942, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.560944, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.885051, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.991541, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.444739, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.224117, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.885623, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 2950
+}, 
+{
+"input_to": 3261, 
+"text": "The policy, which Wolf ominously warns \u201cstrikes at the heart of democratic fairness,\" is law in 28 other states and is supported by 75 percent of voters.", 
+"sentence_id": 25, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.328385, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.116179, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.44499, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.062504, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.158158, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.226396, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.944437, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.861132, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.878861, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.681839, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.861819, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 3108
+}, 
+{
+"input_to": 3403, 
+"text": "Unless you\u2019re watching the March Madness Tournament, you don\u2019t often hear \u201cUtah,\u201d \u201cTexas,\u201d and \u201cSouth Carolina\u201d mentioned in the same breath.", 
+"sentence_id": 26, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.066154, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.189508, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.150147, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.285907, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.402146, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.15828, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.567697, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.621856, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.947603, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.972128, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.784613, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 3262
+}, 
+{
+"input_to": 3494, 
+"text": "Utah, the nation\u2019s fastest-growing state, enjoys an unemployment rate of only 3.1 percent.", 
+"sentence_id": 27, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.090705, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.027987, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.066324, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.330303, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.54154, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.61476, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.452472, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.456811, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.631092, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.552223, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.91618, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 3404
+}, 
+{
+"input_to": 3601, 
+"text": "Texas, the nation\u2019s second-fastest-growing state, runs a state budget surplus with no personal income tax.", 
+"sentence_id": 28, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.057487, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.40488, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.136169, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.11619, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.389284, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.532616, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.236736, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.520122, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.757067, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.627815, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.97804, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 3495
+}, 
+{
+"input_to": 3697, 
+"text": "In South Carolina, companies like BMW and Boeing have invested billions and employed thousands.", 
+"sentence_id": 29, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.040061, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.146722, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.024704, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.458384, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.437269, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.323642, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.349103, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.28658, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.80209, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.567276, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.451844, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 3602
+}, 
+{
+"input_to": 3716, 
+"text": "Their commonality?", 
+"sentence_id": 30, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.119329, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.368406, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.098745, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.015247, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.566647, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.247214, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.266041, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.504897, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.524573, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.145437, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 3698
+}, 
+{
+"input_to": 3756, 
+"text": "Each is a \u201cRight-to-Work\u201d jurisdiction.", 
+"sentence_id": 31, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.225092, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.182899, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.023111, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.575589, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.099659, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.22676, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.641174, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.491184, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.497842, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.435046, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 3717
+}, 
+{
+"input_to": 3959, 
+"text": "Surely even the governor would agree that Pennsylvania\u2019s fiscal house could benefit from similar hikes in population and employment, billion-dollar business investments and voluminous tax contributions.", 
+"sentence_id": 32, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.044446, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.267499, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.05143, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.195677, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.532013, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.121371, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.360131, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.539912, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.572053, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.967664, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.830025, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.92464, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 3757
+}, 
+{
+"input_to": 4078, 
+"text": "I certainly know what they would mean for the short and long-term economic trajectory of York and Cumberland counties.", 
+"sentence_id": 33, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.095465, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.14919, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.130804, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.218327, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.495764, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.705784, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.638987, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.943553, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.709911, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.907683, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.61166, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.415065, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 3960
+}, 
+{
+"input_to": 4211, 
+"text": "Potential union entanglements notwithstanding, Pennsylvania\u2019s uncompetitive corporate tax is still the second-highest in the nation.", 
+"sentence_id": 34, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.063217, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.265363, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.092259, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.075388, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.612769, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.532616, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.444272, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.728767, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.898724, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.485044, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.939715, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 4079
+}, 
+{
+"input_to": 4436, 
+"text": "The 9.99 percent rate, which even Wolf calls \u201cincredibly obscene,\u201d puts Pennsylvania at a competitive disadvantage and sends the wrong message to large-scale employers, which often serve as anchors for small business growth.", 
+"sentence_id": 35, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.427858, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.387813, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.072606, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.0859, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.153838, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.025497, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.236367, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.818155, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.480093, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.99432, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.482412, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.699638, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 4212
+}, 
+{
+"input_to": 4565, 
+"text": "Unfortunately, we will need every penny (and more) to accommodate the governor\u2019s $32.34 billion spending proposal for next year.", 
+"sentence_id": 36, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.049292, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.026705, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.077199, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.43427, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.49756, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.713028, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.618451, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.025776, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.864717, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.352809, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.846749, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.836254, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 4437
+}, 
+{
+"input_to": 4727, 
+"text": "His proposed growth in government spending, combined with false revenue projections and a sluggish economy, have resulted in a yet another annual funding crisis.", 
+"sentence_id": 37, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.21059, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.233901, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.275742, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.077339, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.336485, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.818876, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.547527, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.447966, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.789179, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.668798, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.617607, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 4566
+}, 
+{
+"input_to": 5024, 
+"text": "In desperate search of new money, he suggests bolstering his spending plan with borrowing, divestiture of valuable state assets like the Farm Show Complex, and a billion dollars in new taxes and fees, including an expansion of the regressive sales tax and a job-killing natural gas severance tax.", 
+"sentence_id": 38, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.090959, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.246421, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.016122, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.031736, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.690286, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.375236, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.118859, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.559408, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.668358, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.901516, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.59664, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.91233, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 4728
+}, 
+{
+"input_to": 5097, 
+"text": "To grow business, state government must begin operating like a business.", 
+"sentence_id": 39, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.051163, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.290954, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.664645, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.033726, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.080545, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.380851, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.476016, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.476001, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.725594, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.634666, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.740257, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 5025
+}, 
+{
+"input_to": 5345, 
+"text": "Before adopting these crucial reforms, the governor must work with the legislature to streamline government operations, eliminate fraudulent and wasteful spending and contain budgetary cost drivers like public pensions and spiraling welfare costs.", 
+"sentence_id": 40, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.347351, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.405489, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.127907, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.0139, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.24786, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.004416, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.392667, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.774954, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.641627, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.53987, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.748831, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 5098
+}, 
+{
+"input_to": 5542, 
+"text": "Unless and until we establish an environment conducive to growth, tax collections will continue to be anemic and the cost of future budgets will be shouldered by hardworking Pennsylvania families.", 
+"sentence_id": 41, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.169781, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.393254, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.136641, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.124092, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.283092, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.64237, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.548204, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.842725, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.515475, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.867506, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.727852, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 5346
+}, 
+{
+"input_to": 5603, 
+"text": "State Sen. Mike Regan is a Republican from Carroll Township.", 
+"sentence_id": 42, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.032678, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.266806, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.376759, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.084625, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.330012, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.417844, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.47412, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.374876, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.835436, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.699072, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.719647, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 5543
+}, 
+{
+"input_to": 5654, 
+"text": "Read or Share this story: http://on-ydr.co/2lQgSJH", 
+"sentence_id": 43, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.051881, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.08308, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.228841, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.353042, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.335717, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.968123, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.918751, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.343962, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.503302, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.714234, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.341805, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 5604
+}
+]
+},{
+"document_tone": {
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.142887, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.39734, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.138616, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.519852, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.486375, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.626827, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.02588, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.753264, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.979685, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.825215, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.725591, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.953899, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+]
+}, 
+"sentences_tone": [
+{
+"input_to": 32, 
+"text": "Letters to the editor (Photo: .)", 
+"sentence_id": 0, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.111214, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.020403, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.053486, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.590695, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.286328, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.417844, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.63668, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.312877, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.591604, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.636015, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.661832, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 0
+}, 
+{
+"input_to": 67, 
+"text": "Obama legacy examination continued", 
+"sentence_id": 1, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.202122, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.166891, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.050636, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.504983, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.15927, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.982476, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.438103, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.283624, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.547028, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.609957, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.500986, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 33
+}, 
+{
+"input_to": 68, 
+"text": "", 
+"sentence_id": 2, 
+"tone_categories": [], 
+"input_from": 68
+}, 
+{
+"input_to": 183, 
+"text": "My Obama legacy letter in the Jan. 13 Herald Times Reporter was shortened as a result of letter size restrictions.", 
+"sentence_id": 3, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.241541, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.090207, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.187085, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.251015, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.295187, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.842108, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.809663, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.877824, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.858707, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.94741, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.900166, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 69
+}, 
+{
+"input_to": 245, 
+"text": "Here is a continuation of an examination of the Obama legacy.", 
+"sentence_id": 4, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.149605, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.187592, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.119802, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.33286, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.279545, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.862286, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.970874, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.578509, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.5121, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.617948, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.768565, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 184
+}, 
+{
+"input_to": 441, 
+"text": "The positives: First African-American president; awarded Nobel Peace Prize; no scandals regarding his personal life; a good husband and father; and left office with a high public approval rating.", 
+"sentence_id": 5, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.042434, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.293264, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.027822, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.515652, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.151214, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.546148, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.463272, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.712893, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.971627, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.930672, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.895873, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.954982, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 246
+}, 
+{
+"input_to": 494, 
+"text": "RELATED: Letters: Cabinet billionaires a good thing?", 
+"sentence_id": 6, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.376592, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.032013, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.099273, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.468427, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.094441, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.858259, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.88491, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.318825, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.769793, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.512078, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.755391, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 442
+}, 
+{
+"input_to": 532, 
+"text": "SUBSCRIBE: Follow us today on YouTube", 
+"sentence_id": 7, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.063235, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.020808, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.035152, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.69449, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.234111, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.217338, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.287072, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.524862, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.611756, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.275382, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 495
+}, 
+{
+"input_to": 533, 
+"text": "", 
+"sentence_id": 8, 
+"tone_categories": [], 
+"input_from": 533
+}, 
+{
+"input_to": 1521, 
+"text": "The negatives: $500 million wasted on energy company Solyndra; his backing of Hillary Clinton did not save her; economic growth 2 percent or less during all eight years; commuted the prison sentence of Private Manning (he \u2014 now she \u2014 disclosed classified U.S. secrets to WikiLeaks; his attorney general was found to be in contempt of Congress; \u201cFast and Furious\u201d program gave guns to Mexican criminals resulting in the death of a border agent; a $400 million payment to Iran to ransom hostages; more than $1 billion payment to Iran as a bribe to not abrogate the nuclear treaty; routinely ignoring or excusing Iran\u2019s violations of the nuclear deal; exchanged five top-level Islamic terrorists for one U.S deserter; attempted to regulate coal companies out of business; failed to address the serious black-on-black crime in the inner cities; he had the Rev. Al Sharpton (of the Twana Brawley fraud) as an adviser on race relations; invited members of Black Lives Matter (\u201cWhat do we want?", 
+"sentence_id": 9, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.407218, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.173077, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.133136, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.000266, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.507332, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.023527, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.535047, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.993933, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.873584, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.475525, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.96925, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 534
+}, 
+{
+"input_to": 1532, 
+"text": "Dead cops!", 
+"sentence_id": 10, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.015298, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.47562, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.098583, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.057032, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.409803, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.286214, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.274438, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.543181, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.59946, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.295398, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1522
+}, 
+{
+"input_to": 1552, 
+"text": "When do we want it?", 
+"sentence_id": 11, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.310678, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.0799, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.206385, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.110878, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.391102, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.072036, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.459302, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.285266, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.57846, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.447566, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1533
+}, 
+{
+"input_to": 1999, 
+"text": "Now!\u201d) to meetings at the White House; established diplomatic relations with Cuba run by the murderous Castro brothers; had the intelligence services routinely under-report the strength of Islamic terrorists; gave Miranda rights warning to terrorists captured in the field; planned to give captured terrorists civilian trials; had the NSA spy on reporters; and after eight years, 70 percent of Americans thought the country was on the wrong path.", 
+"sentence_id": 12, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.121473, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.516586, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.238546, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.016463, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.244137, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.506763, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.004968, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.736219, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.996486, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.939236, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.589325, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.98107, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 1553
+}, 
+{
+"input_to": 2040, 
+"text": "And now, you know the rest of the story.", 
+"sentence_id": 13, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.05074, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.087121, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.11401, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.275539, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.558306, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.769135, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.926869, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.809476, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.250277, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.740275, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.742811, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 2000
+}, 
+{
+"input_to": 2095, 
+"text": "It will take years to correct the mess he left behind.", 
+"sentence_id": 14, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.218797, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.063471, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.116151, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.09745, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.601663, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.579436, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.105309, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.578686, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.008849, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.425191, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.824704, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 2041
+}, 
+{
+"input_to": 2112, 
+"text": "Donald Hallwachs", 
+"sentence_id": 15, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.096167, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.068342, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.113043, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.510237, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.26791, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.311818, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.271929, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.56132, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.598333, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.261345, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 2096
+}, 
+{
+"input_to": 2113, 
+"text": "", 
+"sentence_id": 16, 
+"tone_categories": [], 
+"input_from": 2113
+}, 
+{
+"input_to": 2124, 
+"text": "Two Rivers", 
+"sentence_id": 17, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.041701, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.065924, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.113723, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.437265, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.403826, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.405089, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.27441, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.543983, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.599542, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.286463, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 2114
+}, 
+{
+"input_to": 2125, 
+"text": "", 
+"sentence_id": 18, 
+"tone_categories": [], 
+"input_from": 2125
+}, 
+{
+"input_to": 2153, 
+"text": "Kudos to Manitowoc Symphony", 
+"sentence_id": 19, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.049212, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.045601, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.108438, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.800915, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.04983, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.565509, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.266537, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.63523, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.704437, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.41184, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 2126
+}, 
+{
+"input_to": 2154, 
+"text": "", 
+"sentence_id": 20, 
+"tone_categories": [], 
+"input_from": 2154
+}, 
+{
+"input_to": 2197, 
+"text": "Kudos to the Manitowoc Symphony Orchestra.", 
+"sentence_id": 21, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.063476, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.032526, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.059925, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.819505, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.064272, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.650961, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.294062, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.608448, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.658791, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.57657, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 2155
+}, 
+{
+"input_to": 2312, 
+"text": "They finally returned to their genre and strength \u2014 performing classical orchestral pieces in outstanding fashion.", 
+"sentence_id": 22, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.007142, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.184243, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.027932, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.74915, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.078872, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.687768, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.820546, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.251782, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.646954, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.661998, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.047543, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 2198
+}, 
+{
+"input_to": 2371, 
+"text": "In particular, the English horn solo was simply beautiful.", 
+"sentence_id": 23, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.010989, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.04539, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.187872, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.346725, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.468067, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.975783, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.589352, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.082227, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.59051, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.392946, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.149421, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 2313
+}, 
+{
+"input_to": 2385, 
+"text": "Bravo to all!", 
+"sentence_id": 24, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.089516, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.044378, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.047751, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.798955, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.06776, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.989586, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.208272, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.296198, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.589903, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.622011, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.372982, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 2372
+}, 
+{
+"input_to": 2386, 
+"text": "", 
+"sentence_id": 25, 
+"tone_categories": [], 
+"input_from": 2386
+}, 
+{
+"input_to": 2403, 
+"text": "Madelyn Niessner", 
+"sentence_id": 26, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.092354, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.068049, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.113012, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.518045, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.254235, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.068939, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.145665, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.270129, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.461938, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.000114, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 2387
+}, 
+{
+"input_to": 2404, 
+"text": "", 
+"sentence_id": 27, 
+"tone_categories": [], 
+"input_from": 2404
+}, 
+{
+"input_to": 2414, 
+"text": "Manitowoc", 
+"sentence_id": 28, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.0, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.0, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.0, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.0, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.0, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.0, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.068939, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.145665, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.270129, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.461938, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.000114, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 2405
+}, 
+{
+"input_to": 2415, 
+"text": "", 
+"sentence_id": 29, 
+"tone_categories": [], 
+"input_from": 2415
+}, 
+{
+"input_to": 2465, 
+"text": "Read or Share this story: http://htrne.ws/2lQmJP5", 
+"sentence_id": 30, 
+"tone_categories": [
+{
+"category_id": "emotion_tone", 
+"tones": [
+{
+"tone_name": "Anger", 
+"score": 0.044701, 
+"tone_id": "anger"
+}, 
+{
+"tone_name": "Disgust", 
+"score": 0.068805, 
+"tone_id": "disgust"
+}, 
+{
+"tone_name": "Fear", 
+"score": 0.24483, 
+"tone_id": "fear"
+}, 
+{
+"tone_name": "Joy", 
+"score": 0.376426, 
+"tone_id": "joy"
+}, 
+{
+"tone_name": "Sadness", 
+"score": 0.327933, 
+"tone_id": "sadness"
+}
+], 
+"category_name": "Emotion Tone"
+}, 
+{
+"category_id": "language_tone", 
+"tones": [
+{
+"tone_name": "Analytical", 
+"score": 0.0, 
+"tone_id": "analytical"
+}, 
+{
+"tone_name": "Confident", 
+"score": 0.0, 
+"tone_id": "confident"
+}, 
+{
+"tone_name": "Tentative", 
+"score": 0.968123, 
+"tone_id": "tentative"
+}
+], 
+"category_name": "Language Tone"
+}, 
+{
+"category_id": "social_tone", 
+"tones": [
+{
+"tone_name": "Openness", 
+"score": 0.918751, 
+"tone_id": "openness_big5"
+}, 
+{
+"tone_name": "Conscientiousness", 
+"score": 0.343962, 
+"tone_id": "conscientiousness_big5"
+}, 
+{
+"tone_name": "Extraversion", 
+"score": 0.503302, 
+"tone_id": "extraversion_big5"
+}, 
+{
+"tone_name": "Agreeableness", 
+"score": 0.714234, 
+"tone_id": "agreeableness_big5"
+}, 
+{
+"tone_name": "Emotional Range", 
+"score": 0.341805, 
+"tone_id": "emotional_range_big5"
+}
+], 
+"category_name": "Social Tone"
+}
+], 
+"input_from": 2416
+}
+]
+}]

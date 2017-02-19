@@ -1,3 +1,7 @@
 .idea
 frontend/dist/main.js
 *.log
+constants/private.py
+*.sh
+.DS_Store
+

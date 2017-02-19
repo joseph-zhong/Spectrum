@@ -33,38 +33,6 @@ OUT = 'out'
 LINKS = 'links'
 CORPUS = 'corpus'
 
-
-# def create_corpus(links_filename):
-#   print 'create_corpus: %s' % links_filename
-#   with open(links_filename, 'r') as links_file:
-#     with open(links_filename.replace(LINKS, CORPUS), 'a+') as corpus_file:
-#       for url in {url for url in links_file}:
-#         print 'url: %s ' % url
-#
-#         paper = newspaper.build(url)
-#         print 'len: %s ' % len(paper.articles)
-#         count = 0
-#         for article in paper.articles:
-#           try:
-#             print article.url
-#             article.download()
-#             article.parse()
-#             text = article.text
-#             print text
-#             corpus_file.write(text)
-#             count += 1
-#             print 'success: %d out of %d ' % (count, len(paper.articles))
-#           except Exception as e:
-#             print 'error: %s ' % e
-
-
-# for fn in {fn for fn in os.listdir(OUT) if LINKS in fn}:
-#   print 'filename: %s ' % fn
-#   create_corpus(os.path.join(OUT, fn))
-
-
-
-
 for source in NEWS_SOURCES:
   fn = os.path.join(OUT, source.split('.')[1] + CORPUS)
   print 'filename: %s' % fn
