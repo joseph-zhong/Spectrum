@@ -105,22 +105,25 @@ def extractSentences(url, length=3):
 
 
 
-#
-# def bingArticle(headline, altSite):
-#   headers = {'Ocp-Apim-Subscription-Key': '935c7077f70447cdb248c3f84e9695b8', }
-#
-#   params = urllib.urlencode({
-#     'q': headline + ' ' + altSite,
-#     'count': '1',
-#     'offset': '0',
-#     'mkt': 'en-us',
-#   })
-#
-#   conn = httplib.HTTPSConnection('api.cognitive.microsoft.com')
-#   conn.request("GET", "/bing/v5.0/search?%s" % params, "{body}", headers)
-#   response = conn.getresponse()
-#   data = json.loads(response.read())
-#   url = data['webPages']['value'][0]['url']
-#
-#   print url
-#   return url
+
+def bingArticle(headline, source, count=3):
+  print '[bing article]'
+  headers = {'Ocp-Apim-Subscription-Key': '935c7077f70447cdb248c3f84e9695b8', }
+
+  params = urllib.urlencode({
+    'q': headline + "-site:%s" % source,
+    'count': '%d' % count,
+    'offset': '0',
+    'mkt': 'en-us',
+  })
+
+  conn = httplib.HTTPSConnection('api.cognitive.microsoft.com')
+  conn.request("GET", "/bing/v5.0/search?%s" % params, "{body}", headers)
+  response = conn.getresponse()
+  data = json.loads(response.read())
+  # url = data['webPages']['value'][0]['url']
+
+  print data
+  return data, count
+
+# bingArticle(' Trump administration sanctions Iran on missile test', 'washingtonpost.com')

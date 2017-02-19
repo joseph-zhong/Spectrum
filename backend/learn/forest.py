@@ -14,7 +14,7 @@ from newspaper import Article
 from watson_developer_cloud import ToneAnalyzerV3
 
 from constants import private
-from backendSummarization import extractSentences
+from backendSummarization import extractSentences, bingArticle
 
 from flask import Flask, request, session, g, redirect, url_for, abort, render_template, flash, jsonify
 
@@ -266,6 +266,29 @@ def spectrum():
   result['brand'] = brand
   result['weighted_average'] = weighted_avg
   result['summary'] = summary
+  # produce summaries
+  data, len = bingArticle(title, brand)
+  suggestions = []
+  for i in xrange(len):
+    suggestion = {}
+    suggestion['title'] = data['webPages']['value'][i]['name']
+    suggestion['url'] = data['webPages']['value'][i]['url']
+    print suggestion
+    suggestions.append(suggestion)
+
+  print json.dumps(suggestions)
+  result['suggestions'] = json.dumps(suggestions)
+
+  """
+  [
+    {
+      "title": title
+      "url": url,
+    }
+    ...
+  ]
+
+  """
 
   json_result = json.dumps(result)
   previous_results[url] = json_result
