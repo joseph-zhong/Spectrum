@@ -67,7 +67,8 @@ HISTORY = 'history'
 HISTORY_JSON = os.path.join(HISTORY, 'history.json')
 
 if os.path.exists(HISTORY_JSON):
-  previous_results = json.load(HISTORY_JSON)
+  with open(HISTORY_JSON, 'r') as json_file:
+    previous_results = json.load(json_file)
 else:
   previous_results = {}
 
