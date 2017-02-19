@@ -59,7 +59,7 @@ def addScores(sentences, scores):
 
 
 def extractSentences(url, length=3):
-  global article
+  # global article
   print 'extracting %s' % url
   paper = newspaper.build(url)
   article = Article(url)
@@ -104,29 +104,26 @@ def extractSentences(url, length=3):
   return "\n".join([sen.text for sen in pulledSentence]), origText, article.title, paper.brand
 
 
-def getArticleText(url):
-  return article.text
 
 
-def getArticleTitle(url):
-  return article.title
+def bingArticle(headline, source, count=3):
+  print '[bing article]'
+  headers = {'Ocp-Apim-Subscription-Key': '935c7077f70447cdb248c3f84e9695b8', }
 
-#
-# def bingArticle(headline, altSite):
-#   headers = {'Ocp-Apim-Subscription-Key': '935c7077f70447cdb248c3f84e9695b8', }
-#
-#   params = urllib.urlencode({
-#     'q': headline + ' ' + altSite,
-#     'count': '1',
-#     'offset': '0',
-#     'mkt': 'en-us',
-#   })
-#
-#   conn = httplib.HTTPSConnection('api.cognitive.microsoft.com')
-#   conn.request("GET", "/bing/v5.0/search?%s" % params, "{body}", headers)
-#   response = conn.getresponse()
-#   data = json.loads(response.read())
-#   url = data['webPages']['value'][0]['url']
-#
-#   print url
-#   return url
+  params = urllib.urlencode({
+    'q': headline + "-site:%s" % source,
+    'count': '%d' % count,
+    'offset': '0',
+    'mkt': 'en-us',
+  })
+
+  conn = httplib.HTTPSConnection('api.cognitive.microsoft.com')
+  conn.request("GET", "/bing/v5.0/search?%s" % params, "{body}", headers)
+  response = conn.getresponse()
+  data = json.loads(response.read())
+  # url = data['webPages']['value'][0]['url']
+
+  print data
+  return data, count
+
+# bingArticle(' Trump administration sanctions Iran on missile test', 'washingtonpost.com')
