@@ -1,3 +1,5 @@
+using strict;
+
 var Xvfb = require('xvfb');
 var xvfb = new Xvfb();
 var Nightmare = require('nightmare');
@@ -22,7 +24,7 @@ function getLeaning(article, callback) {
     .then(function (result) {
       console.log("Received a result for the scraping!");
       var $ = cheerio.load(result);
-      var returnObj = {"-2": [], "-1": [], "0": [], "1": [], "2": [], "3": []};
+      var returnObj = {"-2": [], "-1": [], "0": [], "1": [], "2": []};
       $('div.isotope-item').each(function(i, elem) {
         var tmpArr = [];
         var re = /(.+)(?:\s-\s)(.+)$/g;
@@ -63,7 +65,7 @@ function getLeanNumber(biasURL) {
       return("2");
 
     default:
-      return("3");
+      return("0");
   }
 }
 
@@ -120,9 +122,6 @@ function chooseArticle(num, similarArticles) {
         return [num, "1", similarArticles["1"].slice(0, 3)];
       }
       return [num, "-2", similarArticles["-2"].slice(0, 3)];
-    case "3":
-      // Run Joseph's ML code
-      return null;
   }
 }
 
