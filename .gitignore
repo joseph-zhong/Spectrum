@@ -4,4 +4,3 @@ frontend/dist/main.js
 constants/private.py
 *.sh
 .DS_Store
-
