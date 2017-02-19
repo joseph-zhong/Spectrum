@@ -58,7 +58,7 @@ def addScores(sentences, scores):
       sentence.score = 0
 
 
-def extractSentences(url, length=3):
+def extractSentences(url, length=1):
   global article
   print 'extracting %s' % url
   paper = newspaper.build(url)
