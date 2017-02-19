@@ -11,7 +11,7 @@ from newspaper import Article
 from watson_developer_cloud import ToneAnalyzerV3
 
 from constants import private
-from backendSummarization import extractSentences, bingArticle
+from backendSummarization import extractSentences
 
 from flask import Flask, request, session, g, redirect, url_for, abort, render_template, flash, jsonify
 
@@ -84,7 +84,7 @@ def create_x_feature_vector(inference, source=None):
     x_i.append(POLITICAL_SPECTRUM[source])
   else:
     print 'SOURCE NOT IN POLITICAL_SPECTRUM %s ' % source
-    x_i.append(np.random.random_sample() * 5 - 2)
+    x_i.append(np.random.random_sample() * 3 - 2)
 
   return x_i
 
@@ -101,7 +101,8 @@ def init_tree():
     if source in POLITICAL_SPECTRUM:
       y_val = POLITICAL_SPECTRUM[source]
     else:
-      y_val = 0
+      print 'SOURCE NOT IN POLITICAL_SPECTRUM %s ' % source
+      y_val = (np.random.random_sample() * 3 - 2)
 
     with open(os.path.join(SENTIMENT, fn), 'r') as json_file:
       src_tone_data = json.load(json_file)
@@ -155,7 +156,6 @@ def run_inference(hyperlink):
   for i in xrange(len(retval)):
     weight = retval[i]
     weighted_avg += (i - 2) * weight
-
 
   return weighted_avg, argmax(retval)
 
@@ -240,20 +240,28 @@ def spectrum():
   url = data['url']
 
   # extract summary, score, suggested sites
-  summary, original, title = extractSentences(url.encode('utf-8'), 3)
-  political_score, max_score = run_inference(url.encode('utf-8'))[0]
+  summary, original, title, brand = extractSentences(url.encode('utf-8'), 3)
+  political_score, max_score = run_inference(url)
 
-  suggestions = []
-  suggestions_spectrum_score = []
-  for i in range(3):
-    suggestions.append(bingArticle(title, np.random.choice(CLASSIFICATIONS[-(max_score) - 1])))
-    suggestions_spectrum_score.append(suggestions[i])
+  # suggestions = []
+  # suggestions_spectrum_scores = []
+  # for i in range(3):
+  #   score = max(min(-1, -(max_score)), 1)
+  #   choice = CLASSIFICATIONS[score]
+
+
+  # jsonify array
+  political_score = np.array(political_score).tolist()
+  print 'brand: %s' % brand
+  print 'political_score: %s' % political_score
+  print 'summary: %s' % summary
 
   result = {}
-  result['summary'] = summary
-  result['sentences'] = summary
+  result['brand'] = brand
   result['political_score'] = political_score
-  result['suggestions'] = suggestions
+  result['summary'] = summary
+  # result['suggestions'] = suggestions
+  # result['suggestions_spectrum_scores'] = suggestions_spectrum_scores
 
   return json.dumps(result)
 
