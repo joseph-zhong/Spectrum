@@ -18,7 +18,10 @@ app.post('/', function(req, res) {
   console.log("POST / Entered");
   scraper.scrape(req.body.title, function(data) {
     console.log("Returned the following data:\n" + data);
-    res.json(data);
+    var toRet = {};
+    toRet.body = data;
+    console.log(toRet);
+    res.json(toRet);
   });
 })
 

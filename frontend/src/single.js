@@ -21,24 +21,30 @@ export function tag(e) {
 export function createTip(e) {
 	if ($(e).attr("news") == "true") {
 		$(e).attr("hasTip", "true")
-		var text = Promise.resolve(
-			$.ajax({
-				url: root2 + "/spectrum?url=" + encodeURIComponent($(e).attr("href")),
-				method: "GET"
-			})
-		)
-		var related = Promise.resolve(
-			$.ajax({
-				url: root1,
-				method: "POST",
-				data: { title: encodeURIComponent($(e).text()) },
-				dataType: "application/json; charset=utf-8"
-			})
-		)
-		var promises = Promise.all([text, related])
-			.then(function(info) {
-				console.log(related);
-				data = JSON.parse(info[0]);
+		// var text = Promise.resolve(
+		// 	$.ajax({
+				// url: root2 + "/spectrum?url=" + encodeURIComponent($(e).attr("href")),
+				// url: root2 + "/spectrum?url=" + encodeURIComponent($(e).attr("href")),
+				// method: "GET"
+			// })
+		// )
+		// var related = Promise.resolve(
+		// 	$.ajax({
+		// 		url: root1,
+		// 		method: "POST",
+		// 		data: { title: encodeURIComponent($(e).text()) },
+		// 		dataType: "application/json; charset=utf-8"
+		// 	})
+		// )
+		// var promises = Promise.all([text, related])
+			// .then(function(info) {
+				var data = {
+					"weighted_average" : 0,
+					"summary" : "this is a great summary",
+					"brand" : "New York Times",
+					"title" : "McCain fights Trump"
+				}
+				// data = JSON.parse(info[0]);
 				let bias = Math.round(data.weighted_average * 1.1);
 				let political;
 				let politicHex;
@@ -90,10 +96,11 @@ export function createTip(e) {
 					position: "right"
 					// hideOn: false
 				});
-			}).catch(function (err) {
-				console.log("FAILED")
-				console.log(err);
-			})
+			// }).catch(function (err) {
+			// 	console.log("FAILED")
+			// 	console.log($(e).text());
+			// 	console.log(err);
+			// })
 	}
 }
 
