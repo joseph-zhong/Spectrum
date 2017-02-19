@@ -51,23 +51,31 @@ export function createTip(e) {
 					break;
 			}
 			let val = data.body;
+			let source = "New York Times";
+
 			let html = `
 				<div class="box">
-					<div class="political title" style="background-color: ${politicHex};">
-						${political}
+					<div class="political" style="background-color: ${politicHex};">
+						<div class="title bigFont">
+							${political}
+						</div>
+						<div class="source">
+							${source}
+						</div>
 					</div>
 		      		<div class="summary">
 		        		<div class="title"> Summary </div>
-		       		 		<p> ${val} </p>
+		       		 		<p class="ourText"> ${val} </p>
 		    	  	</div>
 					<div class="related">
 						<div class="title"> Related Articles </div>
-						<p> Test </p>
+						<p class="ourText"> Test </p>
 					</div>
 				</div>
 				`
 			Tipped.create($(e), html, {
 				position: "right"
+				// hideOn: false
 			});
 		})
 	}
