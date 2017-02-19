@@ -87,8 +87,8 @@ export function createTip(e) {
 				</div>
 				`
 				Tipped.create($(e), html, {
-					position: "right",
-					hideOn: false
+					position: "right"
+					// hideOn: false
 				});
 			})
 			// .catch(function (err) {

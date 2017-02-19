@@ -41,7 +41,7 @@
   padding-left: 10px;
   padding-top: 7px;
   padding-bottom: 7px;
-  color: #FFF;
+  color: #FFF !important;
   margin-top: -11px;
   margin-left: -11px;
   margin-right: -11px;
@@ -51,6 +51,7 @@
 
 .source {
   font-style: italic;
+  color: #fff !important;
 }
 
 p.ourText {
