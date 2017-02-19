@@ -17,7 +17,7 @@ app.get('/', function(req, res) {
 app.post('/', function(req, res) {
   console.log("POST / Entered");
   scraper.scrape(req.body.title, function(data) {
-    console.log(data);
+    console.log("Returned the following data:\n" + data);
     res.json(data);
   });
 })

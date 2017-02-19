@@ -72,54 +72,54 @@ function chooseArticle(num, similarArticles) {
   switch (num) {
     case "-2":
       if (similarArticles["0"].length != 0) {
-        return similarArticles["0"].slice(0, 3);
+        return [num, 0, similarArticles["0"].slice(0, 3)];
       }
       else if (similarArticles["1"].length != 0) {
-        return similarArticles["1"].slice(0, 3);
+        return [num, 1, similarArticles["1"].slice(0, 3)];
       }
       else if (similarArticles["-1"].length != 0) {
-        return similarArticles["-1"].slice(0, 3);
+        return [num, -1, similarArticles["-1"].slice(0, 3)];
       }
-      return similarArticles["2"].slice(0, 3);
+      return [num, 2, similarArticles["2"].slice(0, 3)];
     case "-1":
       if (similarArticles["1"].length != 0) {
-        return similarArticles["1"].slice(0, 3);
+        return [num, 1, similarArticles["1"].slice(0, 3)];
       }
       else if (similarArticles["0"].length != 0) {
-          return similarArticles["0"].slice(0, 3);
+          return [num, 0, similarArticles["0"].slice(0, 3)];
       }
-      return similarArticles["2"].slice(0, 3);
+      return [num, 2, similarArticles["2"].slice(0, 3)];
     case "0":
       var rand = Math.random();
       if (rand > 0.5 && similarArticles["1"].length != 0) {
-        return similarArticles["1"].slice(0, 3);
+        return [num, 1, similarArticles["1"].slice(0, 3)];
       }
       else if (similarArticles["-1"].length != 0) {
-        return similarArticles["-1"].slice(0, 3);
+        return [num, -1, similarArticles["-1"].slice(0, 3)];
       }
       else if (rand > 0.5 && similarArticles["2"].length != 0) {
-        return similarArticles["2"].slice(0, 3);
+        return [num, 2, similarArticles["2"].slice(0, 3)];
       }
-      return similarArticles["-2"].slice(0, 3);
+      return [num, -2, similarArticles["-2"].slice(0, 3)];
     case "1":
       if (similarArticles["-1"].length != 0) {
-        return similarArticles["-1"].slice(0, 3);
+        return [num, -1, similarArticles["-1"].slice(0, 3)];
       }
       else if (similarArticles["0"].length != 0) {
-        return similarArticles["0"].slice(0, 3);
+        return [num, 0, similarArticles["0"].slice(0, 3)];
       }
-      return similarArticles["-2"].slice(0, 3);
+      return [num, -2, similarArticles["-2"].slice(0, 3)];
     case "2":
       if (similarArticles["0"].length != 0) {
-        return similarArticles["0"].slice(0, 3);
+        return [num, 0, similarArticles["0"].slice(0, 3)];
       }
       else if (similarArticles["-1"].length != 0) {
-        return similarArticles["-1"].slice(0, 3);
+        return [num, -1, similarArticles["-1"].slice(0, 3)];
       }
       else if (similarArticles["1"].length != 0) {
-        return similarArticles["1"].slice(0, 3);
+        return [num, 1, similarArticles["1"].slice(0, 3)];
       }
-      return similarArticles["-2"].slice(0, 3);
+      return [num, -2, similarArticles["-2"].slice(0, 3)];
     case "3":
       // Run Joseph's ML code
       return null;

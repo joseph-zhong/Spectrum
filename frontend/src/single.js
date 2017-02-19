@@ -2,7 +2,7 @@ import {
 	sites
 } from "./sites.js"
 
-const root = "https://45.79.82.175:80/"
+const root = "http://138.68.27.6:3000/"
 
 
 export function tag(e) {
@@ -22,9 +22,9 @@ export function createTip(e) {
 	if ($(e).attr('news') == "true") {
 		$(e).attr("hasTip", "true")
 		$.ajax({
-			url: root + "/spectrum",
+			url: "/",
 			method: "POST",
-			data: {url: $(e).attr('href')},
+			data: {title: $(e).text()},
 			contentType:"application/json; charset=utf-8"
 		}).then(function (data) {
 			console.log("SUCCESSS")
