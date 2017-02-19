@@ -5,6 +5,7 @@ import networkx
 import httplib, urllib, base64
 import json
 from math import log10
+import newspaper
 from newspaper import Article
 from summa.preprocessing.textcleaner import clean_text_by_sentences
 
@@ -60,35 +61,47 @@ def addScores(sentences, scores):
 def extractSentences(url, length=3):
   global article
   print 'extracting %s' % url
+  paper = newspaper.build(url)
   article = Article(url)
   article.download()
   article.parse()
+  print article
 
   origText = article.text.encode('utf-8')
-  print origText
+  # print origText
 
   #### todo: something is wrong here
   ## fixme fixme fixme
   ####
 
+  print 'before clean_text'
+
   sentence = clean_text_by_sentences(origText, language="english")
-  print sentence
+  # print sentence
+
+  print 'before senToken'
+
   senToken = [sen.token for sen in sentence]
-  print senToken
+  print 'before senGraph'
   senGraph = buildGraph(senToken)
-  print senGraph
+  print 'before setGraphWeights'
   setGraphEdgeWeights(senGraph)
+  print 'before remove_nodes_from'
   senGraph.remove_nodes_from(networkx.isolates(senGraph))
   # nx.draw(senGraph)
   # plt.show()
+  print 'before pageRank'
   pageRank = networkx.pagerank(senGraph, weight='weight')
+  print 'before addScores'
   addScores(sentence, pageRank)
+  print 'before sort'
   sentence.sort(key=lambda s: s.score, reverse=True)
 
+  print 'sentence'
   pulledSentence = sentence[:int(length)]
   # most important sentences in ascending order of importance
   pulledSentence.sort(key=lambda s: s.index)
-  return "\n".join([sen.text for sen in pulledSentence]), origText, article.title
+  return "\n".join([sen.text for sen in pulledSentence]), origText, article.title, paper.brand
 
 
 def getArticleText(url):
@@ -98,22 +111,22 @@ def getArticleText(url):
 def getArticleTitle(url):
   return article.title
 
-
-def bingArticle(headline, altSite):
-  headers = {'Ocp-Apim-Subscription-Key': '935c7077f70447cdb248c3f84e9695b8', }
-
-  params = urllib.urlencode({
-    'q': headline + ' ' + altSite,
-    'count': '1',
-    'offset': '0',
-    'mkt': 'en-us',
-  })
-
-  conn = httplib.HTTPSConnection('api.cognitive.microsoft.com')
-  conn.request("GET", "/bing/v5.0/search?%s" % params, "{body}", headers)
-  response = conn.getresponse()
-  data = json.loads(response.read())
-  url = data['webPages']['value'][0]['url']
-
-  print url
-  return url
+#
+# def bingArticle(headline, altSite):
+#   headers = {'Ocp-Apim-Subscription-Key': '935c7077f70447cdb248c3f84e9695b8', }
+#
+#   params = urllib.urlencode({
+#     'q': headline + ' ' + altSite,
+#     'count': '1',
+#     'offset': '0',
+#     'mkt': 'en-us',
+#   })
+#
+#   conn = httplib.HTTPSConnection('api.cognitive.microsoft.com')
+#   conn.request("GET", "/bing/v5.0/search?%s" % params, "{body}", headers)
+#   response = conn.getresponse()
+#   data = json.loads(response.read())
+#   url = data['webPages']['value'][0]['url']
+#
+#   print url
+#   return url
