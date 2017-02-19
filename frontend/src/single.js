@@ -36,8 +36,7 @@ export function createTip(e) {
 			})
 		)
 		var promises = Promise.all([text, related])
-			.done(function (info) {
-
+			.done(function(info) {
 				data = JSON.parse(info[0]);
 				let bias = Math.round(data.weighted_average * 1.1);
 				let political;

@@ -221,8 +221,23 @@ TEST = {
   ]
 }
 
+def test_tree():
+  for test in TEST:
+    print test
+    for hyperlink in TEST[test]:
+      print 'hyperlink %s ' % hyperlink
+      run_inference(hyperlink)
+
+  OCCUPY_ARTICLE = 'occupy_article'
+  print 'occupy test expected -2'
+  for fn in os.listdir(OCCUPY_ARTICLE):
+    with open(os.path.join(OCCUPY_ARTICLE, fn), 'r') as article_file:
+      lines = article_file.readlines()
+      run_inference_on_text(''.join(lines))
+
 # initialize the Flask app
 init_tree()
+test_tree()
 app = Flask(__name__)
 
 
