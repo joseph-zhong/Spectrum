@@ -36,33 +36,3 @@
 .summary {
   margin-top: 10px;
 }
-
-.data {
-    padding-left: 2em;
-}
-
-.vertical{
-    position: relative;
-    height: 100%;
-    width: 100%;
-}
-#back {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background: purple;
-}
-#rep{
-    position: absolute;
-    top: 50%;
-    height: 50%;
-    width: 100%;
-    background: red;
-}
-#dem{
-    position: absolute;
-    bottom: 50%;
-    height: 50%;
-    width: 100%;
-    background: blue;
-}

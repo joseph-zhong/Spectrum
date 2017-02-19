@@ -25,27 +25,27 @@ export function createTip(e) {
 			url: root + "/posts/1",
 			method: "GET"
 		}).then(function (data) {
-			let bias = 3;
+			let bias = 0 ;
 			let political;
 			let politicHex;
 			switch (bias) {
-				case 1:
+				case -2:
 					political = "Liberal";
 					politicHex = "#3751ff";
 					break;
-				case 2:
+				case -1:
 					political = "Moderate Liberal";
 					politicHex = "#6fa0ff";
 					break;
-				case 3:
+				case 0:
 					political = "Neutral";
 					politicHex = "#b265ff";
 					break;
-				case 4:
+				case 1:
 					political = "Moderate Conservative";
 					politicHex = "#ff7070";
 					break;
-				case 5:
+				case 2:
 					political = "Conservative";
 					politicHex = "#fe4d4d";
 					break;

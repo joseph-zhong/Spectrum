@@ -10,7 +10,7 @@ $(window).scroll(function() {
     if (scrollTimer) {
         clearTimeout(scrollTimer);   // clear any previous pending timer
     }
-    scrollTimer = setTimeout(prepare,500);
+    scrollTimer = setTimeout(prepare, 500);
 });
 
 function prepare(){
