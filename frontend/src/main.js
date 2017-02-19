@@ -1,5 +1,4 @@
 import {findTags,getValidLinks} from "./scrape.js";
-import {createTips} from "./tooltip.js"
 import {tag,createTip} from "./single.js"
 
 prepare();
