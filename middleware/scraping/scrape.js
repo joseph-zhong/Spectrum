@@ -8,6 +8,8 @@ function getLeaning(article, callback) {
 
   var articleURL = SEARCH_QUERY + encodeURIComponent(article);
 
+  console.log("Scraping: " + articleURL);
+
   nightmare
     .goto(articleURL)
     .wait('div#draggable > .media > .media-body > .media-headline > a')
@@ -16,6 +18,7 @@ function getLeaning(article, callback) {
     })
     .end()
     .then(function (result) {
+      console.log("Received a result for the scraping!");
       var $ = cheerio.load(result);
       var returnObj = {"-2": [], "-1": [], "0": [], "1": [], "2": [], "3": []};
       $('div.isotope-item').each(function(i, elem) {
@@ -63,6 +66,7 @@ function getLeanNumber(biasURL) {
 }
 
 function chooseArticle(num, similarArticles) {
+  console.log("Picking an article");
   switch (num) {
     case "-2":
       if (similarArticles["0"].length != 0) {
@@ -121,6 +125,7 @@ function chooseArticle(num, similarArticles) {
 }
 
 scrape = function(callback) {
+  console.log("Starting scraper");
   getLeaning('Friends No More? Jorge Pérez and Donald Trump', function(num, similarArticles) {
     callback(chooseArticle(num, similarArticles));
   })
