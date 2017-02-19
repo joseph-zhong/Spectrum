@@ -37,65 +37,29 @@ function checkVisible(elm) {
 }
 
 function addMouseEnter(elm) {
-  $(elm).mouseenter(function() {
-		$.ajax({
-			url: root1,
-			method: "POST",
-			data: { title: encodeURIComponent($(elm).text()) },
-			dataType: "application/json; charset=utf-8"
-		})
-    .then(function(info) {
-      console.log(info);
-      var bgColor = $('.tpd-tooltip').find('.political').css("background-color");
-      bgColor = "#FFF";
+  var checkExist = setInterval(function() {
+     if ($('.tpd-tooltip').length) {
+        clearInterval(checkExist);
+        var bgColor = $('.tpd-tooltip').find('.political').css("background-color");
+        bgColor = "#FFF";
 
-      $('.tpd-background-shadow').css("box-shadow", "0px 10px 25px 4px rgba(36, 36, 36, 0.4)");
-      $('.tpd-stem-border-center-offset-inverse').css("filter", "drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.4))");
+        $('.tpd-background-shadow').css("box-shadow", "0px 10px 25px 4px rgba(36, 36, 36, 0.4)");
+        $('.tpd-stem-border-center-offset-inverse').css("filter", "drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.4))");
 
-      if ($('.tpd-stem-border-center').eq(3).is(":visible")) {
-        $('.tpd-stem-border-center').css("border-right-color", bgColor); // Stem on left
-      }
-      else if ($('.tpd-stem-border-center').eq(0).is(":visible")) {
-        $('.tpd-stem-border-center').css("border-bottom-color", bgColor);
-      }
-      else if ($('.tpd-stem-border-center').eq(1).is(":visible")) {
-        $('.tpd-stem-border-center').css("border-left-color", bgColor); // Stem on right
-        $('.tpd-stem-border-center-offset-inverse').css("filter", "drop-shadow(0px 5px 2px rgba(0, 0, 0, 0.4))");
-      }
-      else if ($('.tpd-stem-border-center').eq(2).is(":visible")) {
-        $('.tpd-stem-border-center').css("border-top-color", bgColor);
-      }
-    })
-    .catch(function (err) {
-			console.log("FAILED")
-			console.log($(elm).text());
-			console.log(err);
-		});
+        if ($('.tpd-stem-border-center').eq(3).is(":visible")) {
+          $('.tpd-stem-border-center').css("border-right-color", bgColor); // Stem on left
+        }
+        else if ($('.tpd-stem-border-center').eq(0).is(":visible")) {
+          $('.tpd-stem-border-center').css("border-bottom-color", bgColor);
+        }
+        else if ($('.tpd-stem-border-center').eq(1).is(":visible")) {
+          $('.tpd-stem-border-center').css("border-left-color", bgColor); // Stem on right
+          $('.tpd-stem-border-center-offset-inverse').css("filter", "drop-shadow(0px 5px 2px rgba(0, 0, 0, 0.4))");
+        }
+        else if ($('.tpd-stem-border-center').eq(2).is(":visible")) {
+          $('.tpd-stem-border-center').css("border-top-color", bgColor);
+        }
 
-  // var checkExist = setInterval(function() {
-  //    if ($('.tpd-tooltip').length) {
-  //       clearInterval(checkExist);
-  //       var bgColor = $('.tpd-tooltip').find('.political').css("background-color");
-  //       bgColor = "#FFF";
-  //
-  //       $('.tpd-background-shadow').css("box-shadow", "0px 10px 25px 4px rgba(36, 36, 36, 0.4)");
-  //       $('.tpd-stem-border-center-offset-inverse').css("filter", "drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.4))");
-  //
-  //       if ($('.tpd-stem-border-center').eq(3).is(":visible")) {
-  //         $('.tpd-stem-border-center').css("border-right-color", bgColor); // Stem on left
-  //       }
-  //       else if ($('.tpd-stem-border-center').eq(0).is(":visible")) {
-  //         $('.tpd-stem-border-center').css("border-bottom-color", bgColor);
-  //       }
-  //       else if ($('.tpd-stem-border-center').eq(1).is(":visible")) {
-  //         $('.tpd-stem-border-center').css("border-left-color", bgColor); // Stem on right
-  //         $('.tpd-stem-border-center-offset-inverse').css("filter", "drop-shadow(0px 5px 2px rgba(0, 0, 0, 0.4))");
-  //       }
-  //       else if ($('.tpd-stem-border-center').eq(2).is(":visible")) {
-  //         $('.tpd-stem-border-center').css("border-top-color", bgColor);
-  //       }
-  //
-  //    }
-  // }, 100); // check every 100ms
-  })
+     }
+  }, 100); // check every 100ms
 }
