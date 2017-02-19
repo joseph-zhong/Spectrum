@@ -1,3 +1,4 @@
+#!/usr/bin/env nodejs
 var express = require('express');
 var app = express();
 var scraper = require('./scrape.js');
