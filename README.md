@@ -77,4 +77,3 @@ about what they're reading and ultimately broaden their view
 - WallStreetJournal
 - MSNBC
 - Occupy Democrats
-
