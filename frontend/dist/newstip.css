@@ -13,21 +13,22 @@
 
 /* Custom CSS */
 .box {
-    display: flex;
-    flex-wrap: nowrap;
-    padding: 10px;
-}
-.text {
-    display: flex;
-    flex-direction: column;
+  width: 300px;
+  padding: 0;
+  /*overflow-x: hidden;*/
 }
 
-.summary {
-  width: 300px;
-}
-
-.summary p {
-  width: 300px;
+.political {
+  text-align: center;
+  margin-top: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 16px;
+  background-color: rgb(255, 112, 112);
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
 
 .bias {
@@ -65,3 +66,4 @@
     width: 100%;
     background: blue;
 }
+

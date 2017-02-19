@@ -7,7 +7,8 @@ var allowed = [
     "wsj.com",
     "breitbart.com",
     "foxnews.com",
-    "nbcnews.com"
+    "nbcnews.com",
+    "nytimes.com",
 ]
 
 export function sites(){
