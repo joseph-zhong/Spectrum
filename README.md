@@ -1,6 +1,6 @@
 # TreeHacks2017
 
-https://treehacks-2017.devpost.com/
+https://devpost.com/software/spectrum-tvf0u4
 
 ## Goal
 
